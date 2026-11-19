@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Démarrage rapide — Documentation de la CLI Relay</title><link rel="stylesheet" href="../styles.css"><style>pre{background:#0d1117;color:#e6edf3;padding:14px;border-radius:8px;overflow:auto}.note{border-left:4px solid #2563eb;background:#eff6ff;padding:10px 14px;margin:16px 0}.warn{border-left-color:#d97706;background:#fffbeb}kbd{border:1px solid #bbb;border-radius:4px;padding:1px 5px;font:12px monospace;background:#fff}table{border-collapse:collapse}td,th{border:1px solid #ddd;padding:6px 10px;text-align:left}</style></head>
+<body><div class="wrap"><h1>Démarrage rapide</h1><p>Installez la CLI Relay, authentifiez-vous et déployez votre premier service en moins de cinq minutes.</p>
+<h2>1. Installation</h2><pre><code># macOS et Linux
+curl -fsSL https://relay.example/install.sh | sh
+relay --version</code></pre>
+<div class="note"><b>Remarque :</b> l’installateur place le binaire <code>relay</code> dans <code>~/.relay/bin</code>. Vérifiez que ce répertoire figure dans votre <code>PATH</code>.</div>
+<h2>2. Connexion</h2><p>Lancez <code>relay login</code> et suivez les instructions. Votre jeton est enregistré dans <code>~/.relay/credentials.json</code>.</p>
+<h2>3. Déploiement</h2><pre><code># déployer le répertoire courant dans l'environnement "staging"
+relay deploy --env staging --region eu-west-1 --wait</code></pre>
+<div class="note warn"><b>Attention :</b> le déploiement vers <code>production</code> remplace la version en cours d’exécution. Utilisez d’abord <code>--dry-run</code> pour prévisualiser les changements.</div>
+<h2>Options</h2><table><tr><th>Option</th><th>Description</th><th>Valeur par défaut</th></tr><tr><td><code>--env</code></td><td>L’environnement cible.</td><td><code>staging</code></td></tr><tr><td><code>--wait</code></td><td>Attend que le déploiement soit sain avant de quitter.</td><td>désactivé</td></tr></table>
+<h2>Raccourcis clavier</h2><p>Appuyez sur <kbd>Ctrl</kbd> + <kbd>K</kbd> pour ouvrir la palette de commandes, ou sur <kbd>?</kbd> pour afficher tous les raccourcis.</p>
+<p>Un problème ? <a href="#">Ouvrez un ticket sur GitHub</a> ou posez votre question sur le forum de la communauté.</p></div></body></html>

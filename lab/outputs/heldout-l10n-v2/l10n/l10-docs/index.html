@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Quickstart — Relay CLI documentation</title><link rel="alternate" hreflang="en" href="/l10n/l10-docs/"><link rel="alternate" hreflang="x-default" href="/l10n/l10-docs/"><link rel="alternate" hreflang="fr" href="/l10n/l10-docs/fr/"><link rel="stylesheet" href="styles.css"><style>pre{background:#0d1117;color:#e6edf3;padding:14px;border-radius:8px;overflow:auto}.note{border-left:4px solid #2563eb;background:#eff6ff;padding:10px 14px;margin:16px 0}.warn{border-left-color:#d97706;background:#fffbeb}kbd{border:1px solid #bbb;border-radius:4px;padding:1px 5px;font:12px monospace;background:#fff}table{border-collapse:collapse}td,th{border:1px solid #ddd;padding:6px 10px;text-align:left}</style></head>
+<body><div class="wrap"><h1>Quickstart</h1><p>Install the Relay CLI, authenticate and deploy your first service in under five minutes.</p>
+<h2>1. Install</h2><pre><code># macOS and Linux
+curl -fsSL https://relay.example/install.sh | sh
+relay --version</code></pre>
+<div class="note"><b>Note:</b> The installer places the <code>relay</code> binary in <code>~/.relay/bin</code>. Make sure this directory is on your <code>PATH</code>.</div>
+<h2>2. Log in</h2><p>Run <code>relay login</code> and follow the prompts. Your token is stored in <code>~/.relay/credentials.json</code>.</p>
+<h2>3. Deploy</h2><pre><code># deploy the current directory to the "staging" environment
+relay deploy --env staging --region eu-west-1 --wait</code></pre>
+<div class="note warn"><b>Warning:</b> Deploying to <code>production</code> replaces the running version. Use <code>--dry-run</code> first to preview the changes.</div>
+<h2>Options</h2><table><tr><th>Flag</th><th>Description</th><th>Default</th></tr><tr><td><code>--env</code></td><td>The target environment.</td><td><code>staging</code></td></tr><tr><td><code>--wait</code></td><td>Wait until the deployment is healthy before exiting.</td><td>off</td></tr></table>
+<h2>Keyboard shortcuts</h2><p>Press <kbd>Ctrl</kbd> + <kbd>K</kbd> to open the command palette, or <kbd>?</kbd> to see all shortcuts.</p>
+<p>Something not working? <a href="#">Open an issue on GitHub</a> or ask in the community forum.</p></div></body></html>

@@ -1,0 +1,1286 @@
+{
+ "summary": {
+  "id": "r08-complex",
+  "url": "http://localhost:4173/responsive/r08-complex/",
+  "criticalViewports": 0,
+  "totalViewports": 17,
+  "failingSweepRanges": [],
+  "sweepFailingWidths": 0,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 0,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 640,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 320,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 36
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 740,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 360,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 41
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 812,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 375,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 43
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 844,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 390,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 45
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 932,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 430,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 50
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 854,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 480,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 56
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 960,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 600,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 71
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1024,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 768,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 90
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 820,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 97
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1024,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 90
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 844,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 450,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 640,
+   "widestElement": "#promo",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 75
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 336,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 352,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 368,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 384,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 400,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 416,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 432,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 448,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 464,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 480,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 496,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 512,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 528,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 544,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 560,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 576,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 592,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 608,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 624,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 640,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 656,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 672,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 688,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 704,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 720,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 736,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 752,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 768,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 784,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 800,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 816,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 832,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 848,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 864,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 880,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 896,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 912,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 928,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 944,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 960,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 976,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 992,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1008,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1024,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1040,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1056,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1072,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1088,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1104,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1120,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1136,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1152,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1168,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1184,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1200,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1216,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1232,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

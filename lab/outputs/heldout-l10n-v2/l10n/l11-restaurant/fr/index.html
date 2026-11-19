@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ember &amp; Oak — Cuisine au feu de bois</title><link rel="alternate" hreflang="en" href="/l10n/l11-restaurant/"><link rel="alternate" hreflang="x-default" href="/l10n/l11-restaurant/"><link rel="alternate" hreflang="fr" href="/l10n/l11-restaurant/fr/"><link rel="alternate" hreflang="ar" href="/l10n/l11-restaurant/ar/"><link rel="stylesheet" href="../styles.css"><style>.dish{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dotted #bbb;padding:8px 0}.dish p{margin:0;color:#666;font-size:14px}.tag{font-size:11px;border:1px solid #888;border-radius:99px;padding:1px 8px}</style></head>
+<body><header class="top"><b>Ember &amp; Oak</b><nav aria-label="Principale"><a href="#">Menu</a><a href="#">Réservations</a><a href="#">Contact</a></nav></header><div class="wrap">
+<h1>Du feu, de la fumée et un peu de patience</h1><p>Une cuisine de quartier qui travaille au feu de chêne et à la braise depuis 2014. Venez avec l’appétit, repartez comblés.</p>
+<h2>Le menu de ce soir</h2>
+<div class="dish"><div><b>Poulpe grillé</b> <span class="tag">sans gluten</span><p>Paprika fumé, pommes de terre écrasées, citron, huile d’olive</p></div><b>18 $</b></div>
+<div class="dish"><div><b>Suggestion du chef : plat de côtes braisé 12 heures</b><p>Servi avec une polenta crémeuse et des légumes verts de saison. Contient des produits laitiers.</p></div><b>34 $</b></div>
+<div class="dish"><div><b>Burrata et tomates anciennes</b> <span class="tag">végétarien</span><p>Huile de basilic, pain au levain grillé</p></div><b>16 $</b></div>
+<div class="dish"><div><b>Tarte Tatin aux pommes</b><p>Caramel au beurre salé, crème fraîche</p></div><b>11 $</b></div>
+<h2>Horaires d’ouverture</h2><p>Du mardi au jeudi de 17 h à 22 h · vendredi et samedi de 17 h à 23 h 30 · fermé le dimanche et le lundi. Fermé le jour de Noël et le jour de l’An.</p>
+<h2>Réserver une table</h2><form id="r"><label>Date <input type="date" value="2026-03-20"></label> <label>Nombre de personnes <select id="ps"><option>1 personne</option><option>2 personnes</option><option>4 personnes</option></select></label> <button class="btn" type="submit">Réserver une table</button></form>
+<p id="conf" role="status" hidden>Merci ! Nous avons réservé une table pour 2 personnes le vendredi 20 mars à 19 h 30.</p>
+<address>Ember &amp; Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123</address></div>
+<script>document.getElementById('r').addEventListener('submit',e=>{e.preventDefault();document.getElementById('conf').hidden=false})</script></body></html>

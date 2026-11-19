@@ -1,0 +1,282 @@
+[
+ {
+  "width": 320,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.rk-rail right=327",
+   "i.to-floor right=348",
+   "div.lb-word right=535",
+   "i.lb-floor right=324",
+   "span right=369",
+   "div.st-track right=2104",
+   "figure.st-card right=631",
+   "div.st-pic right=631",
+   "img right=631",
+   "figcaption right=631"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 360,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "i.to-floor right=368",
+   "div.lb-word right=603",
+   "span right=389",
+   "div.st-track right=2135",
+   "figure.st-card right=662",
+   "div.st-pic right=662",
+   "img right=662",
+   "figcaption right=662",
+   "em right=662",
+   "button right=468"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 375,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=629",
+   "span right=397",
+   "div.st-track right=2146",
+   "figure.st-card right=674",
+   "div.st-pic right=674",
+   "img right=674",
+   "figcaption right=674",
+   "em right=674",
+   "button right=480",
+   "figure.st-card right=1038"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 390,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=652",
+   "span right=404",
+   "div.st-track right=2158",
+   "figure.st-card right=686",
+   "div.st-pic right=686",
+   "img right=686",
+   "figcaption right=686",
+   "em right=686",
+   "button right=491",
+   "figure.st-card right=1049"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 430,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=717",
+   "div.st-track right=2189",
+   "figure.st-card right=717",
+   "div.st-pic right=717",
+   "img right=717",
+   "figcaption right=717",
+   "em right=717",
+   "button right=522",
+   "figure.st-card right=1081",
+   "div.st-pic right=1081"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 480,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=803",
+   "div.st-track right=2228",
+   "figure.st-card right=756",
+   "div.st-pic right=756",
+   "img right=756",
+   "figcaption right=756",
+   "em right=756",
+   "button right=561",
+   "figure.st-card right=1120",
+   "div.st-pic right=1120"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 600,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=1004",
+   "div.st-track right=2759",
+   "figure.st-card right=938",
+   "div.st-pic right=938",
+   "img right=938",
+   "figcaption right=938",
+   "em right=938",
+   "button right=657",
+   "figure.st-card right=1388",
+   "div.st-pic right=1388"
+  ],
+  "smallTargets": 29,
+  "tinyText": 18,
+  "consoleErrors": 0
+ },
+ {
+  "width": 768,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=1283",
+   "div.st-track right=2892",
+   "figure.st-card right=834",
+   "div.st-pic right=834",
+   "img right=834",
+   "figcaption right=834",
+   "em right=834",
+   "figure.st-card right=1302",
+   "div.st-pic right=1302",
+   "img right=1302"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 820,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=1375",
+   "div.st-track right=2902",
+   "figure.st-card right=837",
+   "div.st-pic right=837",
+   "img right=837",
+   "figcaption right=837",
+   "em right=837",
+   "figure.st-card right=1307",
+   "div.st-pic right=1307",
+   "img right=1307"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1024,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=1713",
+   "div.st-track right=2721",
+   "figure.st-card right=1253",
+   "div.st-pic right=1253",
+   "img right=1253",
+   "figcaption right=1253",
+   "em right=1253",
+   "figure.st-card right=1755",
+   "div.st-pic right=1755",
+   "img right=1755"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1280,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=2140",
+   "div.st-track right=2844",
+   "figure.st-card right=1347",
+   "div.st-pic right=1347",
+   "img right=1347",
+   "figcaption right=1347",
+   "em right=1347",
+   "figure.st-card right=1855",
+   "div.st-pic right=1855",
+   "img right=1855"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1440,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=2211",
+   "div.st-track right=2920",
+   "figure.st-card right=1918",
+   "div.st-pic right=1918",
+   "img right=1918",
+   "figcaption right=1918",
+   "span right=1455",
+   "em right=1918",
+   "button right=1581",
+   "figure.st-card right=2359"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1920,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.lb-word right=2211",
+   "div.st-track right=2976",
+   "figure.st-card right=1966",
+   "div.st-pic right=1966",
+   "img right=1966",
+   "figcaption right=1966",
+   "em right=1966",
+   "figure.st-card right=2409",
+   "div.st-pic right=2409",
+   "img right=2409"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ },
+ {
+  "width": 2560,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.st-track right=2976",
+   "figure.st-card right=2924",
+   "div.st-pic right=2924",
+   "img right=2924",
+   "figcaption right=2924",
+   "em right=2924",
+   "i.fr-bar right=2569",
+   "aside.bag-panel right=3000",
+   "div.bag-head right=3000",
+   "h2 right=2698"
+  ],
+  "smallTargets": 32,
+  "tinyText": 34,
+  "consoleErrors": 0
+ }
+]

@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 Arial,sans-serif;color:#e5e7eb;background:#fff}
+main{padding:60px 40px;color:#111}
+.footer{background:#0f172a;padding:56px 48px 24px;width:1280px}
+.cols{display:flex;gap:40px}
+.col{width:170px;flex:none}.news{width:300px;flex:none}
+h3{color:#fff;font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin:0 0 14px}
+ul{list-style:none;margin:0;padding:0}li{margin-bottom:6px}
+a{color:#cbd5e1;text-decoration:none;font-size:13px}
+address{font-style:normal;font-size:13px;margin-top:20px;color:#94a3b8;white-space:nowrap}
+.nrow{display:flex;gap:8px}.nrow input{width:200px;height:30px;padding:0 8px;border-radius:4px;border:0}
+.nrow button{height:30px;padding:0 12px;border:0;border-radius:4px;background:#2563eb;color:#fff;font-size:13px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #1e293b;margin-top:40px;padding-top:20px;font-size:12px;color:#94a3b8;white-space:nowrap}
+.social{display:flex;gap:6px}.social a{width:24px;height:24px;display:grid;place-items:center;background:#1e293b;border-radius:50%;font-size:11px}

@@ -1,0 +1,64 @@
+{
+ "issues": [
+  {
+   "sev": "minor",
+   "code": "identical-to-source (cognate or untranslated? review)",
+   "detail": [
+    "Greenleaf",
+    "Service",
+    "Greenleaf Bikes"
+   ]
+  },
+  {
+   "sev": "minor",
+   "code": "fr-typography",
+   "detail": "1 place(s): no no-break space (U+00A0/U+202F) before : ; ? ! » (and after «), % also takes one"
+  }
+ ],
+ "layout": [
+  {
+   "w": 320,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 390,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 768,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 1280,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 Arial,sans-serif;background:#f1f3f6;color:#111827}
+.app{display:flex;min-height:100vh;width:100%}
+.sidebar{width:240px;flex:none;background:#0f172a;color:#cbd5e1;padding:20px 0;display:flex;flex-direction:column;height:100vh;position:sticky;top:0;overflow-y:auto}
+.side-brand{font-size:20px;font-weight:700;color:#fff;padding:0 24px 24px}
+.sidebar nav a{display:block;padding:12px 24px;color:#cbd5e1;text-decoration:none}
+.sidebar nav a.on{background:#1e293b;color:#fff}
+.side-foot{margin-top:auto;padding:16px 24px;font-size:12px}
+.main{flex:1;min-width:0;padding:clamp(12px,3vw,24px) clamp(12px,3vw,32px)}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+.top h1{margin:0;font-size:clamp(22px,4vw,28px)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.filters select,.filters input,.filters button{min-height:44px;font-size:16px;padding:0 12px;border:1px solid #d1d5db;border-radius:6px;background:#fff}
+.filters input{width:260px;max-width:100%}.filters .primary{background:#2563eb;color:#fff;border-color:#2563eb}
+.side-toggle{display:none;min-height:44px;min-width:44px;border:1px solid #d1d5db;background:#fff;border-radius:6px;font-size:16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:16px;margin-bottom:20px}
+.kpi{background:#fff;border-radius:10px;padding:16px;display:flex;flex-direction:column}
+.kpi span{color:#6b7280;font-size:12px}.kpi b{font-size:clamp(20px,3vw,26px);overflow-wrap:anywhere}.kpi em{font-style:normal;font-size:12px}
+.up{color:#16a34a}.down{color:#dc2626}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+@media(min-width:1180px){.grid{grid-template-columns:2fr 1fr 1fr}.widget.wide{grid-column:span 2}}
+.widget{background:#fff;border-radius:10px;padding:16px;min-width:0}
+.widget h2{margin:0 0 12px;font-size:16px}
+.chart svg{display:block;width:100%;height:auto}
+.list ol{margin:0;padding:0;list-style:none}.list li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #eef0f3}
+.alert{background:#fef2f2;border:1px solid #fecaca;padding:12px;border-radius:8px;margin:0}
+.alert button{font-size:13px;min-height:44px;padding:0 12px}.alert a{display:inline-block;padding:12px 4px}
+
+/* below 960px the sidebar becomes an off-canvas drawer */
+@media(max-width:959px){
+  .side-toggle{display:inline-flex;align-items:center;justify-content:center}
+  .sidebar{position:fixed;inset:0 auto 0 0;z-index:30;transform:translateX(-100%);transition:transform .25s;width:min(280px,85vw)}
+  .app.nav-open .sidebar{transform:none;box-shadow:0 0 0 100vmax rgba(0,0,0,.4)}
+}

@@ -1,0 +1,2388 @@
+{
+ "summary": {
+  "id": "r02-nav",
+  "url": "http://localhost:4173/baseline/responsive/r02-nav/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1584
+   }
+  ],
+  "sweepFailingWidths": 80,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 36,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1273px",
+    "offscreen:11",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1233px",
+    "offscreen:11",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1218px",
+    "offscreen:11",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1203px",
+    "offscreen:11",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1163px",
+    "offscreen:11",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1114px",
+    "offscreen:10",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:993px",
+    "offscreen:10",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:825px",
+    "offscreen:8",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:773px",
+    "offscreen:7",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:569px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:313px",
+    "offscreen:4",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:153px",
+    "offscreen:2",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:749px",
+    "offscreen:7",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overflow:313px",
+    "offscreen:4",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:953px",
+    "offscreen:9",
+    "tap<24:1"
+   ],
+   "tapMajor": 3,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2560,
+   "docOverflowPx": 1273,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 342,
+     "right": 458
+    },
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 30
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2960,
+   "docOverflowPx": 1233,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 342,
+     "right": 458
+    },
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 35
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 3248,
+   "docOverflowPx": 1218,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 342,
+     "right": 458
+    },
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 37
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 3376,
+   "docOverflowPx": 1203,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 342,
+     "right": 458
+    },
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 39
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 3453,
+   "docOverflowPx": 1163,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 342,
+     "right": 458
+    },
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 44
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2835,
+   "docOverflowPx": 1114,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 50
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 2549,
+   "docOverflowPx": 993,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 484,
+     "right": 609
+    },
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 65
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 2124,
+   "docOverflowPx": 825,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 86
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 773,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 93
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 569,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 118
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 313,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 150
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 153,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 170
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "#site-header",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 38,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 230
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "#site-header",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 38,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 310
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 749,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 96
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 313,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 150
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 1121,
+   "docOverflowPx": 953,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1593,
+   "widestElement": "div.tools",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 635,
+     "right": 715
+    },
+    {
+     "el": "a",
+     "left": 741,
+     "right": 807
+    },
+    {
+     "el": "a",
+     "left": 833,
+     "right": 904
+    },
+    {
+     "el": "a",
+     "left": 930,
+     "right": 1068
+    },
+    {
+     "el": "a",
+     "left": 1094,
+     "right": 1199
+    },
+    {
+     "el": "a",
+     "left": 1225,
+     "right": 1321
+    },
+    {
+     "el": "a",
+     "left": 1347,
+     "right": 1400
+    },
+    {
+     "el": "a.login",
+     "left": 1424,
+     "right": 1447
+    },
+    {
+     "el": "a.open",
+     "left": 1459,
+     "right": 1593
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.brand",
+     "w": 278,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "a.login",
+     "w": 23,
+     "h": 42,
+     "critical": true
+    },
+    {
+     "el": "a.open",
+     "w": 134,
+     "h": 33,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 3,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Personal banking": "visible",
+    "Business solutions": "visible",
+    "Investments": "visible",
+    "Insurance": "visible",
+    "Mortgages": "visible",
+    "Wealth management": "visible",
+    "Learning center": "visible",
+    "Branch locator": "visible",
+    "Support": "visible",
+    "Open an account": "visible",
+    "Log in": "visible",
+    "Merchant services": "reachable"
+   },
+   "maxCharsPerLine": 70
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 1273,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 336,
+   "overflow": 1257,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 352,
+   "overflow": 1241,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 368,
+   "overflow": 1225,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 384,
+   "overflow": 1209,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 400,
+   "overflow": 1193,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 416,
+   "overflow": 1177,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 432,
+   "overflow": 1161,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 448,
+   "overflow": 1145,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 464,
+   "overflow": 1129,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 480,
+   "overflow": 1113,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 496,
+   "overflow": 1097,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 512,
+   "overflow": 1081,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 528,
+   "overflow": 1065,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 544,
+   "overflow": 1049,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 560,
+   "overflow": 1033,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 576,
+   "overflow": 1017,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 592,
+   "overflow": 1001,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 608,
+   "overflow": 985,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 624,
+   "overflow": 969,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 640,
+   "overflow": 953,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 656,
+   "overflow": 937,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 672,
+   "overflow": 921,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 688,
+   "overflow": 905,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 704,
+   "overflow": 889,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 9
+  },
+  {
+   "w": 720,
+   "overflow": 873,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 736,
+   "overflow": 857,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 752,
+   "overflow": 841,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 768,
+   "overflow": 825,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 784,
+   "overflow": 809,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 800,
+   "overflow": 793,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 816,
+   "overflow": 777,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 832,
+   "overflow": 761,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 848,
+   "overflow": 745,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 864,
+   "overflow": 729,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 880,
+   "overflow": 713,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 896,
+   "overflow": 697,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 912,
+   "overflow": 681,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 928,
+   "overflow": 665,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 944,
+   "overflow": 649,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 960,
+   "overflow": 633,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 976,
+   "overflow": 617,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 992,
+   "overflow": 601,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1008,
+   "overflow": 585,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1024,
+   "overflow": 569,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1040,
+   "overflow": 553,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1056,
+   "overflow": 537,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1072,
+   "overflow": 521,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1088,
+   "overflow": 505,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1104,
+   "overflow": 489,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1120,
+   "overflow": 473,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1136,
+   "overflow": 457,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1152,
+   "overflow": 441,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1168,
+   "overflow": 425,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1184,
+   "overflow": 409,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1200,
+   "overflow": 393,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1216,
+   "overflow": 377,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1232,
+   "overflow": 361,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1248,
+   "overflow": 345,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1264,
+   "overflow": 329,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1280,
+   "overflow": 313,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1296,
+   "overflow": 297,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1312,
+   "overflow": 281,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1328,
+   "overflow": 265,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1344,
+   "overflow": 249,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1360,
+   "overflow": 233,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1376,
+   "overflow": 217,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1392,
+   "overflow": 201,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1408,
+   "overflow": 185,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1424,
+   "overflow": 169,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1440,
+   "overflow": 153,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1456,
+   "overflow": 137,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1472,
+   "overflow": 121,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1488,
+   "overflow": 105,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1504,
+   "overflow": 89,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1520,
+   "overflow": 73,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1536,
+   "overflow": 57,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1552,
+   "overflow": 41,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1568,
+   "overflow": 25,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1584,
+   "overflow": 9,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

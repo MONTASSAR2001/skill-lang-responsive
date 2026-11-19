@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Complex layouts</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="promo" id="promo">Free shipping on orders over $250 · Returns in 30 days · <a href="#">Details</a></div>
+<div class="layout" id="layout">
+  <aside class="toc" id="toc"><h2>On this page</h2><ul><li><a href="#s1">Overview</a></li><li><a href="#s2">Overlap</a></li><li><a href="#s3">Scroller</a></li><li><a href="#s4">Nested</a></li></ul></aside>
+  <main>
+    <section id="s1"><h1>Complex composition</h1><p>Sticky table of contents, fixed promo bar, overlapping cards, a horizontal scroller and nested columns.</p></section>
+    <section id="s2" class="overlap"><div class="ov-bg"></div><div class="ov-card"><h2>Overlapping card</h2><p>This card is pulled up over the section above with a negative margin and sits on top of a decorative panel.</p></div><div class="ov-deco" aria-hidden="true"></div></section>
+    <section id="s3"><h2>Horizontal scroller (intentional)</h2>
+      <div class="hscroll" id="hscroll" tabindex="0" aria-label="Scrolling cards"><div class="tile">One</div><div class="tile">Two</div><div class="tile">Three</div><div class="tile">Four</div><div class="tile">Five</div><div class="tile">Six</div></div></section>
+    <section id="s4"><h2>Nested columns</h2>
+      <div class="n1"><div class="n2"><div class="n3"><div class="cell">A</div><div class="cell">B</div><div class="cell">C</div></div><div class="n3"><div class="cell">D</div><div class="cell">E</div><div class="cell">F</div></div></div><div class="n2 side"><h3>Sidebar widget</h3><p>Secondary column with a fixed width.</p></div></div></section>
+    <div style="height:600px"></div>
+  </main>
+</div>
+<button class="chat" id="chat" aria-label="Open chat">Chat with us</button>
+</body></html>

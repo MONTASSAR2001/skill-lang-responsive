@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product listing</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="hd"><b class="logo">Fieldwork</b><input class="search" type="search" placeholder="Search for jackets, knitwear, boots…" aria-label="Search"><nav><a href="#">Account</a><a href="#">Wishlist</a><a href="#" id="cart">Bag (2)</a></nav></header>
+<div class="shell">
+  <aside class="filters" id="filters"><h2>Filters</h2>
+    <fieldset><legend>Category</legend><label><input type="checkbox" checked> Outerwear</label><label><input type="checkbox"> Knitwear</label><label><input type="checkbox"> Shirting</label></fieldset>
+    <fieldset><legend>Size</legend><div class="sizes"><button>XS</button><button>S</button><button>M</button><button>L</button><button>XL</button></div></fieldset>
+    <fieldset><legend>Price</legend><input type="range" min="0" max="500" value="250" aria-label="Price"></fieldset></aside>
+  <main>
+    <div class="toolbar" id="toolbar"><span>128 results</span><div><label>Sort by <select><option>Featured</option><option>Price: low to high</option></select></label><button class="view">Grid</button><button class="view">List</button></div></div>
+    <div class="grid" id="grid">
+      <a class="p" href="#"><img src="../../assets/04-front.webp" alt=""><h3>Chore Jacket in Olive</h3><span>$185</span></a>
+      <a class="p" href="#"><img src="../../assets/05-front.webp" alt=""><h3>Overcoat in Charcoal</h3><span>$420</span></a>
+      <a class="p" href="#"><img src="../../assets/02-front.webp" alt=""><h3>Hoodie in Oat with a very long product name that keeps going</h3><span>$120</span></a>
+      <a class="p" href="#"><img src="../../assets/04-front.webp" alt=""><h3>Chore Jacket in Olive</h3><span>$185</span></a>
+      <a class="p" href="#"><img src="../../assets/05-front.webp" alt=""><h3>Overcoat in Charcoal</h3><span>$420</span></a>
+      <a class="p" href="#"><img src="../../assets/02-front.webp" alt=""><h3>Hoodie in Oat</h3><span>$120</span></a>
+    </div>
+    <nav class="pager" aria-label="Pagination"><a href="#">‹ Prev</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a><a href="#">8</a><a href="#">Next ›</a></nav>
+  </main>
+</div>
+<div class="stickybar" id="stickybar"><span>Compare (0)</span><button>Clear</button><button class="primary">Compare selected items</button></div>
+</body></html>

@@ -1,0 +1,68 @@
+{
+ "id": "l11-restaurant",
+ "lang": "ar",
+ "critical": [
+  {
+   "code": "untranslated-sentences",
+   "detail": [
+    {
+     "kind": "text",
+     "text": "Ember & Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123"
+    }
+   ]
+  }
+ ],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [],
+  "canonical": null,
+  "leakCount": 1,
+  "identicalWords": 0,
+  "stringsPaired": 34,
+  "digits": {
+   "western": 46,
+   "arabicIndic": 0
+  },
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.75,
+  "probe": {
+   "conf": "شكرًا لك! لقد حجزنا لك طاولة لضيفين يوم الجمعة 20 مارس الساعة 19:30.",
+   "opts": [
+    "ضيف واحد",
+    "ضيفان",
+    "4 ضيوف"
+   ]
+  }
+ }
+}

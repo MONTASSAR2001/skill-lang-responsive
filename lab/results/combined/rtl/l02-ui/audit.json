@@ -1,0 +1,1047 @@
+{
+ "url": "http://localhost:4173/l10n/l02-ui/ar/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 205x21"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 74x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 56x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.nbtn 104x36"
+    ]
+   ]
+  }
+ ],
+ "sweep": [],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "input 205x21",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 74x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 56x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 40x26",
+   "widths": [
+    320,
+    320,
+    360,
+    360,
+    375,
+    375,
+    390,
+    390,
+    430,
+    430,
+    480,
+    480,
+    600,
+    600,
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    "landscape-phone",
+    "landscape-phone",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 62x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.nbtn 104x36",
+   "widths": [
+    320,
+    320,
+    320,
+    320,
+    320,
+    320,
+    360,
+    360,
+    360,
+    360,
+    360,
+    360,
+    375,
+    375,
+    375,
+    375,
+    375,
+    375,
+    390,
+    390,
+    390,
+    390,
+    390,
+    390,
+    430,
+    430,
+    430,
+    430,
+    430,
+    430,
+    480,
+    480,
+    480,
+    480,
+    480,
+    480,
+    600,
+    600,
+    600,
+    600,
+    600,
+    600,
+    768,
+    768,
+    768,
+    768,
+    768,
+    768,
+    820,
+    820,
+    820,
+    820,
+    820,
+    820,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "zoom-200%",
+    "zoom-200%",
+    "zoom-200%",
+    "zoom-200%",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  }
+ ]
+}

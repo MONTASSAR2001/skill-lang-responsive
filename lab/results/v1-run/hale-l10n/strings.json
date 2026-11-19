@@ -1,0 +1,1275 @@
+[
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "a"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Main",
+  "tag": "nav"
+ },
+ {
+  "type": "text",
+  "text": "Rail",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Lookbook",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Studio",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Bag",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "0",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "The rack",
+  "tag": "section"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Hoodie in Oat, $120",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Overshirt in Bone, $145",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Camp Shirt in Stone, $110",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Chore Jacket in Olive, $185",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Overcoat in Charcoal, $420",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Cable Knit in Navy, $165",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Shirt Jacket in Rust, $160",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Bomber in Black, $210",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "/",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Hoodie",
+  "tag": "h1"
+ },
+ {
+  "type": "text",
+  "text": "in",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Oat",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Heavyweight loopback with a double-layer hood. No drawcord, no logo, nothing to fiddle with.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Material",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "Loopback cotton, 480 gsm",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "Fit",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "Boxy, cropped sleeve",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "Size",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "XS / S / M / L / XL",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "120",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "View details",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "i"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Previous piece",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "←",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "/",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Next piece",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "→",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Autumn 26",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "The Autumn Rail",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Scroll · select · explore",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Try it on",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Try it on",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "One man,",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "eight pieces.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Scroll, and the next piece comes off the rail and onto him. Same trousers, same trainers; only the top layer changes.",
+  "tag": "p"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Hoodie in Oat",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Overshirt in Bone",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Camp Shirt in Stone",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Chore Jacket in Olive",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Overcoat in Charcoal",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Cable Knit in Navy",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Shirt Jacket in Rust",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The model wearing the Bomber in Black",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "01 /",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Hoodie",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "in",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Oat",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "$120",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "View piece",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Hoodie",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Overshirt",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Camp Shirt",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "04",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Chore Jacket",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "05",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Overcoat",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "06",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Cable Knit",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "07",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Shirt Jacket",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Bomber",
+  "tag": "li"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Out the door",
+  "tag": "section"
+ },
+ {
+  "type": "attr:alt",
+  "text": "A man walking down an old stone street in the overcoat",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "Out the door",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "by eight.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Overcoat",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "in",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Charcoal",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "$420",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "View",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Lookbook",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Worn, not styled.",
+  "tag": "div"
+ },
+ {
+  "type": "text",
+  "text": "Lookbook — 01",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Worn,",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "not styled.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "The chore jacket over a plain tee and pleated wool trousers. It is the outfit we keep reaching for, so it is the one we photographed.",
+  "tag": "p"
+ },
+ {
+  "type": "attr:alt",
+  "text": "A model wearing the olive chore jacket over a white tee and charcoal pleated trousers",
+  "tag": "img"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "View the Chore Jacket",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Chore Jacket",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "—",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "$185",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Shop the look",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Chore Jacket",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "Olive",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Garment-dyed cotton canvas",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "$185",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "View",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "The workshop",
+  "tag": "section"
+ },
+ {
+  "type": "attr:alt",
+  "text": "The workshop: a long cutting table with folded cloth, and a man in the rust corduroy jacket",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "text"
+ },
+ {
+  "type": "text",
+  "text": "Cut once.",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "Worn for years.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Cut once.",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Worn for years.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Every piece starts on this table: a paper pattern, a bolt of cloth and a pair of shears. We make a few hundred at a time and mend them for as long as you wear them.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Shirt Jacket",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "in",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Rust",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "$160",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "View",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Out in it",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Out in it",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Clothes for",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "ordinary days.",
+  "tag": "em"
+ },
+ {
+  "type": "attr:alt",
+  "text": "A slow morning",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "A slow morning",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Cable Knit",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": ",",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Navy",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "$165",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "On the coast path",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "On the coast path",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Hoodie",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": ",",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Oat",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "$120",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "After the rain",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "After the rain",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Bomber",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": ",",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Black",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "$210",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "In the courtyard",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "04",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "In the courtyard",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Camp Shirt",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": ",",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Stone",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "$110",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Eight cloths, one table",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "05",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Eight cloths, one table",
+  "tag": "em"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Our promises",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Made in small runs",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Every piece is cut in batches of a few hundred, in workshops we have visited.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Repairs for life",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Send it back with a broken button or a torn seam and we fix it for free.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Returns in 30 days",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Try it at home. If it hangs wrong, send it back and we refund you.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "That's the whole rail —",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "pieces",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Brush past them · tap one to open it",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Hoodie in Oat, $120",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Hoodie",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "120",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Overshirt in Bone, $145",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Overshirt",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "145",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Camp Shirt in Stone, $110",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Camp Shirt",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "110",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Chore Jacket in Olive, $185",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Chore Jacket",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "185",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Overcoat in Charcoal, $420",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Overcoat",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "420",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Cable Knit in Navy, $165",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Cable Knit",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "165",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Shirt Jacket in Rust, $160",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Shirt Jacket",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "160",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Bomber in Black, $210",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Bomber",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "$",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "210",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Hear when the",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "rail changes.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "One letter a season. New pieces, the workshops behind them, nothing else.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Email address",
+  "tag": "span"
+ },
+ {
+  "type": "attr:placeholder",
+  "text": "Your email",
+  "tag": "input"
+ },
+ {
+  "type": "text",
+  "text": "Sign up →",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Shop",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Outerwear",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Shirting",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Knitwear",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Jersey",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Studio",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "About",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Workshops",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Journal",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Stockists",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Help",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Shipping",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Returns",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Repairs",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Contact",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Visit",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "The studio, Porto",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Thursday to Saturday",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "11:00 – 19:00",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Instagram",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Pinterest",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Journal",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "div"
+ },
+ {
+  "type": "text",
+  "text": "© 2026 HALE Studio",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "HALE is a demo brand. Clothing, names and prices are placeholders.",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Back to the rail ↑",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Your bag",
+  "tag": "aside"
+ },
+ {
+  "type": "text",
+  "text": "Your bag",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "0",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Close bag",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "✕",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "You are $250 away from free shipping",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Nothing here yet. Take something off the rail.",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Subtotal",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "$0",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "Checkout",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Taxes and shipping worked out at checkout",
+  "tag": "small"
+ },
+ {
+  "type": "head:title",
+  "text": "HALE — The Autumn Rail"
+ },
+ {
+  "type": "head:description",
+  "text": "A clothing store on a hanging rail: drag the rail, take a piece off, turn it around, pick a size and add it to the bag. A SmartDuke Studio template."
+ }
+]

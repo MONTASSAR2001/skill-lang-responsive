@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Create your account</title><link rel="alternate" hreflang="en" href="/l10n/l04-forms/"><link rel="alternate" hreflang="x-default" href="/l10n/l04-forms/"><link rel="alternate" hreflang="fr" href="/l10n/l04-forms/fr/"><link rel="alternate" hreflang="ar" href="/l10n/l04-forms/ar/"><link rel="stylesheet" href="styles.css"><style>form{max-width:520px;background:#fff;padding:28px;border-radius:12px;border:1px solid #e4dfd4}label{display:block;margin:14px 0 4px;font-weight:600;font-size:14px}input,select,textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:6px;font:16px Arial}.hint{font-size:13px;color:#666;margin:4px 0 0}.err{color:#b91c1c;font-size:13px;margin:4px 0 0}.ok{color:#166534;background:#dcfce7;padding:12px;border-radius:8px;margin-top:16px}.req{color:#b91c1c}.row{display:flex;gap:12px}.row>div{flex:1}.counter{text-align:right;font-size:12px;color:#666}</style></head>
+<body><div class="wrap"><h1>Create your account</h1>
+<form id="f" novalidate>
+<div class="row"><div><label for="fn">First name <span class="req" aria-hidden="true">*</span></label><input id="fn" required placeholder="Jane"></div><div><label for="ln">Last name <span class="req" aria-hidden="true">*</span></label><input id="ln" required placeholder="Doe"></div></div>
+<label for="em">Email address <span class="req" aria-hidden="true">*</span></label><input id="em" type="email" required placeholder="you@example.com"><p class="hint">We'll never share your email with anyone else.</p>
+<label for="pw">Password <span class="req" aria-hidden="true">*</span></label><input id="pw" type="password" required><p class="hint">Use at least 8 characters, including one number.</p>
+<label for="co">Country</label><select id="co"><option value="">Select a country</option><option>France</option><option>Germany</option><option>United States</option></select>
+<label for="bio">Short bio</label><textarea id="bio" maxlength="140" rows="3" placeholder="Tell us a little about yourself"></textarea><div class="counter" id="counter">0/140 characters</div>
+<label><input type="checkbox" id="terms" style="width:auto"> I agree to the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a>.</label>
+<p class="err" id="err" role="alert" hidden></p>
+<p><button class="btn" type="submit">Create account</button></p>
+<div class="ok" id="ok" role="status" hidden>Welcome aboard! Your account has been created. Check your inbox to confirm your email address.</div>
+</form></div>
+<script>
+const f=document.getElementById('f'),err=document.getElementById('err'),ok=document.getElementById('ok');
+document.getElementById('bio').addEventListener('input',e=>{document.getElementById('counter').textContent=e.target.value.length+'/140 characters'});
+f.addEventListener('submit',e=>{e.preventDefault();ok.hidden=true;err.hidden=true;
+ if(!f.fn.value.trim()){return show('Please enter your first name.')}
+ if(!/^\S+@\S+\.\S+$/.test(f.em.value)){return show('Please enter a valid email address.')}
+ if(f.pw.value.length<8||!/\d/.test(f.pw.value)){return show('Your password must be at least 8 characters and contain a number.')}
+ if(!f.terms.checked){return show('You must accept the Terms of Service to continue.')}
+ ok.hidden=false});
+function show(m){err.textContent=m;err.hidden=false}
+</script></body></html>

@@ -1,0 +1,3852 @@
+{
+ "summary": {
+  "id": "hale",
+  "url": "http://localhost:3218/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 752
+   }
+  ],
+  "sweepFailingWidths": 28,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 76,
+  "tinyTextViewports": 17,
+  "fixedCoverViewports": 17,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:14",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:16",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:14",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:13",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:13",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:3",
+    "tap<24:2"
+   ],
+   "tapMajor": 7,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:6",
+    "tap<24:2"
+   ],
+   "tapMajor": 7,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overlap:7",
+    "tap<24:2"
+   ],
+   "tapMajor": 7,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overlap:10",
+    "tap<24:11"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overlap:9",
+    "tap<24:11"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overlap:9",
+    "tap<24:11"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overlap:6",
+    "tap<24:11"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overlap:9",
+    "tap<24:2"
+   ],
+   "tapMajor": 7,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overlap:11",
+    "tap<24:11"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 1
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overlap:15",
+    "tap<24:1"
+   ],
+   "tapMajor": 6,
+   "tiny": 2,
+   "fixedCover": 1
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 640,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 320,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3233
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3491
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 2772
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 3992
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2817
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 4775
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 3434
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 47
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 740,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 360,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3095
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4851
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5295
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3834
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1747
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 1628
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "visible",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 54
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 812,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 375,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3894
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4542
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3696
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2008
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1360
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 1753
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 57
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 844,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 390,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3447
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3326
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2376
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1564
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 59
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 932,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 430,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2109
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2011
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 17462
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 9730
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 66
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 854,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 480,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1890
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 16472
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 8519
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 74
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 960,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 600,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 17805
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 10149
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 18858
+    },
+    {
+     "a": "button.fr-item",
+     "b": "button.fr-item",
+     "px": 11422
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 93
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1024,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 768,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1663
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1828
+    },
+    {
+     "a": "span",
+     "b": "b",
+     "px": 755
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 20,
+     "h": 44,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 7,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span.rk-hint",
+     "px": 10.5
+    },
+    {
+     "el": "p.eyebrow",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 130
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 820,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1652
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1828
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 1281
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "b",
+     "px": 197
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 1381
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "b",
+     "px": 594
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 20,
+     "h": 44,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 7,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "visible",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 139
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1024,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3946
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4521
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4976
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4561
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1661
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1828
+    },
+    {
+     "a": "span",
+     "b": "b",
+     "px": 589
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 20,
+     "h": 44,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 7,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span.rk-hint",
+     "px": 10.5
+    },
+    {
+     "el": "p.eyebrow",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 70
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5100
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 3211
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 3027
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5348
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2063
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1768
+    },
+    {
+     "a": "span",
+     "b": "b",
+     "px": 453
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a.hd-mark",
+     "w": 66,
+     "h": 23,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 20,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 56,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button.hd-bag",
+     "w": 57,
+     "h": 24,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 100,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 127,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 102,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 114,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 133,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 18,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 18,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 17,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 79
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 7217
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6348
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4477
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4400
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3470
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 7217
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4046
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2320
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1490
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a.hd-mark",
+     "w": 66,
+     "h": 23,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 20,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 56,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button.hd-bag",
+     "w": 57,
+     "h": 24,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 100,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 127,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 102,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 114,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 133,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 18,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 18,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 17,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 89
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 3223
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4686
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 7505
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 8909
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 7958
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 7791
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4587
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 8909
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 3068
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a.hd-mark",
+     "w": 66,
+     "h": 23,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 20,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 56,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button.hd-bag",
+     "w": 57,
+     "h": 24,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 100,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 127,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 102,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 114,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 133,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 18,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 18,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 17,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span.rk-hint",
+     "px": 10.5
+    },
+    {
+     "el": "p.eyebrow",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 128
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 8909
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 7499
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 7890
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5184
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5507
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 3134
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a.hd-mark",
+     "w": 66,
+     "h": 23,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 20,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 56,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button.hd-bag",
+     "w": 57,
+     "h": 24,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 100,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 127,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 102,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 114,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 133,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 18,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 18,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 17,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span.rk-hint",
+     "px": 10.5
+    },
+    {
+     "el": "p.eyebrow",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 186
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 844,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4402
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4714
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 2706
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5197
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4559
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1647
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1828
+    },
+    {
+     "a": "span",
+     "b": "b",
+     "px": 300
+    },
+    {
+     "a": "span",
+     "b": "b",
+     "px": 196
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 20,
+     "h": 44,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 7,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    },
+    {
+     "el": "span.rk-hint",
+     "px": 10.5
+    },
+    {
+     "el": "p.eyebrow",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 143
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4768
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4768
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4768
+    },
+    {
+     "a": "h3",
+     "b": "button.fr-item",
+     "px": 4359
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 6415
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5349
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2063
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 1768
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "a.hd-mark",
+     "w": 66,
+     "h": 23,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 20,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 56,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 35,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button.hd-bag",
+     "w": 57,
+     "h": 24,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 42,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 100,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 127,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 102,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 114,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 133,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 18,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 18,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 17,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "p.rk-n",
+     "px": 11
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "dt",
+     "px": 10.5
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 10.5
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 84
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 450,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 640,
+   "widestElement": "main",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 4680
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5939
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5939
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5939
+    },
+    {
+     "a": "p",
+     "b": "button.fr-item",
+     "px": 5088
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    },
+    {
+     "a": "span.fr-hint",
+     "b": "button.fr-item",
+     "px": 2387
+    }
+   ],
+   "smallTargets": [
+    {
+     "el": "button.hd-menu",
+     "w": 41,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button.lb-dot",
+     "w": 16,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 42,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 37,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 40,
+     "h": 44,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 38,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [
+    {
+     "el": "span",
+     "px": 11
+    },
+    {
+     "el": "span",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "div.rk-stage",
+     "pct": 100
+    }
+   ],
+   "contentStatus": {
+    "Rail": "visible",
+    "Lookbook": "visible",
+    "Studio": "visible",
+    "Bag": "visible",
+    "View details": "reachable",
+    "Try it on": "visible",
+    "One man": "visible",
+    "Out the door": "visible",
+    "Worn,": "visible",
+    "Shop the look": "visible",
+    "Cut once": "visible",
+    "Clothes for": "visible",
+    "Made in small runs": "visible",
+    "Repairs for life": "visible",
+    "Returns in 30 days": "visible",
+    "Sign up": "visible",
+    "Hear when the": "visible",
+    "Outerwear": "visible",
+    "Visit": "visible",
+    "Back to the rail": "visible"
+   },
+   "maxCharsPerLine": 99
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 336,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 14,
+   "offscreen": 0
+  },
+  {
+   "w": 352,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 368,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 384,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 400,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 416,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 432,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 448,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 464,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 480,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 496,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 512,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 528,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 544,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 560,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 576,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 592,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 608,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 624,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 640,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 656,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 672,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 688,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 704,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 720,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 736,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 752,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 12,
+   "offscreen": 0
+  },
+  {
+   "w": 768,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 784,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 800,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 816,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 832,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 848,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 864,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 880,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 896,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 912,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 928,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 944,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 960,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 976,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 992,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1008,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1024,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1040,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1056,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1072,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1088,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1104,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1120,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1136,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1152,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1168,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1184,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1200,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1216,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1232,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

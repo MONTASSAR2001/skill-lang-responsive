@@ -1,0 +1,114 @@
+[
+ {
+  "id": "l01-marketing",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l02-ui",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l02-ui",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ },
+ {
+  "id": "l03-long",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l04-forms",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l04-forms",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l05-dynamic",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l05-dynamic",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l06-terminology",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l06-terminology",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ },
+ {
+  "id": "l07-seo-a11y",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l07-seo-a11y",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l08-rtl",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ },
+ {
+  "id": "l09-cultural",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ }
+]

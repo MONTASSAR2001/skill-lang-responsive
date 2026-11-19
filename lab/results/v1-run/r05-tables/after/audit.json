@@ -1,0 +1,260 @@
+[
+ {
+  "width": 320,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1550",
+   "thead right=1550",
+   "tr right=1550",
+   "th right=655",
+   "th right=781",
+   "th right=833",
+   "th right=914",
+   "th right=987",
+   "th right=1053",
+   "th right=1132"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 360,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1551",
+   "thead right=1551",
+   "tr right=1551",
+   "th right=657",
+   "th right=782",
+   "th right=835",
+   "th right=915",
+   "th right=988",
+   "th right=1055",
+   "th right=1133"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 375,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1552",
+   "thead right=1552",
+   "tr right=1552",
+   "th right=657",
+   "th right=783",
+   "th right=835",
+   "th right=916",
+   "th right=989",
+   "th right=1056",
+   "th right=1134"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 390,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1552",
+   "thead right=1552",
+   "tr right=1552",
+   "th right=658",
+   "th right=783",
+   "th right=836",
+   "th right=916",
+   "th right=990",
+   "th right=1056",
+   "th right=1135"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 430,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1554",
+   "thead right=1554",
+   "tr right=1554",
+   "th right=660",
+   "th right=785",
+   "th right=838",
+   "th right=918",
+   "th right=991",
+   "th right=1058",
+   "th right=1136"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 480,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1556",
+   "thead right=1556",
+   "tr right=1556",
+   "th right=662",
+   "th right=787",
+   "th right=840",
+   "th right=920",
+   "th right=993",
+   "th right=1060",
+   "th right=1138"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 600,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1561",
+   "thead right=1561",
+   "tr right=1561",
+   "th right=666",
+   "th right=792",
+   "th right=844",
+   "th right=925",
+   "th right=998",
+   "th right=1065",
+   "th right=1143"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 768,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1568",
+   "thead right=1568",
+   "tr right=1568",
+   "th right=799",
+   "th right=851",
+   "th right=931",
+   "th right=1005",
+   "th right=1071",
+   "th right=1150",
+   "th right=1276"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 820,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1570",
+   "thead right=1570",
+   "tr right=1570",
+   "th right=853",
+   "th right=934",
+   "th right=1007",
+   "th right=1073",
+   "th right=1152",
+   "th right=1278",
+   "th right=1402"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1024,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1577",
+   "thead right=1577",
+   "tr right=1577",
+   "th right=1081",
+   "th right=1159",
+   "th right=1286",
+   "th right=1409",
+   "th right=1577",
+   "tbody right=1577",
+   "tr right=1577"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1280,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1577",
+   "thead right=1577",
+   "tr right=1577",
+   "th right=1286",
+   "th right=1409",
+   "th right=1577",
+   "tbody right=1577",
+   "tr right=1577",
+   "td right=1286",
+   "td right=1409"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1440,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "#wide right=1577",
+   "thead right=1577",
+   "tr right=1577",
+   "th right=1577",
+   "tbody right=1577",
+   "tr right=1577",
+   "td right=1577",
+   "button right=1461",
+   "button right=1521",
+   "button right=1567"
+  ],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1920,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 2560,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 0,
+  "tinyText": 0,
+  "consoleErrors": 0
+ }
+]

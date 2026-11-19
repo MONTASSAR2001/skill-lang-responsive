@@ -1,0 +1,7 @@
+{"protect":["HALE","HALE Studio","Lookbook","Instagram","Pinterest","SmartDuke Studio"],
+ "terms":[
+  {"source":"rail","targets":{"fr":[["portant","portants"]]},"forbid":{"fr":["le rail ","chemin de fer"]}},
+  {"source":"bag","targets":{"fr":[["panier","paniers"]]},"forbid":{"fr":["Votre sac","Ajouter au sac"]}},
+  {"source":"piece","targets":{"fr":[["pièce","pièces"]]}},
+  {"source":"workshop","targets":{"fr":[["atelier","ateliers"]]}}
+ ]}

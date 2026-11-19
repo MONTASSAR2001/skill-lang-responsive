@@ -1,0 +1,462 @@
+{
+  "version": 1,
+  "note": "Ground truth for the skill lab. `split`: dev cases may be used while improving a skill; heldout cases are run once on a frozen skill version. `seeded` lists defects planted on purpose (the baseline is desktop-first by design).",
+  "responsive": [
+    {
+      "id": "r01-hero",
+      "split": "dev",
+      "topic": "hero sections",
+      "mustRemainAccessible": [
+        "Extraordinarily comfortable",
+        "Shop the collection",
+        "Read the story behind the cloth",
+        "Out the door by eight",
+        "See the overcoat",
+        "Internationalization-ready",
+        "Start a 14-day trial",
+        "Talk to sales",
+        "Built to last",
+        "kept for over five years",
+        "Book a visit"
+      ],
+      "intentionalOverlaps": [],
+      "seeded": [
+        "A1 fixed 1280px container overflows < 1280",
+        "A2 96px heading never scales",
+        "A3 absolute copy + image overlap 800-1180px",
+        "A4 image object-fit:fill distorts",
+        "B1 overlay box 560px fixed overflows phones",
+        "B2 fixed 620px height clips/crops badly",
+        "C1 160px side padding + 80px heading overflow phones",
+        "C2 nowrap buttons overflow",
+        "D1 three fixed 380px columns overflow",
+        "D2 stats row cannot wrap",
+        "H1 header 64px padding crowds logo and CTA at 320"
+      ]
+    },
+    {
+      "id": "r02-nav",
+      "split": "dev",
+      "topic": "navigation",
+      "mustRemainAccessible": [
+        "Personal banking",
+        "Business solutions",
+        "Investments",
+        "Insurance",
+        "Mortgages",
+        "Wealth management",
+        "Learning center",
+        "Branch locator",
+        "Support",
+        "Open an account",
+        "Log in",
+        "Merchant services"
+      ],
+      "seeded": [
+        "N1 nine nowrap links overflow 700-1400px",
+        "N2 brand/links/tools collide at intermediate widths",
+        "N3 burger exists but is not wired and is hidden always",
+        "N4 dropdown opens on :hover only (no touch/keyboard)",
+        "N5 small tap targets (Open an account 29px)",
+        "N6 no collapsed mobile navigation at all"
+      ]
+    },
+    {
+      "id": "r03-grids",
+      "split": "dev",
+      "topic": "grids and cards",
+      "mustRemainAccessible": [
+        "Accessible by default and across every assistive technology",
+        "Offline-first synchronization",
+        "Conflicts are resolved automatically",
+        "On the coast path with a surprisingly long headline",
+        "hidden inside pocket",
+        "Cancel anytime",
+        "Custom roles"
+      ],
+      "seeded": [
+        "G1 4x280px fixed columns overflow < 1192px",
+        "G2 3-col image grid never collapses",
+        "G3 flex 2x560px overflow",
+        "G4 fixed card height + overflow hidden clips text",
+        "G5 nowrap card titles clip",
+        "G6 icard-body fixed height clips description"
+      ]
+    },
+    {
+      "id": "r04-dashboard",
+      "split": "dev",
+      "topic": "dashboard",
+      "intentionalScrollers": [
+        ".list ol"
+      ],
+      "mustRemainAccessible": [
+        "Overview",
+        "Revenue",
+        "Customers",
+        "Subscriptions",
+        "Experiments",
+        "Reports",
+        "Integrations",
+        "Settings",
+        "Export CSV",
+        "Share",
+        "Active customers",
+        "Churn",
+        "Revenue over time",
+        "Traffic sources",
+        "Top products",
+        "Alerts",
+        "Workspace: Acme Retail EMEA"
+      ],
+      "seeded": [
+        "D1 .app fixed 1440px wide",
+        "D2 sidebar always 240px; no collapse",
+        "D3 header filters row nowrap overflow",
+        "D4 five KPI columns never reflow",
+        "D5 SVG charts fixed width",
+        "D6 body overflow-x:hidden hides the overflow",
+        "D7 30px controls below touch size",
+        "D8 wide widget span 2 in a 3-col grid"
+      ]
+    },
+    {
+      "id": "r05-tables",
+      "split": "dev",
+      "topic": "tables and data",
+      "intentionalScrollers": [
+        ".tbl",
+        "#wide-scroller"
+      ],
+      "mustRemainAccessible": [
+        "Alexandria Montgomery-Whitfield",
+        "alexandria.montgomery@example-long-domain.com",
+        "Pending payment",
+        "Warehouse",
+        "Refund",
+        "$1,367.84",
+        "Northern Lights United",
+        "Leaderboard"
+      ],
+      "seeded": [
+        "T1 12-column table fixed 1500px inside overflow:hidden card (columns unreachable)",
+        "T2 clipped cells (overflow hidden)",
+        "T3 numeric columns left-aligned",
+        "T4 tiny action buttons",
+        "T5 control: compact 4-col table must keep working (must NOT be turned into cards needlessly)"
+      ]
+    },
+    {
+      "id": "r06-forms",
+      "split": "dev",
+      "topic": "forms",
+      "mustRemainAccessible": [
+        "First name",
+        "Last name",
+        "Email address",
+        "Phone number",
+        "Country or region of residence for tax purposes",
+        "Date of birth",
+        "Preferred language",
+        "Tell us how you plan to use the product",
+        "Starter",
+        "Team",
+        "Enterprise",
+        "Terms of Service",
+        "Create account and continue to workspace setup",
+        "Cancel"
+      ],
+      "seeded": [
+        "F1 fixed 880px form",
+        "F2 non-wrapping rows",
+        "F3 32px inputs (touch)",
+        "F4 nowrap submit label overflow",
+        "F5 14px radios/checkbox",
+        "F6 font-size < 16 triggers iOS zoom (minor)",
+        "F7 error message must remain readable"
+      ]
+    },
+    {
+      "id": "r07-media",
+      "split": "dev",
+      "topic": "images and media",
+      "intentionalScrollers": [],
+      "mustRemainAccessible": [
+        "Seasonal banner on a background image",
+        "Text sits on a photograph",
+        "Out the door by eight",
+        "A coat for the wet morning commute"
+      ],
+      "seeded": [
+        "M1 portrait image squashed (fill into 300x300)",
+        "M2 landscape image fixed 640px",
+        "M3 gallery 3x400px grid + fill distortion",
+        "M4 overlay fixed 1100px with caption box covering the subject",
+        "M5 video fixed 960x540",
+        "M6 banner fixed padding/h2 700px"
+      ],
+      "intentionalOverlaps": [
+        [
+          ".overlay img",
+          ".cap"
+        ]
+      ]
+    },
+    {
+      "id": "r08-complex",
+      "split": "dev",
+      "topic": "complex layouts",
+      "intentionalScrollers": [
+        "#hscroll"
+      ],
+      "intentionalOverlaps": [
+        [
+          ".ov-card",
+          ".ov-bg"
+        ],
+        [
+          ".ov-card",
+          ".ov-deco"
+        ]
+      ],
+      "mustRemainAccessible": [
+        "Free shipping on orders over $250",
+        "Complex composition",
+        "Overlapping card",
+        "Horizontal scroller",
+        "Sidebar widget",
+        "On this page",
+        "Chat with us"
+      ],
+      "seeded": [
+        "C1 fixed promo bar nowrap clipped on phones",
+        "C2 1240px layout wrapper",
+        "C3 sticky 220px TOC steals phone width",
+        "C4 overlap card (520px absolute) and bg (-60px) cause overflow",
+        "C5 nested fixed 200px cells overflow",
+        "C6 control: #hscroll is an intentional scroller and must stay scrollable",
+        "C7 fixed chat button must not cover content permanently"
+      ]
+    },
+    {
+      "id": "r09-typography",
+      "split": "dev",
+      "topic": "typography",
+      "mustRemainAccessible": [
+        "Supercalifragilisticexpialidocious",
+        "Telecommunications interoperability",
+        "Subscribe to the monthly newsletter",
+        "Download the complete annual sustainability",
+        "Electromagnetic compatibility",
+        "Fine print"
+      ],
+      "seeded": [
+        "Y1 112px heading with an unbreakable long word",
+        "Y2 56px/32px type never scales",
+        "Y3 10px fine print (<12px)",
+        "Y4 nowrap long button labels",
+        "Y5 unbreakable URL",
+        "Y6 spec table th 380px nowrap",
+        "Y7 1000px article width"
+      ]
+    },
+    {
+      "id": "r10-footer",
+      "split": "dev",
+      "topic": "footer",
+      "mustRemainAccessible": [
+        "Products",
+        "Solutions",
+        "Resources",
+        "Company",
+        "Fintech and regulated industries",
+        "Friedrichstraße 112",
+        "hello@kinetic.example",
+        "Stay in the loop",
+        "Subscribe",
+        "Privacy",
+        "Cookie settings",
+        "Imprint",
+        "All rights reserved"
+      ],
+      "seeded": [
+        "P1 1280px fixed footer",
+        "P2 five fixed-width columns never wrap",
+        "P3 nowrap address",
+        "P4 nowrap bottom row",
+        "P5 24px social targets",
+        "P6 fixed 200px newsletter input"
+      ]
+    },
+    {
+      "id": "r11-pricing",
+      "split": "heldout",
+      "topic": "pricing page (held-out)",
+      "intentionalScrollers": [
+        ".tbl"
+      ],
+      "mustRemainAccessible": [
+        "Simple, predictable pricing",
+        "Hobby",
+        "Team",
+        "Enterprise",
+        "Most popular",
+        "Start 14-day trial",
+        "Contact sales",
+        "Compare plans",
+        "Single sign-on",
+        "Uptime SLA",
+        "Frequently asked questions",
+        "Do you offer discounts"
+      ],
+      "seeded": [
+        "fixed 800px h1",
+        "3x340px plans never wrap",
+        "fixed 430px plan height clips lists when they wrap",
+        "1000px compare/faq width",
+        "nowrap table",
+        "featured translateY collides"
+      ],
+      "intentionalOverlaps": []
+    },
+    {
+      "id": "r12-article",
+      "split": "heldout",
+      "topic": "long-form article (held-out)",
+      "intentionalScrollers": [
+        "pre",
+        ".t-scroll"
+      ],
+      "mustRemainAccessible": [
+        "How we cut our deploy time",
+        "Measure first",
+        "What changed",
+        "The fastest build is the one you never run",
+        "Content-addressed caching",
+        "Table of contents",
+        "Newsletter",
+        "Layer cache",
+        "Sharding"
+      ],
+      "seeded": [
+        "1160px wrap",
+        "760px article + 280px aside",
+        "fixed 760x430 figure",
+        "pre overflow visible",
+        "nowrap table",
+        "header nav overflow"
+      ]
+    },
+    {
+      "id": "r13-listing",
+      "split": "heldout",
+      "topic": "product listing (held-out)",
+      "intentionalScrollers": [],
+      "mustRemainAccessible": [
+        "Filters",
+        "Category",
+        "Outerwear",
+        "Size",
+        "Price",
+        "128 results",
+        "Sort by",
+        "Chore Jacket in Olive",
+        "Hoodie in Oat with a very long product name",
+        "Compare selected items",
+        "Next ›",
+        "Bag (2)"
+      ],
+      "seeded": [
+        "1280px shell",
+        "permanent 240px filters",
+        "3x300px grid",
+        "520px search",
+        "sticky bar covers pager",
+        "9-link pager overflow"
+      ]
+    },
+    {
+      "id": "hale",
+      "split": "real",
+      "topic": "real-world: replicated Hale shop (Next.js, scroll-driven)",
+      "url": "http://localhost:3217/",
+      "intentionalScrollers": [
+        ".rk-world",
+        ".rk-stage",
+        ".st-track",
+        ".st-stage",
+        ".fr-rail",
+        ".zm-stage",
+        ".tl-stage",
+        ".to-stage",
+        ".fd-mark",
+        ".lb-word"
+      ],
+      "mustRemainAccessible": [
+        "Rail",
+        "Lookbook",
+        "Studio",
+        "Bag",
+        "View details",
+        "Try it on",
+        "One man",
+        "Out the door",
+        "Worn,",
+        "Shop the look",
+        "Cut once",
+        "Clothes for",
+        "Made in small runs",
+        "Repairs for life",
+        "Returns in 30 days",
+        "Sign up",
+        "Hear when the",
+        "Outerwear",
+        "Visit",
+        "Back to the rail"
+      ],
+      "seeded": [
+        "(real site — no seeded defects; ground truth is whatever the judge measures)"
+      ],
+      "warmScroll": true,
+      "overlapIgnoreMedia": true,
+      "intentionalOverlaps": [
+        [
+          ".rk-item",
+          ".rk-item"
+        ],
+        [
+          ".to-stage",
+          ".to-stage"
+        ],
+        [
+          ".tl-stage",
+          ".tl-stage"
+        ],
+        [
+          ".zm-stage",
+          ".zm-stage"
+        ],
+        [
+          ".rk-stage",
+          ".rk-stage"
+        ],
+        [
+          ".lb-figure",
+          ".lb-figure"
+        ]
+      ],
+      "ignoreClip": [
+        ".st-stage",
+        "#lookbook",
+        ".fd",
+        "#rail",
+        ".rk-stage",
+        ".to-stage",
+        ".tl-stage",
+        ".zm-stage",
+        ".lb",
+        ".fr"
+      ]
+    }
+  ]
+}

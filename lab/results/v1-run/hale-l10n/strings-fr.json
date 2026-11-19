@@ -1,0 +1,1125 @@
+[
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "a"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Principale",
+  "tag": "nav"
+ },
+ {
+  "type": "text",
+  "text": "Portant",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Lookbook",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Maison",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Panier",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "0",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Le portant",
+  "tag": "section"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Sweat à capuche en avoine, 120 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Surchemise en écru, 145 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Chemise à col camp en pierre, 110 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Veste de travail en olive, 185 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Manteau en anthracite, 420 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Pull torsadé en marine, 165 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Veste chemise en rouille, 160 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Bomber en noir, 210 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "/",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Sweat à capuche",
+  "tag": "h1"
+ },
+ {
+  "type": "text",
+  "text": "en avoine",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Un épais molleton à l’envers bouclé, avec une capuche doublée. Pas de cordon, pas de logo, rien de superflu.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Matière",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "Coton molleton, 480 g/m²",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "Coupe",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "Carrée, manches raccourcies",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "Taille",
+  "tag": "dt"
+ },
+ {
+  "type": "text",
+  "text": "XS / S / M / L / XL",
+  "tag": "dd"
+ },
+ {
+  "type": "text",
+  "text": "120 $",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Voir le détail",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "i"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Pièce précédente",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "←",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "/",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Pièce suivante",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "→",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Automne 26",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Le Portant d’automne",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Défilez · choisissez · explorez",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Essayage",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Essayage",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Un homme,",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "huit pièces.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Faites défiler : la pièce suivante quitte le portant et passe sur lui. Même pantalon, mêmes baskets ; seule la couche du dessus change.",
+  "tag": "p"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant le sweat à capuche en avoine",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant la surchemise en écru",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant la chemise à col camp en pierre",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant la veste de travail en olive",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant le manteau en anthracite",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant le pull torsadé en marine",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant la veste chemise en rouille",
+  "tag": "img"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Le modèle portant le bomber en noir",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "01 /",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Sweat à capuche",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "en avoine",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "120 $",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Voir la pièce",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Sweat à capuche",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Surchemise",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Chemise à col camp",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "04",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Veste de travail",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "05",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Manteau",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "06",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Pull torsadé",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "07",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Veste chemise",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "08",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Bomber",
+  "tag": "li"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Dehors",
+  "tag": "section"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Un homme descend une vieille rue de pierre, portant le manteau",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "Dehors",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "à huit heures.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Manteau",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "en anthracite",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "420 $",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "Voir",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Lookbook",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Porté,",
+  "tag": "div"
+ },
+ {
+  "type": "text",
+  "text": "pas posé.",
+  "tag": "div"
+ },
+ {
+  "type": "text",
+  "text": "Lookbook — 01",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Porté,",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "pas posé.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "La veste de travail sur un simple tee-shirt et un pantalon à pinces en laine. C’est la tenue que nous enfilons sans cesse, alors c’est celle que nous avons photographiée.",
+  "tag": "p"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Un modèle portant la veste de travail olive sur un tee-shirt blanc et un pantalon à pinces anthracite",
+  "tag": "img"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Voir la veste de travail",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Veste de travail",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "—",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "185 $",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Achetez le look",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Veste de travail",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "olive",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Toile de coton teinte en pièce",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "185 $",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Voir",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "L’atelier",
+  "tag": "section"
+ },
+ {
+  "type": "attr:alt",
+  "text": "L’atelier : une longue table de coupe couverte de tissus pliés, et un homme en veste de velours côtelé rouille",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "text"
+ },
+ {
+  "type": "text",
+  "text": "Taillé une fois.",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "Porté des années.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Taillé une fois.",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Porté des années.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Chaque pièce naît sur cette table : un patron en papier, un rouleau de tissu et une paire de ciseaux de tailleur. Nous en fabriquons quelques centaines à la fois et nous les réparons aussi longtemps que vous les portez.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Veste chemise",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "en rouille",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "·",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "160 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Voir",
+  "tag": "u"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Au quotidien",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "Au quotidien",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Des vêtements pour",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "les jours ordinaires.",
+  "tag": "em"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Un matin tranquille",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Un matin tranquille",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Pull torsadé, marine · 165 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Sur le sentier côtier",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Sur le sentier côtier",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Sweat à capuche, avoine · 120 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Après la pluie",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Après la pluie",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Bomber, noir · 210 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Dans la cour",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "04",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Dans la cour",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Chemise à col camp, pierre · 110 $",
+  "tag": "button"
+ },
+ {
+  "type": "attr:alt",
+  "text": "Huit tissus, une seule table",
+  "tag": "img"
+ },
+ {
+  "type": "text",
+  "text": "05",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Huit tissus, une seule table",
+  "tag": "em"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Nos engagements",
+  "tag": "section"
+ },
+ {
+  "type": "text",
+  "text": "01",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Fabriqué en petites séries",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Chaque pièce est coupée par séries de quelques centaines, dans des ateliers que nous avons visités.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "02",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Réparations à vie",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Renvoyez-la avec un bouton cassé ou une couture déchirée, nous la réparons gratuitement.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "03",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Retours sous 30 jours",
+  "tag": "h3"
+ },
+ {
+  "type": "text",
+  "text": "Essayez-la chez vous. Si elle ne tombe pas bien, renvoyez-la et nous vous remboursons.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Voilà tout le portant — 08 pièces",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Frôlez-les · touchez-en une pour l’ouvrir",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Sweat à capuche en avoine, 120 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Sweat à capuche",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "120 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Surchemise en écru, 145 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Surchemise",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "145 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Chemise à col camp en pierre, 110 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Chemise à col camp",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "110 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Veste de travail en olive, 185 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Veste de travail",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "185 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Manteau en anthracite, 420 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Manteau",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "420 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Pull torsadé en marine, 165 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Pull torsadé",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "165 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Veste chemise en rouille, 160 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Veste chemise",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "160 $",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Bomber en noir, 210 $",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Bomber",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "210 $",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Sachez quand",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "le portant change.",
+  "tag": "em"
+ },
+ {
+  "type": "text",
+  "text": "Une lettre par saison. Les nouvelles pièces, les ateliers qui les fabriquent, rien d’autre.",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Adresse e-mail",
+  "tag": "span"
+ },
+ {
+  "type": "attr:placeholder",
+  "text": "Votre e-mail",
+  "tag": "input"
+ },
+ {
+  "type": "text",
+  "text": "S’inscrire →",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Boutique",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Vestes et manteaux",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Chemises",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Maille",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Jersey",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Maison",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "À propos",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Ateliers",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Journal",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Revendeurs",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Aide",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Livraison",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Retours",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Réparations",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Contact",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Nous rendre visite",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "L’atelier, Porto",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Du jeudi au samedi",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "11 h – 19 h",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Instagram",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Pinterest",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "Journal",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "↗",
+  "tag": "a"
+ },
+ {
+  "type": "text",
+  "text": "HALE",
+  "tag": "div"
+ },
+ {
+  "type": "text",
+  "text": "© 2026 HALE Studio",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "HALE est une marque de démonstration. Les vêtements, les noms et les prix sont fictifs.",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "Retour au portant ↑",
+  "tag": "button"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Votre panier",
+  "tag": "aside"
+ },
+ {
+  "type": "text",
+  "text": "Votre panier",
+  "tag": "h2"
+ },
+ {
+  "type": "text",
+  "text": "0",
+  "tag": "span"
+ },
+ {
+  "type": "attr:aria-label",
+  "text": "Fermer le panier",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "✕",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Plus que 250 $ pour la livraison offerte",
+  "tag": "p"
+ },
+ {
+  "type": "text",
+  "text": "Rien ici pour l’instant. Décrochez une pièce du portant.",
+  "tag": "li"
+ },
+ {
+  "type": "text",
+  "text": "Sous-total",
+  "tag": "span"
+ },
+ {
+  "type": "text",
+  "text": "0 $",
+  "tag": "b"
+ },
+ {
+  "type": "text",
+  "text": "Commander",
+  "tag": "button"
+ },
+ {
+  "type": "text",
+  "text": "Taxes et frais de livraison calculés au paiement",
+  "tag": "small"
+ },
+ {
+  "type": "head:title",
+  "text": "HALE — Le Portant d’automne"
+ },
+ {
+  "type": "head:description",
+  "text": "Une boutique de vêtements sur un portant : faites défiler le portant, décrochez une pièce, retournez-la, choisissez une taille et ajoutez-la au panier. Un modèle SmartDuke Studio."
+ }
+]

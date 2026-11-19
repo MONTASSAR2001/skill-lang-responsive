@@ -1,0 +1,37 @@
+text	Orbit	Orbit	
+attr:aria-label	Main	Principale	
+text	Dashboard	Tableau de bord	
+text	Projects	Projets	
+text	Team	Équipe	
+text	Billing	Facturation	
+text	Settings	Paramètres	
+text	Projects	Projets	
+attr:placeholder	Search projects…	Rechercher un projet…	1.31
+attr:aria-label	Search projects	Rechercher un projet	1.33
+text	⌘K	⌘K	
+text	Press ⌘K to search from anywhere.	Appuyez sur ⌘K pour lancer une recherche depuis n’importe où.	1.85
+attr:aria-label	Actions	Actions	
+text	Save changes	Enregistrer	
+text	Cancel	Annuler	
+text	Delete project	Supprimer	0.64
+text	Invite teammates	Inviter	0.44
+attr:title	Copy the shareable link to your clipboard	Copier le lien de partage dans le presse-papiers	1.17
+text	Copy link	Copier le lien	
+attr:title	More actions	Autres actions	
+attr:aria-label	More actions	Autres actions	
+text	⋯	⋯	
+text	Rename	Renommer	
+text	Duplicate	Dupliquer	
+text	Move to folder…	Déplacer vers…	0.93
+text	Archive	Archiver	
+text	No projects yet	Aucun projet pour l’instant	1.80
+text	Create your first project to get started. It only takes a minute.	Créez votre premier projet pour commencer. Cela ne prend qu’une minute.	1.09
+text	New project	Nouveau projet	
+text	Delete project?	Supprimer le projet ?	1.40
+text	This will permanently delete	Cette action supprimera définitivement	1.36
+text	Apollo	Apollo	
+text	and all of its files. This action cannot be undone.	et tous ses fichiers. Elle est irréversible.	0.86
+text	Keep project	Conserver le projet	
+text	Yes, delete it	Oui, supprimer	1.00
+text	Changes saved	Modifications enregistrées	2.00
+head:title	Projects — Orbit	Projets — Orbit	0.94

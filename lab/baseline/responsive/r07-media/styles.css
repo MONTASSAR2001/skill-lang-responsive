@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+body{margin:0;padding:24px 40px;font:16px/1.5 Arial,sans-serif;background:#faf8f4;color:#1b1a18}
+.mix{display:flex;gap:24px;align-items:flex-start}
+.mix .p{width:300px;height:300px;object-fit:fill}
+.mix .l{width:640px;height:300px}
+.gallery{display:grid;grid-template-columns:repeat(3,400px);gap:12px;margin:32px 0}
+.gallery img{width:400px;height:400px;object-fit:fill}
+.overlay{position:relative;width:1100px;height:480px;overflow:hidden;margin-bottom:32px}
+.overlay img{width:100%;height:100%;object-fit:cover}
+.cap{position:absolute;left:40px;bottom:40px;width:520px;color:#fff;background:rgba(0,0,0,.45);padding:20px}
+.cap h2{font-size:44px;margin:0 0 8px}
+.video-wrap{margin-bottom:32px}
+video{width:960px;height:540px;background:#000}
+.banner{height:360px;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../../assets/studio.webp) 20% 50%/cover;color:#fff;padding:120px 80px}
+.banner h2{font-size:48px;margin:0;width:700px}

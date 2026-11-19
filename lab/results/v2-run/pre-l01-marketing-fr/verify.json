@@ -1,0 +1,68 @@
+{
+ "issues": [
+  {
+   "sev": "major",
+   "code": "hreflang",
+   "detail": "no <link rel=alternate hreflang> (add en/<lang>/x-default) and a visible language switch"
+  },
+  {
+   "sev": "minor",
+   "code": "identical-to-source (cognate or untranslated? review)",
+   "detail": [
+    "Halden",
+    "Journal"
+   ]
+  },
+  {
+   "sev": "minor",
+   "code": "fr-typography",
+   "detail": "4 place(s): no no-break space (U+00A0/U+202F) before : ; ? ! » (and after «), % also takes one"
+  }
+ ],
+ "layout": [
+  {
+   "w": 320,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 390,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 768,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 1280,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  }
+ ]
+}

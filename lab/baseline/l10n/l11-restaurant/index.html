@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ember &amp; Oak — Wood-fired kitchen</title><link rel="stylesheet" href="styles.css"><style>.dish{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dotted #bbb;padding:8px 0}.dish p{margin:0;color:#666;font-size:14px}.tag{font-size:11px;border:1px solid #888;border-radius:99px;padding:1px 8px}</style></head>
+<body><header class="top"><b>Ember &amp; Oak</b><nav aria-label="Main"><a href="#">Menu</a><a href="#">Reservations</a><a href="#">Contact</a></nav></header><div class="wrap">
+<h1>Fire, smoke and a little patience</h1><p>A neighbourhood kitchen cooking over oak and ember since 2014. Come hungry, leave happy.</p>
+<h2>Tonight's menu</h2>
+<div class="dish"><div><b>Charred octopus</b> <span class="tag">gluten-free</span><p>Smoked paprika, crushed potatoes, lemon, olive oil</p></div><b>$18</b></div>
+<div class="dish"><div><b>Chef's special: 12-hour short rib</b><p>Served with creamy polenta and seasonal greens. Contains dairy.</p></div><b>$34</b></div>
+<div class="dish"><div><b>Burrata &amp; heirloom tomatoes</b> <span class="tag">vegetarian</span><p>Basil oil, grilled sourdough</p></div><b>$16</b></div>
+<div class="dish"><div><b>Apple tarte tatin</b><p>Salted caramel, crème fraîche</p></div><b>$11</b></div>
+<h2>Opening hours</h2><p>Tuesday to Thursday 5 p.m.–10 p.m. · Friday and Saturday 5 p.m.–11:30 p.m. · Closed Sunday and Monday. Closed on Christmas Day and New Year's Day.</p>
+<h2>Reserve a table</h2><form id="r"><label>Date <input type="date" value="2026-03-20"></label> <label>Party size <select id="ps"><option>1 guest</option><option>2 guests</option><option>4 guests</option></select></label> <button class="btn" type="submit">Book a table</button></form>
+<p id="conf" role="status" hidden>Thanks! We've saved a table for 2 guests on Friday, March 20 at 7:30 p.m.</p>
+<address>Ember &amp; Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123</address></div>
+<script>document.getElementById('r').addEventListener('submit',e=>{e.preventDefault();document.getElementById('conf').hidden=false})</script></body></html>

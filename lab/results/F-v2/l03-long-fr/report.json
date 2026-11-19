@@ -1,0 +1,50 @@
+{
+ "id": "l03-long",
+ "lang": "fr",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l03-long/",
+   "x-default=/l10n/l03-long/",
+   "fr=/l10n/l03-long/fr/"
+  ],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 25,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 3,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 3,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 0
+ }
+}

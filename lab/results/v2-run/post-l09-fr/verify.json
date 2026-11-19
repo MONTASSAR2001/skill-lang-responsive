@@ -1,0 +1,49 @@
+{
+ "issues": [],
+ "layout": [
+  {
+   "w": 320,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 390,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 768,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 1280,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  }
+ ]
+}

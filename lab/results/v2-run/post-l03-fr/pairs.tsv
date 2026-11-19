@@ -1,0 +1,25 @@
+text	Engineering blog	Blog technique	0.88
+text	Why we moved to event sourcing, and what we would do differently	Pourquoi nous sommes passés à l’event sourcing, et ce que nous ferions autrement	1.25
+text	Reading time: 6 minutes	Temps de lecture : 6 minutes	1.22
+text	The problem we had	Le problème que nous avions	1.50
+text	For three years our order service stored only the current state of each order. That worked until finance asked a deceptively simple question: "What did this order look like last Tuesday at noon?" We could not answer it. Updates overwrote history, and the audit tables we had bolted on were incomplete, inconsistent and, frankly, a little embarrassing.	Pendant trois ans, notre service de commandes n’a conservé que l’état courant de chaque commande. Cela a fonctionné jusqu’au jour où la finance nous a posé une question d’apparence anodine : « À quoi ressemblait cette commande mardi dernier à midi ? » Impossible de répondre. Les mises à jour écrasaient l’historique, et les tables d’audit que nous avions greffées après coup étaient incomplètes, incohérentes et, franchement, un peu gênantes.	1.26
+text	What event sourcing actually means	Ce que l’event sourcing signifie vraiment	1.21
+text	Instead of storing the current state, we store every change as an immutable event, such as	Au lieu de stocker l’état courant, nous enregistrons chaque changement sous la forme d’un événement immuable, comme	1.28
+text	OrderPlaced	OrderPlaced	
+text	,	,	
+text	PaymentCaptured	PaymentCaptured	1.00
+text	or	ou	
+text	OrderShipped	OrderShipped	
+text	. The current state is simply the result of replaying those events in order. A projection is a read model that is rebuilt from the event stream whenever its schema changes.	. L’état courant n’est alors que le résultat de la relecture de ces événements dans l’ordre. Une projection est un modèle de lecture reconstruit à partir du flux d’événements chaque fois que son schéma change.	1.22
+text	42%	42 %	
+text	fewer support escalations about missing order history during the first quarter after launch	d’escalades de moins vers le support à propos de l’historique de commande manquant durant le premier trimestre suivant le lancement	1.44
+text	3.2 TB	3,2 To	
+text	of events stored across 18 months, compressed with snapshots every 500 events	d’événements stockés sur 18 mois, compressés par des instantanés tous les 500 événements	1.14
+text	99.95%	99,95 %	
+text	of projections rebuilt without any manual intervention or downtime for customers	des projections reconstruites sans aucune intervention manuelle ni interruption de service pour les clients	1.34
+text	Lessons learned (the honest version)	Ce que nous avons appris (la version honnête)	1.25
+text	Do not model events after database tables; model them after things that happened in the business.	Ne modélisez pas les événements d’après les tables de la base de données ; modélisez-les d’après ce qui s’est passé dans l’activité de l’entreprise.	1.53
+text	Snapshots are an optimization, not a feature. Add them late.	Les instantanés sont une optimisation, pas une fonctionnalité. Ajoutez-les tard.	1.33
+text	Version your events from day one, because you will change them, and you will regret skipping this step.	Versionnez vos événements dès le premier jour, car vous les ferez évoluer, et vous regretterez d’avoir sauté cette étape.	1.17
+text	If you are considering the same move, our advice is simple: start with one bounded context, measure everything, and resist the temptation to rewrite the world in a weekend. Good luck, and may your replays always be idempotent.	Si vous envisagez le même virage, notre conseil est simple : commencez par un seul contexte délimité, mesurez tout, et résistez à la tentation de réécrire le monde en un week-end. Bonne chance, et que vos relectures soient toujours idempotentes.	1.08
+head:title	Why we moved to event sourcing	Pourquoi nous sommes passés à l’event sourcing	1.53

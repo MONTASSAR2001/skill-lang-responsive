@@ -1,0 +1,55 @@
+{
+ "id": "hale",
+ "lang": "fr",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=http://localhost:3217",
+   "fr=http://localhost:3217/fr",
+   "x-default=http://localhost:3217"
+  ],
+  "canonical": "http://localhost:3217/fr",
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 225,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 5,
+    "tgtClipped": 5
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 6,
+    "tgtClipped": 6
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 5,
+    "tgtClipped": 5
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 5,
+    "tgtClipped": 5
+   }
+  ],
+  "maxLabelExpansion": 1.91,
+  "probe": {
+   "viewer": "Face Dos OU FAITES GLISSER POUR TOURNER 01 / 08 — JERSEY Sweat à capuche en avoine 120 $ Un épais molleton à l’envers bouclé, avec une capuche doublée. Pas de cordon, pas de logo, rien de superflu. Taille Taille normalement XS S M L XL Ajouter au panier 120 $ Livraison offerte dès 250 $ · Reto",
+   "added": "Ajouté au panier\n120 $",
+   "bag": "Votre panier 1 ✕ Plus que 130 $ pour la livraison offerte Sweat à capuche avoine · XS − 1 + 120 $ Sous-total 120 $ Commander Taxes et frais de livraison calculés au paiement"
+  }
+ }
+}

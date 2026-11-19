@@ -1,0 +1,830 @@
+{
+ "url": "http://localhost:4173/baseline/responsive/r05-tables/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 800,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.card: \"Email\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Alexandria Montgomery-Whitfield\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"alexandria.montgomery@example-long-d\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"fatima.alsayed@example.org\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Jean-Baptiste de la Fontaine\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "th: \"Change\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Blue Falcons\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Northern Lights United\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Red Pandas\""
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1000,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.card: \"Subtotal\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Alexandria Montgomery-Whitfield\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"alexandria.montgomery@example-long-d\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"fatima.alsayed@example.org\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Jean-Baptiste de la Fontaine\""
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 38x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 49x20"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button 25x21"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.card: \"Warehouse\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Alexandria Montgomery-Whitfield\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"alexandria.montgomery@example-long-d\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"fatima.alsayed@example.org\""
+    ],
+    [
+     "critical",
+     "clipped-text",
+     "td: \"Jean-Baptiste de la Fontaine\""
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "button 11px"
+    ]
+   ]
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "bad": true
+  },
+  {
+   "w": 336,
+   "bad": true
+  },
+  {
+   "w": 352,
+   "bad": true
+  },
+  {
+   "w": 368,
+   "bad": true
+  },
+  {
+   "w": 384,
+   "bad": true
+  },
+  {
+   "w": 400,
+   "bad": true
+  },
+  {
+   "w": 416,
+   "bad": true
+  },
+  {
+   "w": 432,
+   "bad": true
+  },
+  {
+   "w": 448,
+   "bad": true
+  },
+  {
+   "w": 464,
+   "bad": true
+  },
+  {
+   "w": 480,
+   "bad": true
+  },
+  {
+   "w": 496,
+   "bad": true
+  },
+  {
+   "w": 512,
+   "bad": true
+  },
+  {
+   "w": 528,
+   "bad": true
+  },
+  {
+   "w": 544,
+   "bad": true
+  },
+  {
+   "w": 560,
+   "bad": true
+  },
+  {
+   "w": 576,
+   "bad": true
+  },
+  {
+   "w": 592,
+   "bad": true
+  },
+  {
+   "w": 608,
+   "bad": true
+  },
+  {
+   "w": 624,
+   "bad": true
+  },
+  {
+   "w": 640,
+   "bad": true
+  },
+  {
+   "w": 656,
+   "bad": true
+  },
+  {
+   "w": 672,
+   "bad": true
+  },
+  {
+   "w": 688,
+   "bad": true
+  },
+  {
+   "w": 704,
+   "bad": true
+  },
+  {
+   "w": 720,
+   "bad": true
+  },
+  {
+   "w": 736,
+   "bad": true
+  },
+  {
+   "w": 752,
+   "bad": true
+  },
+  {
+   "w": 768,
+   "bad": true
+  },
+  {
+   "w": 784,
+   "bad": true
+  },
+  {
+   "w": 800,
+   "bad": true
+  },
+  {
+   "w": 816,
+   "bad": true
+  },
+  {
+   "w": 832,
+   "bad": true
+  },
+  {
+   "w": 848,
+   "bad": true
+  },
+  {
+   "w": 864,
+   "bad": true
+  },
+  {
+   "w": 880,
+   "bad": true
+  },
+  {
+   "w": 896,
+   "bad": true
+  },
+  {
+   "w": 912,
+   "bad": true
+  },
+  {
+   "w": 928,
+   "bad": true
+  },
+  {
+   "w": 944,
+   "bad": true
+  },
+  {
+   "w": 960,
+   "bad": true
+  },
+  {
+   "w": 976,
+   "bad": true
+  },
+  {
+   "w": 992,
+   "bad": true
+  },
+  {
+   "w": 1008,
+   "bad": true
+  },
+  {
+   "w": 1024,
+   "bad": true
+  },
+  {
+   "w": 1040,
+   "bad": true
+  },
+  {
+   "w": 1056,
+   "bad": true
+  },
+  {
+   "w": 1072,
+   "bad": true
+  },
+  {
+   "w": 1088,
+   "bad": true
+  },
+  {
+   "w": 1104,
+   "bad": true
+  },
+  {
+   "w": 1120,
+   "bad": true
+  },
+  {
+   "w": 1136,
+   "bad": true
+  },
+  {
+   "w": 1152,
+   "bad": true
+  },
+  {
+   "w": 1168,
+   "bad": true
+  },
+  {
+   "w": 1184,
+   "bad": true
+  },
+  {
+   "w": 1200,
+   "bad": true
+  },
+  {
+   "w": 1216,
+   "bad": true
+  },
+  {
+   "w": 1232,
+   "bad": true
+  },
+  {
+   "w": 1248,
+   "bad": true
+  },
+  {
+   "w": 1264,
+   "bad": true
+  },
+  {
+   "w": 1280,
+   "bad": true
+  },
+  {
+   "w": 1296,
+   "bad": true
+  },
+  {
+   "w": 1312,
+   "bad": true
+  },
+  {
+   "w": 1328,
+   "bad": true
+  },
+  {
+   "w": 1344,
+   "bad": true
+  },
+  {
+   "w": 1360,
+   "bad": true
+  },
+  {
+   "w": 1376,
+   "bad": true
+  },
+  {
+   "w": 1392,
+   "bad": true
+  },
+  {
+   "w": 1408,
+   "bad": true
+  },
+  {
+   "w": 1424,
+   "bad": true
+  },
+  {
+   "w": 1440,
+   "bad": true
+  },
+  {
+   "w": 1456,
+   "bad": true
+  },
+  {
+   "w": 1472,
+   "bad": true
+  },
+  {
+   "w": 1488,
+   "bad": true
+  },
+  {
+   "w": 1504,
+   "bad": true
+  },
+  {
+   "w": 1520,
+   "bad": true
+  },
+  {
+   "w": 1536,
+   "bad": true
+  },
+  {
+   "w": 1552,
+   "bad": true
+  },
+  {
+   "w": 1568,
+   "bad": true
+  },
+  {
+   "w": 1584,
+   "bad": true
+  },
+  {
+   "w": 1600,
+   "bad": true
+  }
+ ],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "div.card: \"Email\"",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"Alexandria Montgomery-Whitfield\"",
+   "widths": [
+    320,
+    768,
+    1280
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"alexandria.montgomery@example-long-d\"",
+   "widths": [
+    320,
+    768,
+    1280
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"fatima.alsayed@example.org\"",
+   "widths": [
+    320,
+    768,
+    1280
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"Jean-Baptiste de la Fontaine\"",
+   "widths": [
+    320,
+    768,
+    1280
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "th: \"Change\"",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"Blue Falcons\"",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"Northern Lights United\"",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "td: \"Red Pandas\"",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "button 38x20",
+   "widths": [
+    320,
+    320,
+    320,
+    320,
+    768,
+    768,
+    768,
+    768
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "button 49x20",
+   "widths": [
+    320,
+    320,
+    320,
+    320,
+    768,
+    768,
+    768,
+    768
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "button 25x21",
+   "widths": [
+    320,
+    320,
+    320,
+    320,
+    768,
+    768,
+    768,
+    768
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "button 11px",
+   "widths": [
+    320,
+    320,
+    320,
+    320,
+    320,
+    320,
+    768,
+    768,
+    768,
+    768,
+    768,
+    768,
+    1280,
+    1280,
+    1280,
+    1280,
+    1280,
+    1280
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "div.card: \"Subtotal\"",
+   "widths": [
+    768
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "div.card: \"Warehouse\"",
+   "widths": [
+    1280
+   ]
+  }
+ ]
+}

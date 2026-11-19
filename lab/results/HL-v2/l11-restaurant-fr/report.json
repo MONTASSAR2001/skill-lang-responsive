@@ -1,0 +1,87 @@
+{
+ "id": "l11-restaurant",
+ "lang": "fr",
+ "critical": [
+  {
+   "code": "untranslated-sentences",
+   "detail": [
+    {
+     "kind": "text",
+     "text": "Ember & Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123"
+    }
+   ]
+  }
+ ],
+ "major": [
+  {
+   "code": "untranslated-words",
+   "detail": [
+    {
+     "kind": "text",
+     "text": "Menu"
+    },
+    {
+     "kind": "text",
+     "text": "Contact"
+    },
+    {
+     "kind": "text",
+     "text": "Date"
+    }
+   ]
+  }
+ ],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l11-restaurant/",
+   "x-default=/l10n/l11-restaurant/",
+   "fr=/l10n/l11-restaurant/fr/",
+   "ar=/l10n/l11-restaurant/ar/"
+  ],
+  "canonical": null,
+  "leakCount": 1,
+  "identicalWords": 3,
+  "stringsPaired": 34,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.5,
+  "probe": {
+   "conf": "Merci ! Nous avons réservé une table pour 2 personnes le vendredi 20 mars à 19 h 30.",
+   "opts": [
+    "1 personne",
+    "2 personnes",
+    "4 personnes"
+   ]
+  }
+ }
+}

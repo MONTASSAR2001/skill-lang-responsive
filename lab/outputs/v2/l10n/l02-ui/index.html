@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Projects — Orbit</title><link rel="alternate" hreflang="en" href="/l10n/l02-ui/"><link rel="alternate" hreflang="x-default" href="/l10n/l02-ui/"><link rel="alternate" hreflang="fr" href="/l10n/l02-ui/fr/"><link rel="alternate" hreflang="ar" href="/l10n/l02-ui/ar/"><link rel="stylesheet" href="styles.css"><style>.sidebar{display:flex;gap:6px;flex-wrap:wrap}.nbtn{width:104px;height:36px;white-space:nowrap;overflow:hidden;border:1px solid #ccc;background:#fff;border-radius:6px;font-size:13px}dialog{border:1px solid #ccc;border-radius:12px;padding:24px;max-width:420px}.toast{position:fixed;bottom:16px;right:16px;background:#1d1c1a;color:#fff;padding:10px 16px;border-radius:8px}.empty{text-align:center;padding:48px;border:2px dashed #ccc;border-radius:12px}.kbd{font:12px monospace;background:#eee;border-radius:4px;padding:2px 6px}.menu{list-style:none;padding:6px;margin:8px 0;border:1px solid #ddd;border-radius:8px;width:200px;background:#fff}.menu li{padding:6px 10px}</style></head>
+<body>
+<header class="top"><b>Orbit</b><nav aria-label="Main"><a href="#">Dashboard</a><a href="#">Projects</a><a href="#">Team</a><a href="#">Billing</a><a href="#">Settings</a></nav></header>
+<div class="wrap">
+<h1>Projects</h1>
+<p><input type="search" placeholder="Search projects…" aria-label="Search projects"> <span class="kbd">⌘K</span> Press ⌘K to search from anywhere.</p>
+<div class="sidebar" role="toolbar" aria-label="Actions"><button class="nbtn">Save changes</button><button class="nbtn">Cancel</button><button class="nbtn">Delete project</button><button class="nbtn">Invite teammates</button><button class="nbtn" title="Copy the shareable link to your clipboard">Copy link</button><button class="nbtn" aria-label="More actions" title="More actions">⋯</button></div>
+<ul class="menu" role="menu"><li role="menuitem">Rename</li><li role="menuitem">Duplicate</li><li role="menuitem">Move to folder…</li><li role="menuitem">Archive</li></ul>
+<div class="empty" id="empty"><h2>No projects yet</h2><p>Create your first project to get started. It only takes a minute.</p><button class="btn">New project</button></div>
+<dialog id="dlg" open><h2>Delete project?</h2><p>This will permanently delete <b>Apollo</b> and all of its files. This action cannot be undone.</p><button class="btn alt">Keep project</button> <button class="btn">Yes, delete it</button></dialog>
+<div class="toast" role="status">Changes saved</div>
+</div></body></html>

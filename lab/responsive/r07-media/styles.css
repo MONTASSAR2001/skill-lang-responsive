@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+img,video{max-width:100%}
+body{margin:0;padding:clamp(12px,3vw,24px) clamp(12px,4vw,40px);font:16px/1.5 Arial,sans-serif;background:#faf8f4;color:#1b1a18}
+.mix{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.mix .p{width:min(100%,300px);height:auto;aspect-ratio:3/4;object-fit:cover;object-position:50% 15%}
+.mix .l{width:min(100%,640px);height:auto;aspect-ratio:16/9;object-fit:cover}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px;margin:32px 0}
+.gallery img{width:100%;aspect-ratio:1;height:auto;object-fit:cover;object-position:50% 25%}
+.overlay{position:relative;width:100%;max-width:1100px;margin-bottom:32px;background:#000}
+.overlay img{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:60% 50%}
+.cap{position:absolute;left:40px;bottom:40px;width:min(520px,60%);color:#fff;background:rgba(0,0,0,.55);padding:20px}
+.cap h2{font-size:clamp(1.5rem,4vw,2.75rem);margin:0 0 8px}
+@media(max-width:700px){.overlay img{aspect-ratio:4/5}.cap{position:static;width:auto;background:#111;padding:16px}}
+.video-wrap{margin-bottom:32px}
+video{display:block;width:100%;max-width:960px;height:auto;aspect-ratio:16/9;background:#000}
+.banner{min-height:360px;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../../assets/studio.webp) 20% 50%/cover;color:#fff;padding:clamp(40px,10vw,120px) clamp(20px,6vw,80px)}
+.banner h2{font-size:clamp(1.75rem,5vw,3rem);margin:0;max-width:700px}

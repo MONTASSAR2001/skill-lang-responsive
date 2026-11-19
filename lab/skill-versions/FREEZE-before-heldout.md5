@@ -1,0 +1,12 @@
+50896d6531a5648b9fb0cc4f9ba71e02  ./smart-website-localization/references/arabic.md
+11e04b9330e7c0628e0d2f9784ec27af  ./smart-website-localization/references/conventions.md
+972e3187a3f5022244adc35584c312cf  ./smart-website-localization/references/french.md
+f8b9bf0512407ff9b03b71cbc6602127  ./smart-website-localization/references/rtl.md
+7447df3a3d5278c7ff5f8abbab736455  ./smart-website-localization/scripts/extract-strings.mjs
+0a758d62f83acd0f7e108a4adfd47365  ./smart-website-localization/scripts/verify.mjs
+91cc7af4655e5772d0a50038cdbdba61  ./smart-website-localization/SKILL.md
+d17ce8db94538e5326cef9cfa222e433  ./universal-responsive-design/references/defects.md
+cc626eba65c5ad5d3edf2777c1bb03f0  ./universal-responsive-design/references/strategies.md
+ac67203912974152a5bfc7df690fda27  ./universal-responsive-design/scripts/audit.mjs
+6a7719d40ec444c8f30223210383bb2c  ./universal-responsive-design/SKILL.md
+frozen 2026-11-19T16:58:05Z

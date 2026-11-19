@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+body{margin:0;padding:clamp(12px,3vw,24px) clamp(12px,4vw,40px);font:14px/1.4 Arial,sans-serif;background:#f6f7f9;color:#111827}
+h1{font-size:clamp(1.5rem,4vw,2rem)}
+.card{background:#fff;border-radius:10px;padding:8px 16px 16px;margin-bottom:32px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%}
+#wide{min-width:1280px}
+th,td{padding:10px 8px;border-bottom:1px solid #eceff3;text-align:left;white-space:nowrap}
+th{font-size:12px;text-transform:uppercase;color:#6b7280}
+/* the order id stays visible while the other 11 columns scroll */
+#wide th:first-child,#wide td:first-child{position:sticky;left:0;background:#fff;z-index:1}
+td.n,#wide th:nth-child(n+6):nth-child(-n+9){text-align:right}
+.pill{padding:2px 8px;border-radius:99px;font-size:12px}.ok{background:#dcfce7;color:#166534}.wait{background:#fef9c3;color:#854d0e}.bad{background:#fee2e2;color:#991b1b}
+td button{font-size:13px;min-height:44px;min-width:44px;margin-right:2px}
+#compact{width:100%}#compact td.n{text-align:right}
+.up{color:#16a34a}.down{color:#dc2626}

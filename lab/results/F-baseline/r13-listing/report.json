@@ -1,0 +1,3696 @@
+{
+ "summary": {
+  "id": "r13-listing",
+  "url": "http://localhost:4173/baseline/responsive/r13-listing/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1440
+   }
+  ],
+  "sweepFailingWidths": 71,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 336,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1050px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1010px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:995px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:980px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:940px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:890px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:770px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:602px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:550px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:346px",
+    "offscreen:8",
+    "tap<24:9"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:90px",
+    "tap<24:9"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:10px",
+    "tap<24:9"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:9"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:9"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:526px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overflow:90px",
+    "tap<24:9"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:730px",
+    "offscreen:12",
+    "tap<24:6"
+   ],
+   "tapMajor": 28,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2560,
+   "docOverflowPx": 1050,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "input.search",
+     "left": 167,
+     "right": 390
+    },
+    {
+     "el": "a",
+     "left": 414,
+     "right": 468
+    },
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "span",
+     "left": 280,
+     "right": 353
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2817,
+   "docOverflowPx": 1010,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "input.search",
+     "left": 167,
+     "right": 390
+    },
+    {
+     "el": "a",
+     "left": 414,
+     "right": 468
+    },
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2967,
+   "docOverflowPx": 995,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "input.search",
+     "left": 167,
+     "right": 390
+    },
+    {
+     "el": "a",
+     "left": 414,
+     "right": 468
+    },
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2965,
+   "docOverflowPx": 980,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 414,
+     "right": 468
+    },
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "span",
+     "left": 604,
+     "right": 637
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2970,
+   "docOverflowPx": 940,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 414,
+     "right": 468
+    },
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "span",
+     "left": 604,
+     "right": 637
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2438,
+   "docOverflowPx": 890,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 488,
+     "right": 540
+    },
+    {
+     "el": "#cart",
+     "left": 560,
+     "right": 586
+    },
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "h3",
+     "left": 280,
+     "right": 580
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "span",
+     "left": 604,
+     "right": 637
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 2192,
+   "docOverflowPx": 770,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "span",
+     "left": 604,
+     "right": 637
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "span",
+     "left": 928,
+     "right": 961
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 223,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1827,
+   "docOverflowPx": 602,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "span",
+     "left": 928,
+     "right": 961
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 365,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 550,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "span",
+     "left": 928,
+     "right": 961
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 417,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 346,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 90,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 10,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 526,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "span",
+     "left": 928,
+     "right": 961
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 441,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 90,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 520,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "#cart",
+     "w": 49,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 964,
+   "docOverflowPx": 730,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "div.shell",
+   "offscreen": [
+    {
+     "el": "label",
+     "left": 1104,
+     "right": 1280
+    },
+    {
+     "el": "select",
+     "left": 1156,
+     "right": 1280
+    },
+    {
+     "el": "button.view",
+     "left": 1104,
+     "right": 1146
+    },
+    {
+     "el": "button.view",
+     "left": 1146,
+     "right": 1182
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "h3",
+     "left": 928,
+     "right": 1228
+    },
+    {
+     "el": "span",
+     "left": 928,
+     "right": 961
+    },
+    {
+     "el": "img",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "h3",
+     "left": 604,
+     "right": 904
+    },
+    {
+     "el": "img",
+     "left": 928,
+     "right": 1228
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "input.search",
+     "w": 237,
+     "h": 36,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 52,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "#cart",
+     "w": 27,
+     "h": 42,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 22,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 22,
+     "critical": true
+    },
+    {
+     "el": "input",
+     "w": 240,
+     "h": 22,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 36,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 129,
+     "h": 16,
+     "critical": true
+    },
+    {
+     "el": "select",
+     "w": 124,
+     "h": 19,
+     "critical": true
+    },
+    {
+     "el": "button.view",
+     "w": 41,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 28,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Filters": "visible",
+    "Category": "visible",
+    "Outerwear": "visible",
+    "Size": "visible",
+    "Price": "visible",
+    "128 results": "visible",
+    "Sort by": "visible",
+    "Chore Jacket in Olive": "visible",
+    "Hoodie in Oat with a very long product name": "visible",
+    "Compare selected items": "visible",
+    "Next ›": "visible",
+    "Bag (2)": "visible"
+   },
+   "maxCharsPerLine": 0
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 1050,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 1034,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 1018,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 1002,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 986,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 970,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 954,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 938,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 922,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 906,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 890,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 874,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 858,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 842,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 826,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 810,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 794,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 778,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 762,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 746,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 640,
+   "overflow": 730,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 656,
+   "overflow": 714,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 672,
+   "overflow": 698,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 688,
+   "overflow": 682,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 704,
+   "overflow": 666,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 720,
+   "overflow": 650,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 736,
+   "overflow": 634,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 752,
+   "overflow": 618,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 768,
+   "overflow": 602,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 784,
+   "overflow": 586,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 800,
+   "overflow": 570,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 816,
+   "overflow": 554,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 832,
+   "overflow": 538,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 848,
+   "overflow": 522,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 864,
+   "overflow": 506,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 880,
+   "overflow": 490,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 896,
+   "overflow": 474,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 912,
+   "overflow": 458,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 928,
+   "overflow": 442,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 944,
+   "overflow": 426,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 960,
+   "overflow": 410,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 976,
+   "overflow": 394,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 992,
+   "overflow": 378,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1008,
+   "overflow": 362,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1024,
+   "overflow": 346,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1040,
+   "overflow": 330,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1056,
+   "overflow": 314,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1072,
+   "overflow": 298,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1088,
+   "overflow": 282,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1104,
+   "overflow": 266,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1120,
+   "overflow": 250,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1136,
+   "overflow": 234,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1152,
+   "overflow": 218,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1168,
+   "overflow": 202,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1184,
+   "overflow": 186,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1200,
+   "overflow": 170,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1216,
+   "overflow": 154,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1232,
+   "overflow": 138,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1248,
+   "overflow": 122,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1264,
+   "overflow": 106,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1280,
+   "overflow": 90,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 82,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 74,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 66,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 58,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 50,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 42,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 34,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 26,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 18,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 10,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 2,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

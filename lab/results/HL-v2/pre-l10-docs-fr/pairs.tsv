@@ -1,0 +1,48 @@
+text	Quickstart	Démarrage rapide	
+text	Install the Relay CLI, authenticate and deploy your first service in under five minutes.	Installez la CLI Relay, authentifiez-vous et déployez votre premier service en moins de cinq minutes.	1.15
+text	1. Install	1. Installation	
+text	# macOS and Linux curl -fsSL https://relay.example/install.sh | sh relay --version	# macOS et Linux curl -fsSL https://relay.example/install.sh | sh relay --version	0.99
+text	Note:	Remarque :	
+text	The installer places the	l’installateur place le binaire	1.29
+text	relay	relay	
+text	binary in	dans	
+text	~/.relay/bin	~/.relay/bin	
+text	. Make sure this directory is on your	. Vérifiez que ce répertoire figure dans votre	1.24
+text	PATH	PATH	
+text	.	.	
+text	2. Log in	2. Connexion	
+text	Run	Lancez	
+text	relay login	relay login	
+text	and follow the prompts. Your token is stored in	et suivez les instructions. Votre jeton est enregistré dans	1.26
+text	~/.relay/credentials.json	~/.relay/credentials.json	1.00
+text	.	.	
+text	3. Deploy	3. Déploiement	
+text	# deploy the current directory to the "staging" environment relay deploy --env staging --region eu-west-1 --wait	# déployer le répertoire courant dans l'environnement "staging" relay deploy --env staging --region eu-west-1 --wait	1.04
+text	Warning:	Attention :	
+text	Deploying to	le déploiement vers	
+text	production	production	
+text	replaces the running version. Use	remplace la version en cours d’exécution. Utilisez d’abord	1.76
+text	--dry-run	--dry-run	
+text	first to preview the changes.	pour prévisualiser les changements.	1.21
+text	Options	Options	
+text	Flag	Option	
+text	Description	Description	
+text	Default	Valeur par défaut	
+text	--env	--env	
+text	The target environment.	L’environnement cible.	0.96
+text	staging	staging	
+text	--wait	--wait	
+text	Wait until the deployment is healthy before exiting.	Attend que le déploiement soit sain avant de quitter.	1.02
+text	off	désactivé	
+text	Keyboard shortcuts	Raccourcis clavier	1.00
+text	Press	Appuyez sur	
+text	Ctrl	Ctrl	
+text	+	+	
+text	K	K	
+text	to open the command palette, or	pour ouvrir la palette de commandes, ou sur	1.39
+text	?	?	
+text	to see all shortcuts.	pour afficher tous les raccourcis.	1.62
+text	Something not working?	Un problème ?	0.59
+text	Open an issue on GitHub	Ouvrez un ticket sur GitHub	1.17
+text	or ask in the community forum.	ou posez votre question sur le forum de la communauté.	1.80
+head:title	Quickstart — Relay CLI documentation	Démarrage rapide — Documentation de la CLI Relay	1.33

@@ -1,0 +1,128 @@
+[
+ {
+  "width": 320,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 360,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 375,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 390,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 430,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 480,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 600,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 768,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 820,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1024,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1280,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1440,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1920,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 2560,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 6,
+  "tinyText": 0,
+  "consoleErrors": 0
+ }
+]

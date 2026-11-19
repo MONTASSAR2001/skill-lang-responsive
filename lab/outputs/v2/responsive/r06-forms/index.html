@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forms</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<form id="signup" class="form" novalidate>
+  <h1>Create your account</h1>
+  <div class="row"><label>First name<input name="first" required></label><label>Last name<input name="last" required></label></div>
+  <div class="row"><label>Email address<input type="email" name="email" required placeholder="you@company.com"></label><label>Phone number<input type="tel" name="tel" placeholder="+1 555 010 0199"></label></div>
+  <div class="row three"><label>Country or region of residence for tax purposes<select name="country"><option>Select…</option><option>Germany</option><option>France</option><option>United Kingdom</option></select></label><label>Date of birth<input type="date" name="dob"></label><label>Preferred language<select><option>English</option><option>Français</option></select></label></div>
+  <label class="full">Tell us how you plan to use the product and which integrations are most important to your team<textarea name="notes" rows="3"></textarea></label>
+  <fieldset><legend>Plan</legend><label class="inline"><input type="radio" name="plan" checked> Starter</label><label class="inline"><input type="radio" name="plan"> Team</label><label class="inline"><input type="radio" name="plan"> Enterprise</label></fieldset>
+  <label class="inline check"><input type="checkbox" name="terms"> I agree to the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a></label>
+  <p class="error" id="err" role="alert" hidden>Please correct the highlighted fields: your email address is invalid and the terms must be accepted.</p>
+  <div class="actions"><button type="button" class="ghost">Cancel</button><button type="submit" class="primary">Create account and continue to workspace setup</button></div>
+</form>
+<script src="script.js"></script>
+</body></html>

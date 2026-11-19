@@ -1,0 +1,2452 @@
+{
+ "summary": {
+  "id": "r07-media",
+  "url": "http://localhost:4173/baseline/responsive/r07-media/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1248
+   }
+  ],
+  "sweepFailingWidths": 59,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 0,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:944px",
+    "offscreen:12",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:904px",
+    "offscreen:12",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:889px",
+    "offscreen:12",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:874px",
+    "offscreen:12",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:834px",
+    "offscreen:12",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:784px",
+    "offscreen:10",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:664px",
+    "offscreen:8",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:496px",
+    "offscreen:7",
+    "distorted-img:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:444px",
+    "offscreen:6",
+    "distorted-img:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:240px",
+    "offscreen:3",
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:420px",
+    "offscreen:6",
+    "distorted-img:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "distorted-img:8"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:624px",
+    "offscreen:8",
+    "distorted-img:6"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2528,
+   "docOverflowPx": 944,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2599,
+   "docOverflowPx": 904,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2737,
+   "docOverflowPx": 889,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2736,
+   "docOverflowPx": 874,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2740,
+   "docOverflowPx": 834,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 440
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2249,
+   "docOverflowPx": 784,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "h2",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "p",
+     "left": 100,
+     "right": 580
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 2023,
+   "docOverflowPx": 664,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1686,
+   "docOverflowPx": 496,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 0.44
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 66
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 444,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 0.61
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 73
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 240,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 0.98
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.09
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 98
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 1
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.13
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 130
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1400,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 1
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.13
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 150
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1880,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 1
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.13
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 210
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2520,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 1
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.13
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 290
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 420,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 0.69
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 76
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "#portrait",
+     "natural": 0.32,
+     "rendered": 1
+    },
+    {
+     "el": "#landscape",
+     "natural": 1.78,
+     "rendered": 2.13
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 130
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 889,
+   "docOverflowPx": 624,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1264,
+   "widestElement": "img",
+   "offscreen": [
+    {
+     "el": "#landscape",
+     "left": 159,
+     "right": 692
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 452,
+     "right": 852
+    },
+    {
+     "el": "img",
+     "left": 864,
+     "right": 1264
+    },
+    {
+     "el": "img",
+     "left": 40,
+     "right": 1140
+    },
+    {
+     "el": "#video",
+     "left": 40,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 120,
+     "right": 820
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.8,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 0.36,
+     "rendered": 1
+    },
+    {
+     "el": "img",
+     "natural": 1.78,
+     "rendered": 1
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Seasonal banner on a background image": "visible",
+    "Text sits on a photograph": "visible",
+    "Out the door by eight": "visible",
+    "A coat for the wet morning commute": "visible"
+   },
+   "maxCharsPerLine": 60
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 944,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 928,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 912,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 896,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 880,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 864,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 848,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 832,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 816,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 464,
+   "overflow": 800,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 480,
+   "overflow": 784,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 496,
+   "overflow": 768,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 512,
+   "overflow": 752,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 528,
+   "overflow": 736,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 544,
+   "overflow": 720,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 560,
+   "overflow": 704,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 576,
+   "overflow": 688,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 592,
+   "overflow": 672,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 608,
+   "overflow": 656,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 624,
+   "overflow": 640,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 640,
+   "overflow": 624,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 656,
+   "overflow": 608,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 672,
+   "overflow": 592,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 688,
+   "overflow": 576,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 704,
+   "overflow": 560,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 720,
+   "overflow": 544,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 736,
+   "overflow": 528,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 752,
+   "overflow": 512,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 768,
+   "overflow": 496,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 784,
+   "overflow": 480,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 800,
+   "overflow": 464,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 816,
+   "overflow": 448,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 832,
+   "overflow": 432,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 848,
+   "overflow": 416,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 864,
+   "overflow": 400,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 880,
+   "overflow": 384,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 896,
+   "overflow": 368,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 912,
+   "overflow": 352,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 928,
+   "overflow": 336,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 944,
+   "overflow": 320,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 960,
+   "overflow": 304,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 976,
+   "overflow": 288,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 992,
+   "overflow": 272,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1008,
+   "overflow": 256,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1024,
+   "overflow": 240,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1040,
+   "overflow": 224,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1056,
+   "overflow": 208,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1072,
+   "overflow": 192,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1088,
+   "overflow": 176,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1104,
+   "overflow": 160,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1120,
+   "overflow": 144,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1136,
+   "overflow": 128,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 3
+  },
+  {
+   "w": 1152,
+   "overflow": 112,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1168,
+   "overflow": 96,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1184,
+   "overflow": 80,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1200,
+   "overflow": 64,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1216,
+   "overflow": 48,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1232,
+   "overflow": 32,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1248,
+   "overflow": 16,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

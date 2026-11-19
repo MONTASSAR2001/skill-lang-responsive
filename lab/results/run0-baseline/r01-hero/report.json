@@ -1,0 +1,2455 @@
+{
+ "summary": {
+  "id": "r01-hero",
+  "url": "http://localhost:4173/baseline/responsive/r01-hero/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1296
+   }
+  ],
+  "sweepFailingWidths": 62,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 20,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:987px",
+    "offscreen:12",
+    "distorted-img:2",
+    "content-unreachable:Internationalization-ready"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:947px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:932px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:917px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:877px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:828px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:707px",
+    "offscreen:12",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:539px",
+    "offscreen:8",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:487px",
+    "offscreen:8",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:283px",
+    "offscreen:6",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:27px",
+    "offscreen:2",
+    "distorted-img:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "distorted-img:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:463px",
+    "offscreen:7",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overflow:27px",
+    "offscreen:2",
+    "distorted-img:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:667px",
+    "offscreen:10",
+    "distorted-img:2"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2560,
+   "docOverflowPx": 987,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "a.btn.primary",
+     "left": -23,
+     "right": 172
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 188,
+     "right": 343
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "hidden",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2687,
+   "docOverflowPx": 947,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "a.btn.primary",
+     "left": -3,
+     "right": 192
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 208,
+     "right": 363
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2831,
+   "docOverflowPx": 932,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2829,
+   "docOverflowPx": 917,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2833,
+   "docOverflowPx": 877,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 444
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2326,
+   "docOverflowPx": 828,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "p.lead",
+     "left": 64,
+     "right": 584
+    },
+    {
+     "el": "a.btn.ghost",
+     "left": 284,
+     "right": 583
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 2092,
+   "docOverflowPx": 707,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "h2",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "p",
+     "left": 64,
+     "right": 624
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1743,
+   "docOverflowPx": 539,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 487,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 283,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 27,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "header.bar",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 102
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "header.bar",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 145
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "header.bar",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 204
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 463,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 27,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 919,
+   "docOverflowPx": 667,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1307,
+   "widestElement": "div.col.stats",
+   "offscreen": [
+    {
+     "el": "p.kicker",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "h1",
+     "left": 64,
+     "right": 664
+    },
+    {
+     "el": "img.hero-a-img",
+     "left": 696,
+     "right": 1216
+    },
+    {
+     "el": "img",
+     "left": 532,
+     "right": 832
+    },
+    {
+     "el": "b",
+     "left": 920,
+     "right": 1032
+    },
+    {
+     "el": "span",
+     "left": 920,
+     "right": 1024
+    },
+    {
+     "el": "b",
+     "left": 1064,
+     "right": 1218
+    },
+    {
+     "el": "span",
+     "left": 1064,
+     "right": 1178
+    },
+    {
+     "el": "b",
+     "left": 1250,
+     "right": 1307
+    },
+    {
+     "el": "span",
+     "left": 1250,
+     "right": 1307
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 187,
+     "h": 26,
+     "critical": false
+    },
+    {
+     "el": "a.bar-cta",
+     "w": 100,
+     "h": 32,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [
+    {
+     "el": "img.hero-a-img",
+     "natural": 0.36,
+     "rendered": 0.74
+    },
+    {
+     "el": "img",
+     "natural": 0.32,
+     "rendered": 0.75
+    }
+   ],
+   "fixedCover": [],
+   "contentStatus": {
+    "Extraordinarily comfortable": "visible",
+    "Shop the collection": "visible",
+    "Read the story behind the cloth": "visible",
+    "Out the door by eight": "visible",
+    "See the overcoat": "visible",
+    "Internationalization-ready": "visible",
+    "Start a 14-day trial": "visible",
+    "Talk to sales": "visible",
+    "Built to last": "visible",
+    "kept for over five years": "visible",
+    "Book a visit": "visible"
+   },
+   "maxCharsPerLine": 100
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 987,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 971,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 955,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 939,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 923,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 907,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 891,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 875,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 859,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 843,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 827,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 811,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 795,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 779,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 763,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 747,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 731,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 715,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 699,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 683,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 640,
+   "overflow": 667,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 656,
+   "overflow": 651,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 672,
+   "overflow": 635,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 688,
+   "overflow": 619,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 704,
+   "overflow": 603,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 720,
+   "overflow": 587,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 736,
+   "overflow": 571,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 752,
+   "overflow": 555,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 768,
+   "overflow": 539,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 784,
+   "overflow": 523,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 800,
+   "overflow": 507,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 816,
+   "overflow": 491,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 832,
+   "overflow": 475,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 848,
+   "overflow": 459,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 864,
+   "overflow": 443,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 880,
+   "overflow": 427,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 896,
+   "overflow": 411,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 912,
+   "overflow": 395,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 928,
+   "overflow": 379,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 944,
+   "overflow": 363,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 960,
+   "overflow": 347,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 976,
+   "overflow": 331,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 992,
+   "overflow": 315,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1008,
+   "overflow": 299,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1024,
+   "overflow": 283,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1040,
+   "overflow": 267,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1056,
+   "overflow": 251,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1072,
+   "overflow": 235,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1088,
+   "overflow": 219,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1104,
+   "overflow": 203,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1120,
+   "overflow": 187,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1136,
+   "overflow": 171,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1152,
+   "overflow": 155,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1168,
+   "overflow": 139,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1184,
+   "overflow": 123,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1200,
+   "overflow": 107,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 1216,
+   "overflow": 91,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1232,
+   "overflow": 75,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1248,
+   "overflow": 59,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1264,
+   "overflow": 43,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1280,
+   "overflow": 27,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1296,
+   "overflow": 11,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

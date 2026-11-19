@@ -1,0 +1,11 @@
+50896d6531a5648b9fb0cc4f9ba71e02  ./smart-website-localization/references/arabic.md
+11e04b9330e7c0628e0d2f9784ec27af  ./smart-website-localization/references/conventions.md
+972e3187a3f5022244adc35584c312cf  ./smart-website-localization/references/french.md
+f8b9bf0512407ff9b03b71cbc6602127  ./smart-website-localization/references/rtl.md
+7447df3a3d5278c7ff5f8abbab736455  ./smart-website-localization/scripts/extract-strings.mjs
+09b6b7f9aaf15da9879d3d13a54ab2c5  ./smart-website-localization/scripts/verify.mjs
+590eb0291ecd62dda65047ac09b0b925  ./smart-website-localization/SKILL.md
+d17ce8db94538e5326cef9cfa222e433  ./universal-responsive-design/references/defects.md
+cc626eba65c5ad5d3edf2777c1bb03f0  ./universal-responsive-design/references/strategies.md
+ac67203912974152a5bfc7df690fda27  ./universal-responsive-design/scripts/audit.mjs
+8c4783bf52f98ea28947d8018192a770  ./universal-responsive-design/SKILL.md

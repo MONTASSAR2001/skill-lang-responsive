@@ -1,0 +1,795 @@
+{
+  "version": 1,
+  "convention": "Source is <case>/index.html (English). The skill must produce <case>/<lang>/index.html for each language in `langs` (relative asset paths must keep working). Arabic is required only where listed.",
+  "cases": [
+    {
+      "id": "l01-marketing",
+      "split": "dev",
+      "topic": "marketing copy, idioms, CTAs",
+      "langs": [
+        "fr"
+      ],
+      "noTranslate": [
+        "Halden"
+      ],
+      "badLiteral": {
+        "fr": [
+          "sans cerveau",
+          "dormez pas dessus",
+          "dormez pas",
+          "vous avons couvert",
+          "Coupé une fois",
+          "sur la maison",
+          "sans-cervelle",
+          "le opposé",
+          "go the distance"
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "Halden"
+          ],
+          [
+            "30 jours"
+          ],
+          [
+            "gratuit",
+            "offert",
+            "offertes",
+            "gratuites",
+            "sans frais"
+          ]
+        ]
+      },
+      "buttonMaxExpansion": 2,
+      "traps": [
+        "'Cut once. Worn for years.' parallel structure",
+        "'No-brainer returns'",
+        "'we've got you covered'",
+        "'don't sleep on it'",
+        "'Repairs on the house' (idiom)",
+        "'Get started — it's free' CTA must stay short",
+        "urgency tone"
+      ],
+      "allowIdentical": [
+        "Journal",
+        "Halden"
+      ]
+    },
+    {
+      "id": "l02-ui",
+      "split": "dev",
+      "topic": "UI strings, tooltips, dialog, empty state, toast, tight buttons",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "noTranslate": [
+        "Orbit",
+        "Apollo",
+        "⌘K"
+      ],
+      "arRequired": true,
+      "badLiteral": {
+        "fr": [
+          "Presser",
+          "Sauvegarder les changements",
+          "Détruire"
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "⌘K"
+          ],
+          [
+            "Apollo"
+          ]
+        ],
+        "ar": [
+          [
+            "⌘K"
+          ],
+          [
+            "Apollo"
+          ]
+        ]
+      },
+      "traps": [
+        "fixed 104px x 36px buttons overflow:hidden → 'Delete project', 'Invite teammates' expand (clipping)",
+        "title/aria-label tooltips",
+        "'⋯' icon-only button aria-label",
+        "dialog confirm wording ('Yes, delete it')",
+        "keyboard hint with ⌘K must survive"
+      ],
+      "allowIdentical": [
+        "Actions",
+        "Orbit",
+        "Apollo"
+      ]
+    },
+    {
+      "id": "l03-long",
+      "split": "dev",
+      "topic": "long technical article, mixed tone, expansion",
+      "langs": [
+        "fr"
+      ],
+      "noTranslate": [
+        "OrderPlaced",
+        "PaymentCaptured",
+        "OrderShipped"
+      ],
+      "verbatim": {
+        "fr": [
+          "OrderPlaced",
+          "PaymentCaptured",
+          "OrderShipped"
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "3,2 To",
+            "3,2 TB"
+          ],
+          [
+            "99,95 %",
+            "99,95 %",
+            "99,95%"
+          ],
+          [
+            "42 %",
+            "42 %",
+            "42%"
+          ]
+        ]
+      },
+      "mustNotContain": {
+        "fr": [
+          "3\\.2 TB",
+          "99\\.95",
+          "\\bAddress\\b"
+        ]
+      },
+      "traps": [
+        "fixed-height .fact cards (150px, overflow hidden) clip French",
+        "decimals 3.2 / 99.95 → comma",
+        "TB → To in French",
+        "nbsp before % and :",
+        "'deceptively simple question' register",
+        "technical identifiers in <code> must not be translated"
+      ]
+    },
+    {
+      "id": "l04-forms",
+      "split": "dev",
+      "topic": "forms, validation, success, counters",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "arRequired": true,
+      "traps": [
+        "JS validation messages (4) must be localized and still shown",
+        "'N/140 characters' counter built in JS",
+        "required asterisk",
+        "placeholders",
+        "checkbox label contains links",
+        "success message"
+      ],
+      "allowIdentical": [
+        "France",
+        "Jeanne",
+        "Dupont"
+      ]
+    },
+    {
+      "id": "l05-dynamic",
+      "split": "dev",
+      "topic": "interpolation, plurals, dates, numbers, conditionals",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "arRequired": true,
+      "noTranslate": [
+        "Amélie"
+      ],
+      "traps": [
+        "`Welcome back, ${name}!` word order",
+        "plural via n===1 (French 0 is singular; Arabic has 6 forms)",
+        "hard-coded toLocaleDateString('en-US')",
+        "'$' + toFixed(2) → locale number/currency",
+        "percent formatting 72.4 %",
+        "conditional sentence",
+        "concatenated markup <b>Pro</b>"
+      ],
+      "allowIdentical": [
+        "Pro",
+        "Amélie"
+      ]
+    },
+    {
+      "id": "l06-terminology",
+      "split": "dev",
+      "topic": "terminology consistency, protected names",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "noTranslate": [
+        "Fluxboard",
+        "Fluxboard Cloud",
+        "API",
+        "OAuth",
+        "SSO",
+        "Kanban"
+      ],
+      "verbatim": {
+        "fr": [
+          "Fluxboard",
+          "Fluxboard Cloud",
+          "OAuth",
+          "SSO",
+          "API"
+        ],
+        "ar": [
+          "Fluxboard",
+          "OAuth",
+          "SSO",
+          "API"
+        ]
+      },
+      "termGroups": [
+        {
+          "source": "workspace",
+          "fr": [
+            [
+              "espace de travail",
+              "espaces de travail"
+            ],
+            [
+              "workspace"
+            ]
+          ],
+          "ar": [
+            [
+              "مساحة العمل",
+              "مساحات العمل",
+              "مساحة عمل",
+              "مساحات عمل"
+            ]
+          ]
+        },
+        {
+          "source": "board",
+          "fr": [
+            [
+              "tableau",
+              "tableaux"
+            ],
+            [
+              "board"
+            ]
+          ],
+          "ar": [
+            [
+              "لوحة",
+              "اللوحة",
+              "لوحات",
+              "اللوحات"
+            ]
+          ]
+        },
+        {
+          "source": "backlog",
+          "fr": [
+            [
+              "backlog"
+            ],
+            [
+              "carnet de commandes"
+            ],
+            [
+              "liste des tâches"
+            ],
+            [
+              "arriéré"
+            ],
+            [
+              "carnet de produit"
+            ]
+          ],
+          "ar": [
+            [
+              "قائمة المهام المتراكمة",
+              "المهام المتراكمة"
+            ],
+            [
+              "backlog"
+            ]
+          ]
+        },
+        {
+          "source": "sprint",
+          "fr": [
+            [
+              "sprint"
+            ]
+          ],
+          "ar": [
+            [
+              "سبرنت",
+              "السبرنت"
+            ],
+            [
+              "sprint"
+            ]
+          ]
+        },
+        {
+          "source": "seat",
+          "fr": [
+            [
+              "siège"
+            ],
+            [
+              "licence"
+            ],
+            [
+              "poste"
+            ],
+            [
+              "place"
+            ]
+          ],
+          "ar": [
+            [
+              "مقعد",
+              "مقاعد",
+              "المقاعد",
+              "المقعد"
+            ],
+            [
+              "ترخيص",
+              "رخصة"
+            ]
+          ]
+        },
+        {
+          "source": "roll back",
+          "fr": [
+            [
+              "annulez le déploiement",
+              "annuler un déploiement",
+              "annuler le déploiement"
+            ],
+            [
+              "revenez"
+            ],
+            [
+              "restaurez"
+            ],
+            [
+              "rollback"
+            ],
+            [
+              "retour arrière"
+            ]
+          ],
+          "ar": [
+            [
+              "التراجع",
+              "تراجع",
+              "استرجاع",
+              "العودة"
+            ]
+          ]
+        }
+      ],
+      "badLiteral": {
+        "fr": [
+          "lieu de travail",
+          "conseil d'administration",
+          "carte de",
+          "arrière-pays",
+          "siège social"
+        ]
+      },
+      "traps": [
+        "the same noun ('board', 'seat', 'workspace') must keep one translation across the page",
+        "product + feature names",
+        "'Kanban' loanword",
+        "'roll back' verb vs noun"
+      ]
+    },
+    {
+      "id": "l07-seo-a11y",
+      "split": "dev",
+      "topic": "SEO metadata, alt, aria, sr-only, JSON-LD",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "arRequired": true,
+      "noTranslate": [
+        "Greenleaf",
+        "https://greenleaf.example/"
+      ],
+      "seoAttrs": true,
+      "traps": [
+        "<title>",
+        "meta description",
+        "og:/twitter: tags",
+        "JSON-LD description",
+        "alt text",
+        "aria-label / title / placeholder",
+        ".sr-only text",
+        "skip link",
+        "canonical + hreflang + <html lang>"
+      ],
+      "allowIdentical": [
+        "Service",
+        "Greenleaf Bikes",
+        "Greenleaf"
+      ]
+    },
+    {
+      "id": "l08-rtl",
+      "split": "dev",
+      "topic": "RTL / Arabic layout and bidi",
+      "langs": [
+        "ar"
+      ],
+      "arRequired": true,
+      "noTranslate": [
+        "Wavelength",
+        "iPhone 15 Pro",
+        "Wi-Fi 6",
+        "+1 415 555 0132",
+        "support@wavelength.example"
+      ],
+      "verbatim": {
+        "ar": [
+          "iPhone 15 Pro",
+          "Wi-Fi 6",
+          "support@wavelength.example"
+        ]
+      },
+      "rtl": {
+        "mirror": [
+          ".logo",
+          ".lang",
+          ".top nav a:first-child",
+          ".crumbs li:first-child",
+          ".steps li:first-child",
+          ".panel .note",
+          ".actions",
+          ".toast"
+        ],
+        "ltrControls": [
+          "#ph",
+          "#em"
+        ],
+        "flipIcons": [
+          {
+            "sel": ".actions .btn:nth-child(1) .ico",
+            "en": "←",
+            "mustFlip": true
+          },
+          {
+            "sel": ".actions .btn:nth-child(2) .ico",
+            "en": "→",
+            "mustFlip": true
+          },
+          {
+            "sel": ".actions .btn:nth-child(3) .ico",
+            "en": "▶",
+            "mustFlip": false
+          }
+        ],
+        "progressFillsFromRight": ".progress span"
+      },
+      "traps": [
+        "physical CSS everywhere (margin-left, text-align:left, float:left, border-left, left:, box-shadow offset, gradient to right)",
+        "arrows ←/→ must mirror, ▶ must NOT",
+        "breadcrumb separator",
+        "stepper shape",
+        "progress bar direction",
+        "phone/email stay LTR",
+        "numbers and Latin product names in Arabic sentences",
+        "tabs / toast / table numeric alignment",
+        "html dir=rtl, lang=ar"
+      ]
+    },
+    {
+      "id": "l09-cultural",
+      "split": "dev",
+      "topic": "idioms, units, dates, address, honorifics",
+      "langs": [
+        "fr"
+      ],
+      "noTranslate": [
+        "Fieldhouse Outfitters",
+        "Portland, OR 97205",
+        "1200 Maple Street, Suite 4",
+        "(503) 555-0142",
+        "Fieldhouse Outfitters"
+      ],
+      "mustNotContain": {
+        "fr": [
+          "\\bmiles?\\b",
+          "\\blbs?\\b",
+          "°F",
+          "11/28/2026",
+          "12/01/2026",
+          "\\ba\\.m\\.",
+          "\\bp\\.m\\.",
+          "\\bMr\\.",
+          "Mrs\\."
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "km"
+          ],
+          [
+            "kg"
+          ],
+          [
+            "°C"
+          ],
+          [
+            "28 novembre 2026",
+            "28/11/2026"
+          ],
+          [
+            "1er décembre 2026",
+            "01/12/2026",
+            "1 décembre 2026"
+          ],
+          [
+            "Portland, OR 97205"
+          ]
+        ]
+      },
+      "badLiteral": {
+        "fr": [
+          "frapper le sol",
+          "étranger",
+          "course à la maison",
+          "règle du pouce",
+          "pied à terre",
+          "faites attention à l'écart"
+        ]
+      },
+      "traps": [
+        "idioms (hit the ground running, home run, slam dunk, rule of thumb, kick-off, don't be a stranger, mind the gap)",
+        "miles/lbs/°F → km/kg/°C",
+        "US date 11/28/2026 and 12/01/2026 ambiguity",
+        "12-hour a.m./p.m. → 24 h",
+        "Mr./Mrs. honorifics",
+        "tipping custom 15–20%",
+        "US address and phone must stay intact",
+        "$19.99 number format"
+      ]
+    },
+    {
+      "id": "l10-docs",
+      "split": "heldout",
+      "topic": "technical docs with code and keyboard shortcuts (held-out)",
+      "langs": [
+        "fr"
+      ],
+      "noTranslate": [
+        "Relay",
+        "relay",
+        "--env",
+        "--wait",
+        "--dry-run",
+        "~/.relay/bin",
+        "PATH",
+        "GitHub",
+        "Ctrl"
+      ],
+      "preBlocksVerbatimExceptComments": true,
+      "verbatim": {
+        "fr": [
+          "relay login",
+          "relay deploy",
+          "curl -fsSL https://relay.example/install.sh | sh",
+          "--region eu-west-1",
+          "staging",
+          "production"
+        ]
+      },
+      "traps": [
+        "<pre><code> must be byte-identical except '#' comment lines",
+        "inline <code> must stay",
+        "<kbd> keys",
+        "Note:/Warning: callouts",
+        "flag table headers translated but flag names not"
+      ]
+    },
+    {
+      "id": "l11-restaurant",
+      "split": "heldout",
+      "topic": "restaurant: menu, hours, plurals, dates (held-out)",
+      "langs": [
+        "fr",
+        "ar"
+      ],
+      "noTranslate": [
+        "Ember & Oak",
+        "M4 3AB",
+        "0161 555 0123"
+      ],
+      "mustNotContain": {
+        "fr": [
+          "\\ba\\.m\\.",
+          "\\bp\\.m\\.",
+          "\\bguests?\\b",
+          "March",
+          "Friday",
+          "gluten-free",
+          "vegetarian"
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "vendredi 20 mars"
+          ],
+          [
+            "19 h 30",
+            "19:30",
+            "19h30"
+          ],
+          [
+            "sans gluten"
+          ],
+          [
+            "végétarien",
+            "végétarienne",
+            "végé"
+          ]
+        ]
+      },
+      "traps": [
+        "12 h → 24 h times",
+        "'1 guest'/'2 guests' select options",
+        "dates in confirmation text",
+        "cuisine terms (tarte tatin, crème fraîche) stay French",
+        "'Chef's special'",
+        "allergen/diet tags",
+        "closed on Christmas Day"
+      ]
+    },
+    {
+      "id": "hale",
+      "split": "real",
+      "topic": "real-world: Hale (Next.js) → French",
+      "langs": [
+        "fr"
+      ],
+      "srcUrl": "http://localhost:3217/",
+      "tgtUrl": "http://localhost:3217/fr",
+      "noTranslate": [
+        "HALE",
+        "SmartDuke Studio",
+        "Lookbook",
+        "Instagram",
+        "Pinterest",
+        "Journal",
+        "Jersey",
+        "Contact",
+        "Bomber",
+        "Olive",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "HALE Studio"
+      ],
+      "verbatim": {
+        "fr": [
+          "HALE",
+          "Lookbook",
+          "Instagram",
+          "Pinterest"
+        ]
+      },
+      "termGroups": [
+        {
+          "source": "rail",
+          "fr": [
+            "portant"
+          ]
+        },
+        {
+          "source": "bag",
+          "fr": [
+            "panier"
+          ]
+        },
+        {
+          "source": "piece",
+          "fr": [
+            "pièce"
+          ]
+        },
+        {
+          "source": "workshop",
+          "fr": [
+            "atelier"
+          ]
+        }
+      ],
+      "badLiteral": {
+        "fr": [
+          "Votre sac",
+          "Ajouter au sac",
+          "le rail ",
+          "chemin de fer",
+          "Coupé une fois"
+        ]
+      },
+      "mustContainAny": {
+        "fr": [
+          [
+            "120 $",
+            "120 $"
+          ],
+          [
+            "en avoine"
+          ],
+          [
+            "Dehors"
+          ]
+        ]
+      },
+      "mustNotContain": {
+        "fr": [
+          "\\$\\d",
+          "\\bhoodie\\b",
+          "\\bBag\\b"
+        ]
+      },
+      "buttonMaxExpansion": 2.2,
+      "traps": [
+        "product copy with grammatical gender (le/la)",
+        "composed strings: {name} in {colour}",
+        "currency format $120 → 120 $",
+        "idiom: Out the door by eight / Cut once. Worn for years.",
+        "viewer + bag strings not visible on first render",
+        "aria-labels and alt texts",
+        "head metadata"
+      ],
+      "allowIdentical": [
+        "Journal",
+        "Jersey",
+        "Contact",
+        "Bomber",
+        "Olive",
+        "Lookbook",
+        "Instagram",
+        "Pinterest"
+      ],
+      "ignoreClip": [
+        ".st-stage",
+        "#lookbook",
+        ".fd",
+        ".rk-stage",
+        ".to-stage",
+        ".tl-stage",
+        ".zm-stage",
+        ".lb",
+        ".fr"
+      ]
+    }
+  ]
+}

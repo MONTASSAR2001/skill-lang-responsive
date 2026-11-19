@@ -1,0 +1,30 @@
+text	Create your account	Créer votre compte
+text	First name	Prénom
+text	*	*
+attr:placeholder	Jane	Jeanne
+text	Last name	Nom
+text	*	*
+attr:placeholder	Doe	Dupont
+text	Email address	Adresse e-mail
+text	*	*
+attr:placeholder	you@example.com	vous@exemple.fr
+text	We'll never share your email with anyone else.	Nous ne partagerons jamais votre adresse e-mail avec qui que ce soit.
+text	Password	Mot de passe
+text	*	*
+text	Use at least 8 characters, including one number.	Utilisez au moins 8 caractères, dont un chiffre.
+text	Country	Pays
+text	Select a country	Sélectionnez un pays
+text	France	France
+text	Germany	Allemagne
+text	United States	États-Unis
+text	Short bio	Courte présentation
+attr:placeholder	Tell us a little about yourself	Parlez-nous un peu de vous
+text	0/140 characters	0/140 caractères
+text	I agree to the	J’accepte les
+text	Terms of Service	Conditions d’utilisation
+text	and the	et la
+text	Privacy Policy	Politique de confidentialité
+text	.	.
+text	Create account	Créer le compte
+text	Welcome aboard! Your account has been created. Check your inbox to confirm your email address.	Bienvenue ! Votre compte a bien été créé. Consultez votre boîte de réception pour confirmer votre adresse e-mail.
+head:title	Create your account	Créer votre compte

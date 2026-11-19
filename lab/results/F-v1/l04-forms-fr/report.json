@@ -1,0 +1,66 @@
+{
+ "id": "l04-forms",
+ "lang": "fr",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 30,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.07,
+  "probe": {
+   "r1": {
+    "err": "Veuillez saisir votre prénom.",
+    "ok": ""
+   },
+   "r2": {
+    "err": "Veuillez saisir une adresse e-mail valide.",
+    "ok": ""
+   },
+   "r3": {
+    "err": "Votre mot de passe doit contenir au moins 8 caractères dont un chiffre.",
+    "ok": ""
+   },
+   "r4": {
+    "err": "Vous devez accepter les Conditions d’utilisation pour continuer.",
+    "ok": ""
+   },
+   "r5": "Bienvenue ! Votre compte a bien été créé. Consultez votre boîte de réception pour confirmer votre adresse e-mail.",
+   "counter": "5/140 caractères"
+  }
+ }
+}

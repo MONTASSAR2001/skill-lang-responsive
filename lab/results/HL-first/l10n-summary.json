@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l10-docs",
+  "lang": "fr",
+  "crit": 3,
+  "major": 1,
+  "minor": 0,
+  "top": "inline-code-altered, inline-code-altered, overflow-after-translation, untranslated-words"
+ },
+ {
+  "id": "l11-restaurant",
+  "lang": "fr",
+  "crit": 1,
+  "major": 1,
+  "minor": 0,
+  "top": "untranslated-sentences, untranslated-words"
+ },
+ {
+  "id": "l11-restaurant",
+  "lang": "ar",
+  "crit": 1,
+  "major": 0,
+  "minor": 0,
+  "top": "untranslated-sentences"
+ }
+]

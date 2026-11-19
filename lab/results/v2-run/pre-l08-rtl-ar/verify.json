@@ -1,0 +1,72 @@
+{
+ "issues": [
+  {
+   "sev": "major",
+   "code": "hreflang",
+   "detail": "no <link rel=alternate hreflang> (add en/<lang>/x-default) and a visible language switch"
+  },
+  {
+   "sev": "major",
+   "code": "strings-unpaired",
+   "detail": "1 source strings have no counterpart (structure changed?)"
+  },
+  {
+   "sev": "minor",
+   "code": "identical-to-source (cognate or untranslated? review)",
+   "detail": [
+    "Wavelength"
+   ]
+  },
+  {
+   "sev": "minor",
+   "code": "directional-glyphs-to-review",
+   "detail": "confirm each points the right way in RTL (back/next mirrored, play ▶ not): → رجوع | → | متابعة ← | ← | ▶ شاهد الجولة | ▶"
+  }
+ ],
+ "layout": [
+  {
+   "w": 320,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 390,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 768,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 1280,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  }
+ ]
+}

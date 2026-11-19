@@ -1,0 +1,759 @@
+{
+ "url": "http://localhost:4173/l10n/l11-restaurant/ar/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 125x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "input 131x21"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "#ps 82x19"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 62x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 54x26"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span.tag 11px"
+    ]
+   ]
+  }
+ ],
+ "sweep": [],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "input 125x21",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "#ps 82x19",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 42x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 62x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 54x26",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "span.tag 11px",
+   "widths": [
+    320,
+    320,
+    360,
+    360,
+    375,
+    375,
+    390,
+    390,
+    430,
+    430,
+    480,
+    480,
+    600,
+    600,
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    1280,
+    1280,
+    1440,
+    1440,
+    1920,
+    1920,
+    2560,
+    2560,
+    "landscape-phone",
+    "landscape-phone",
+    "short-laptop",
+    "short-laptop",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "input 131x21",
+   "widths": [
+    "zoom-200%"
+   ]
+  }
+ ]
+}

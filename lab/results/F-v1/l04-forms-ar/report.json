@@ -1,0 +1,70 @@
+{
+ "id": "l04-forms",
+ "lang": "ar",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 30,
+  "digits": {
+   "western": 5,
+   "arabicIndic": 0
+  },
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 0.86,
+  "probe": {
+   "r1": {
+    "err": "يرجى إدخال اسمك الأول.",
+    "ok": ""
+   },
+   "r2": {
+    "err": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+    "ok": ""
+   },
+   "r3": {
+    "err": "يجب أن تتكوّن كلمة المرور من 8 أحرف على الأقل وأن تحتوي على رقم.",
+    "ok": ""
+   },
+   "r4": {
+    "err": "يجب قبول شروط الخدمة للمتابعة.",
+    "ok": ""
+   },
+   "r5": "مرحبًا بك! تم إنشاء حسابك. تحقق من بريدك الوارد لتأكيد عنوان بريدك الإلكتروني.",
+   "counter": "5/140 حرف"
+  }
+ }
+}

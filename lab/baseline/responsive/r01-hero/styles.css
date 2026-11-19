@@ -1,0 +1,37 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,serif;color:#1b1a18;background:#f4f1ea}
+.bar{display:flex;justify-content:space-between;align-items:center;height:72px;padding:0 64px;background:#fff;border-bottom:1px solid #ddd}
+.logo{font-size:22px;color:#1b1a18;text-decoration:none;font-weight:700;letter-spacing:.04em}
+.bar-cta{font:14px Arial;color:#fff;background:#1b1a18;padding:8px 14px;border-radius:4px;text-decoration:none}
+.btn{display:inline-block;font:600 16px Arial;padding:16px 28px;border-radius:6px;text-decoration:none;white-space:nowrap}
+.btn.primary{background:#1b1a18;color:#fff}.btn.ghost{border:2px solid #1b1a18;color:#1b1a18}
+.actions{display:flex;gap:16px;margin-top:32px}
+.kicker{font:12px Arial;letter-spacing:.2em;text-transform:uppercase;color:#7a746a}
+
+/* A: fixed-width desktop split */
+.hero-a{width:1280px;height:760px;margin:0 auto;position:relative}
+.hero-a-copy{position:absolute;left:64px;top:110px;width:600px}
+.hero-a h1{font-size:96px;line-height:.95;margin:12px 0 24px;letter-spacing:-.03em}
+.lead{font:20px/1.5 Arial;color:#4a463f;max-width:520px}
+.hero-a-img{position:absolute;right:64px;top:30px;width:520px;height:700px;object-fit:fill}
+
+/* B: background image + overlay; fixed height, text positioned by px */
+.hero-b{height:620px;background:url(../../assets/street.webp) 62% 50%/cover no-repeat;position:relative}
+.hero-b-box{position:absolute;left:64px;bottom:60px;width:560px;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.hero-b h2{font-size:72px;line-height:1;margin:0 0 16px}
+.hero-b p{font:18px/1.5 Arial;margin:0 0 24px}
+
+/* C: very long heading, big padding, nowrap button row */
+.hero-c{padding:140px 160px;text-align:center;background:#e8e2d6}
+.hero-c h2{font-size:80px;line-height:1.05;margin:0 auto 24px;max-width:1100px}
+.hero-c p{font:22px Arial;margin:0}
+.hero-c .actions{justify-content:center}
+
+/* D: three columns */
+.hero-d{display:flex;gap:48px;padding:96px 64px;align-items:center}
+.hero-d .col{flex:0 0 380px}
+.hero-d .mid img{width:300px;height:400px;display:block;margin:0 auto}
+.hero-d h2{font-size:56px;margin:0 0 16px}
+.stats{display:flex;flex-direction:row;gap:32px;width:420px}
+.stats b{display:block;font-size:56px}
+.stats span{font:14px Arial}

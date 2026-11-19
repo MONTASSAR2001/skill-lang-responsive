@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>المشاريع — Orbit</title><link rel="stylesheet" href="../styles.css"><style>.sidebar{display:flex;gap:6px;flex-wrap:wrap}.nbtn{width:104px;height:36px;white-space:nowrap;overflow:hidden;border:1px solid #ccc;background:#fff;border-radius:6px;font-size:13px}dialog{border:1px solid #ccc;border-radius:12px;padding:24px;max-width:420px}.toast{position:fixed;bottom:16px;inset-inline-end:16px;background:#1d1c1a;color:#fff;padding:10px 16px;border-radius:8px}.empty{text-align:center;padding:48px;border:2px dashed #ccc;border-radius:12px}.kbd{font:12px monospace;background:#eee;border-radius:4px;padding:2px 6px}.menu{list-style:none;padding:6px;margin:8px 0;border:1px solid #ddd;border-radius:8px;width:200px;background:#fff}.menu li{padding:6px 10px}</style></head>
+<body>
+<header class="top"><b>Orbit</b><nav aria-label="الرئيسية"><a href="#">لوحة التحكم</a><a href="#">المشاريع</a><a href="#">الفريق</a><a href="#">الفوترة</a><a href="#">الإعدادات</a></nav></header>
+<div class="wrap">
+<h1>المشاريع</h1>
+<p><input type="search" placeholder="ابحث في المشاريع…" aria-label="البحث في المشاريع"> <span class="kbd" dir="ltr">⌘K</span> اضغط <bdi>⌘K</bdi> للبحث من أي مكان.</p>
+<div class="sidebar" role="toolbar" aria-label="الإجراءات"><button class="nbtn">حفظ التغييرات</button><button class="nbtn">إلغاء</button><button class="nbtn">حذف المشروع</button><button class="nbtn">دعوة الزملاء</button><button class="nbtn" title="انسخ رابط المشاركة إلى الحافظة">نسخ الرابط</button><button class="nbtn" aria-label="المزيد من الإجراءات" title="المزيد من الإجراءات">⋯</button></div>
+<ul class="menu" role="menu"><li role="menuitem">إعادة تسمية</li><li role="menuitem">تكرار</li><li role="menuitem">نقل إلى مجلد…</li><li role="menuitem">أرشفة</li></ul>
+<div class="empty" id="empty"><h2>لا توجد مشاريع بعد</h2><p>أنشئ مشروعك الأول للبدء. لن يستغرق الأمر سوى دقيقة.</p><button class="btn">مشروع جديد</button></div>
+<dialog id="dlg" open><h2>حذف المشروع؟</h2><p>سيؤدي هذا إلى حذف <b><bdi>Apollo</bdi></b> وجميع ملفاته نهائيًا. لا يمكن التراجع عن هذا الإجراء.</p><button class="btn alt">الإبقاء على المشروع</button> <button class="btn">نعم، احذفه</button></dialog>
+<div class="toast" role="status">تم حفظ التغييرات</div>
+</div></body></html>

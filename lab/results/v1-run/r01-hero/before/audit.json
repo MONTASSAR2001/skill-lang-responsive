@@ -1,0 +1,243 @@
+[
+ {
+  "width": 320,
+  "touch": true,
+  "overflowPx": 987,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 360,
+  "touch": true,
+  "overflowPx": 947,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 375,
+  "touch": true,
+  "overflowPx": 932,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 390,
+  "touch": true,
+  "overflowPx": 917,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 430,
+  "touch": true,
+  "overflowPx": 877,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 480,
+  "touch": true,
+  "overflowPx": 828,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "p.lead right=584",
+   "div.actions right=664",
+   "a.btn right=583",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 600,
+  "touch": true,
+  "overflowPx": 707,
+  "outside": [
+   "#hero-a right=1280",
+   "div.hero-a-copy right=664",
+   "p.kicker right=664",
+   "h1 right=664",
+   "div.actions right=664",
+   "img.hero-a-img right=1216",
+   "div.hero-b-box right=624",
+   "h2 right=624",
+   "p right=624",
+   "div.col right=872"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 768,
+  "touch": true,
+  "overflowPx": 539,
+  "outside": [
+   "#hero-a right=1280",
+   "img.hero-a-img right=1216",
+   "div.col right=872",
+   "img right=832",
+   "div.col right=1307",
+   "div right=1032",
+   "b right=1032",
+   "span right=1024",
+   "div right=1218",
+   "b right=1218"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 820,
+  "touch": true,
+  "overflowPx": 487,
+  "outside": [
+   "#hero-a right=1280",
+   "img.hero-a-img right=1216",
+   "div.col right=872",
+   "img right=832",
+   "div.col right=1307",
+   "div right=1032",
+   "b right=1032",
+   "span right=1024",
+   "div right=1218",
+   "b right=1218"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1024,
+  "touch": true,
+  "overflowPx": 283,
+  "outside": [
+   "#hero-a right=1280",
+   "img.hero-a-img right=1216",
+   "div.col right=1307",
+   "div right=1032",
+   "b right=1032",
+   "div right=1218",
+   "b right=1218",
+   "span right=1178",
+   "div right=1307",
+   "b right=1307"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1280,
+  "touch": false,
+  "overflowPx": 27,
+  "outside": [
+   "div.col right=1307",
+   "div right=1307",
+   "b right=1307",
+   "span right=1307"
+  ],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1440,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1920,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 2560,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [],
+  "smallTargets": 2,
+  "tinyText": 0,
+  "consoleErrors": 0
+ }
+]

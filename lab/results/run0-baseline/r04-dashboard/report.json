@@ -1,0 +1,3881 @@
+{
+ "summary": {
+  "id": "r04-dashboard",
+  "url": "http://localhost:4173/baseline/responsive/r04-dashboard/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1424
+   }
+  ],
+  "sweepFailingWidths": 70,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 168,
+  "tinyTextViewports": 17,
+  "fixedCoverViewports": 2,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1120px",
+    "hidden-overflow:1120px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1080px",
+    "hidden-overflow:1080px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1065px",
+    "hidden-overflow:1065px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1050px",
+    "hidden-overflow:1050px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1011px",
+    "hidden-overflow:1010px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:960px",
+    "hidden-overflow:960px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:840px",
+    "hidden-overflow:840px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:672px",
+    "hidden-overflow:672px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:620px",
+    "hidden-overflow:620px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 1
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:416px",
+    "hidden-overflow:416px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:160px",
+    "hidden-overflow:160px",
+    "offscreen:7",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:596px",
+    "hidden-overflow:596px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 1
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overflow:160px",
+    "hidden-overflow:160px",
+    "offscreen:7",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 1,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:800px",
+    "hidden-overflow:800px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 14,
+   "tiny": 1,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2560,
+   "docOverflowPx": 1120,
+   "hiddenOverflowPx": 1120,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 272,
+     "right": 397
+    },
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "b",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "em.up",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2960,
+   "docOverflowPx": 1080,
+   "hiddenOverflowPx": 1080,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 272,
+     "right": 397
+    },
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "b",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "em.up",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 3119,
+   "docOverflowPx": 1065,
+   "hiddenOverflowPx": 1065,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 272,
+     "right": 397
+    },
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "b",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "em.up",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 3117,
+   "docOverflowPx": 1050,
+   "hiddenOverflowPx": 1050,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 272,
+     "right": 397
+    },
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "b",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "em.up",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 3122,
+   "docOverflowPx": 1011,
+   "hiddenOverflowPx": 1010,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "b",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "em.up",
+     "left": 288,
+     "right": 470
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2562,
+   "docOverflowPx": 960,
+   "hiddenOverflowPx": 960,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 2304,
+   "docOverflowPx": 840,
+   "hiddenOverflowPx": 840,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1920,
+   "docOverflowPx": 672,
+   "hiddenOverflowPx": 672,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "b",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "em.up",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 620,
+   "hiddenOverflowPx": 620,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "b",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "em.up",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "#sidebar",
+     "pct": 29
+    }
+   ],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 416,
+   "hiddenOverflowPx": 416,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "b",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "em.up",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "em.up",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "h2",
+     "left": 288,
+     "right": 1044
+    },
+    {
+     "el": "svg",
+     "left": 288,
+     "right": 1088
+    },
+    {
+     "el": "h2",
+     "left": 1092,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 160,
+   "hiddenOverflowPx": 160,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "em.up",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "h2",
+     "left": 1092,
+     "right": 1392
+    },
+    {
+     "el": "svg",
+     "left": 1092,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 596,
+   "hiddenOverflowPx": 596,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "b",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "em.up",
+     "left": 979,
+     "right": 1162
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [
+    {
+     "el": "#sidebar",
+     "pct": 28
+    }
+   ],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 160,
+   "hiddenOverflowPx": 160,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "b",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "em.up",
+     "left": 1210,
+     "right": 1392
+    },
+    {
+     "el": "h2",
+     "left": 1092,
+     "right": 1392
+    },
+    {
+     "el": "svg",
+     "left": 1092,
+     "right": 1392
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 1013,
+   "docOverflowPx": 800,
+   "hiddenOverflowPx": 800,
+   "contentRightEdgePx": 1440,
+   "widestElement": "#app",
+   "offscreen": [
+    {
+     "el": "select",
+     "left": 636,
+     "right": 752
+    },
+    {
+     "el": "select",
+     "left": 762,
+     "right": 971
+    },
+    {
+     "el": "input",
+     "left": 981,
+     "right": 1241
+    },
+    {
+     "el": "button.primary",
+     "left": 1251,
+     "right": 1341
+    },
+    {
+     "el": "button",
+     "left": 1351,
+     "right": 1408
+    },
+    {
+     "el": "span",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "b",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "em.up",
+     "left": 518,
+     "right": 701
+    },
+    {
+     "el": "span",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "b",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "em.down",
+     "left": 749,
+     "right": 931
+    },
+    {
+     "el": "span",
+     "left": 979,
+     "right": 1162
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.on",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 240,
+     "h": 40,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 116,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "select",
+     "w": 209,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "input",
+     "w": 260,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button.primary",
+     "w": 90,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 57,
+     "h": 30,
+     "critical": false
+    },
+    {
+     "el": "button",
+     "w": 55,
+     "h": 20,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 14,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Overview": "visible",
+    "Revenue": "visible",
+    "Customers": "visible",
+    "Subscriptions": "visible",
+    "Experiments": "visible",
+    "Reports": "visible",
+    "Integrations": "visible",
+    "Settings": "visible",
+    "Export CSV": "visible",
+    "Share": "visible",
+    "Active customers": "visible",
+    "Churn": "visible",
+    "Revenue over time": "visible",
+    "Traffic sources": "visible",
+    "Top products": "visible",
+    "Alerts": "visible",
+    "Workspace: Acme Retail EMEA": "visible"
+   },
+   "maxCharsPerLine": 32
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 1120,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 1104,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 1088,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 1072,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 1056,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 1040,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 1024,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 1008,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 992,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 976,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 960,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 944,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 928,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 912,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 896,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 880,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 864,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 848,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 832,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 816,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 640,
+   "overflow": 800,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 656,
+   "overflow": 784,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 672,
+   "overflow": 768,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 688,
+   "overflow": 752,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 704,
+   "overflow": 736,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 720,
+   "overflow": 720,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 736,
+   "overflow": 704,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 752,
+   "overflow": 688,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 768,
+   "overflow": 672,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 784,
+   "overflow": 656,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 800,
+   "overflow": 640,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 816,
+   "overflow": 624,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 832,
+   "overflow": 608,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 848,
+   "overflow": 592,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 864,
+   "overflow": 576,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 880,
+   "overflow": 560,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 896,
+   "overflow": 544,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 912,
+   "overflow": 528,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 928,
+   "overflow": 512,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 944,
+   "overflow": 496,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 960,
+   "overflow": 480,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 976,
+   "overflow": 464,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 992,
+   "overflow": 448,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1008,
+   "overflow": 432,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1024,
+   "overflow": 416,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1040,
+   "overflow": 400,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1056,
+   "overflow": 384,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1072,
+   "overflow": 368,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1088,
+   "overflow": 352,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 1104,
+   "overflow": 336,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 1120,
+   "overflow": 320,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 1136,
+   "overflow": 304,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 1152,
+   "overflow": 288,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 11
+  },
+  {
+   "w": 1168,
+   "overflow": 272,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1184,
+   "overflow": 256,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1200,
+   "overflow": 240,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1216,
+   "overflow": 224,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1232,
+   "overflow": 208,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 1248,
+   "overflow": 192,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1264,
+   "overflow": 176,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1280,
+   "overflow": 160,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1296,
+   "overflow": 144,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1312,
+   "overflow": 128,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1328,
+   "overflow": 112,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 1344,
+   "overflow": 96,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1360,
+   "overflow": 80,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1376,
+   "overflow": 64,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1392,
+   "overflow": 48,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 1
+  },
+  {
+   "w": 1408,
+   "overflow": 32,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 16,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

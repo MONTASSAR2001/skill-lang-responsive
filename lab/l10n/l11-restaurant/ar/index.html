@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ember &amp; Oak — مطبخ على نار الحطب</title><link rel="alternate" hreflang="en" href="/l10n/l11-restaurant/"><link rel="alternate" hreflang="x-default" href="/l10n/l11-restaurant/"><link rel="alternate" hreflang="fr" href="/l10n/l11-restaurant/fr/"><link rel="alternate" hreflang="ar" href="/l10n/l11-restaurant/ar/"><link rel="stylesheet" href="../styles.css"><style>.dish{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dotted #bbb;padding:8px 0}.dish p{margin:0;color:#666;font-size:14px}.tag{font-size:11px;border:1px solid #888;border-radius:99px;padding:1px 8px}</style></head>
+<body><header class="top"><b>Ember &amp; Oak</b><nav aria-label="الرئيسية"><a href="#">القائمة</a><a href="#">الحجوزات</a><a href="#">اتصل بنا</a></nav></header><div class="wrap">
+<h1>نار ودخان وقليل من الصبر</h1><p>مطبخ حيّ يطهو على خشب البلوط والجمر منذ عام 2014. تعال جائعًا وغادر سعيدًا.</p>
+<h2>قائمة هذا المساء</h2>
+<div class="dish"><div><b>أخطبوط مشوي</b> <span class="tag">خالٍ من الغلوتين</span><p>فلفل أحمر مدخّن، بطاطس مهروسة، ليمون، زيت زيتون</p></div><b>18 $</b></div>
+<div class="dish"><div><b>طبق الشيف: ضلوع بقر مطهوّة 12 ساعة</b><p>تُقدَّم مع بولينتا كريمية وخضراوات موسمية. تحتوي على منتجات الألبان.</p></div><b>34 $</b></div>
+<div class="dish"><div><b>بوراتا وطماطم تراثية</b> <span class="tag">نباتي</span><p>زيت الريحان، خبز العجين المخمّر المشوي</p></div><b>16 $</b></div>
+<div class="dish"><div><b>تارت تاتان بالتفاح</b><p>كراميل مملّح، كريمة فريش</p></div><b>11 $</b></div>
+<h2>ساعات العمل</h2><p>من الثلاثاء إلى الخميس من 17:00 إلى 22:00 · الجمعة والسبت من 17:00 إلى 23:30 · مغلق الأحد والاثنين. مغلق في يوم عيد الميلاد ورأس السنة.</p>
+<h2>احجز طاولة</h2><form id="r"><label>التاريخ <input type="date" value="2026-03-20"></label> <label>عدد الأشخاص <select id="ps"><option>ضيف واحد</option><option>ضيفان</option><option>4 ضيوف</option></select></label> <button class="btn" type="submit">احجز طاولة</button></form>
+<p id="conf" role="status" hidden>شكرًا لك! لقد حجزنا لك طاولة لضيفين يوم الجمعة 20 مارس الساعة 19:30.</p>
+<address dir="ltr">Ember &amp; Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123</address></div>
+<script>document.getElementById('r').addEventListener('submit',e=>{e.preventDefault();document.getElementById('conf').hidden=false})</script></body></html>

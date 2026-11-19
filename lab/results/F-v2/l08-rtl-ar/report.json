@@ -1,0 +1,67 @@
+{
+ "id": "l08-rtl",
+ "lang": "ar",
+ "critical": [],
+ "major": [],
+ "minor": [
+  {
+   "code": "string-count-differs",
+   "detail": "50 source strings vs 57 target (1 unpaired)"
+  }
+ ],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l08-rtl/",
+   "x-default=/l10n/l08-rtl/",
+   "ar=/l10n/l08-rtl/ar/"
+  ],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 50,
+  "digits": {
+   "western": 38,
+   "arabicIndic": 0
+  },
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 2,
+  "mirror": {
+   "checked": 8,
+   "failed": []
+  },
+  "physicalCss": {
+   "physicalRules": 0,
+   "totalRules": 41
+  }
+ }
+}

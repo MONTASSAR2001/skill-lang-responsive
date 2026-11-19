@@ -1,0 +1,94 @@
+{
+ "id": "l05-dynamic",
+ "lang": "fr",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l05-dynamic/",
+   "x-default=/l10n/l05-dynamic/",
+   "fr=/l10n/l05-dynamic/fr/",
+   "ar=/l10n/l05-dynamic/ar/"
+  ],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 20,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 0,
+  "probe": {
+   "g": "Bon retour, Amélie !",
+   "s": [
+    "Vous avez 5 nouveaux messages.",
+    "Vous avez passé 1 commande ce mois-ci.",
+    "Solde du compte : 1 234,50 $",
+    "Dernière connexion : 14 mars 2026 (il y a 3 jours)",
+    "Votre prochain paiement est dû le 01/04/2026.",
+    "Stockage utilisé : 72,4 %",
+    "Votre panier est vide."
+   ],
+   "c": [
+    {
+     "n": 0,
+     "t": "0 fichier sélectionné"
+    },
+    {
+     "n": 1,
+     "t": "1 fichier sélectionné"
+    },
+    {
+     "n": 2,
+     "t": "2 fichiers sélectionnés"
+    },
+    {
+     "n": 5,
+     "t": "5 fichiers sélectionnés"
+    },
+    {
+     "n": 11,
+     "t": "11 fichiers sélectionnés"
+    },
+    {
+     "n": 21,
+     "t": "21 fichiers sélectionnés"
+    },
+    {
+     "n": 101,
+     "t": "101 fichiers sélectionnés"
+    }
+   ],
+   "p": "Merci d’être membre Pro — profitez de 15 % de réduction sur votre prochaine commande."
+  }
+ }
+}

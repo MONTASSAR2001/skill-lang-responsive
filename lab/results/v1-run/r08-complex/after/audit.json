@@ -1,0 +1,212 @@
+[
+ {
+  "width": 320,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=364",
+   "div.tile right=493",
+   "div.tile right=739",
+   "div.tile right=986",
+   "div.tile right=1232",
+   "div.tile right=1478"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 360,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=404",
+   "div.tile right=557",
+   "div.tile right=835",
+   "div.tile right=1114",
+   "div.tile right=1392",
+   "div.tile right=1670"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 375,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=419",
+   "div.tile right=581",
+   "div.tile right=871",
+   "div.tile right=1162",
+   "div.tile right=1452",
+   "div.tile right=1742"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 390,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=434",
+   "div.tile right=605",
+   "div.tile right=907",
+   "div.tile right=1210",
+   "div.tile right=1512",
+   "div.tile right=1814"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 430,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=474",
+   "div.tile right=669",
+   "div.tile right=1003",
+   "div.tile right=1338",
+   "div.tile right=1672",
+   "div.tile right=2006"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 480,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=524",
+   "div.tile right=672",
+   "div.tile right=1008",
+   "div.tile right=1344",
+   "div.tile right=1680",
+   "div.tile right=2016"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 600,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=642",
+   "div.tile right=674",
+   "div.tile right=1010",
+   "div.tile right=1346",
+   "div.tile right=1682",
+   "div.tile right=2018"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 768,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=805",
+   "div.tile right=1015",
+   "div.tile right=1351",
+   "div.tile right=1687",
+   "div.tile right=2023"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 820,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=856",
+   "div.tile right=1016",
+   "div.tile right=1352",
+   "div.tile right=1688",
+   "div.tile right=2024"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1024,
+  "touch": true,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=1060",
+   "div.tile right=1276",
+   "div.tile right=1612",
+   "div.tile right=1948",
+   "div.tile right=2284"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1280,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.ov-deco right=1296",
+   "div.tile right=1296",
+   "div.tile right=1632",
+   "div.tile right=1968",
+   "div.tile right=2304"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1440,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.tile right=1712",
+   "div.tile right=2048",
+   "div.tile right=2384"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 1920,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.tile right=1952",
+   "div.tile right=2288",
+   "div.tile right=2624"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ },
+ {
+  "width": 2560,
+  "touch": false,
+  "overflowPx": 0,
+  "outside": [
+   "div.tile right=2608",
+   "div.tile right=2944"
+  ],
+  "smallTargets": 1,
+  "tinyText": 0,
+  "consoleErrors": 0
+ }
+]

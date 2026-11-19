@@ -1,0 +1,2556 @@
+{
+ "summary": {
+  "id": "r12-article",
+  "url": "http://localhost:4173/baseline/responsive/r12-article/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1200
+   }
+  ],
+  "sweepFailingWidths": 56,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 64,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:868px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:828px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:813px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:798px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:758px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:709px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:589px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:420px",
+    "offscreen:5",
+    "tap<24:5"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:368px",
+    "offscreen:5",
+    "tap<24:5"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:164px",
+    "offscreen:5",
+    "tap<24:5"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "tap<24:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:344px",
+    "offscreen:5",
+    "tap<24:5"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "tap<24:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:548px",
+    "offscreen:12",
+    "tap<24:5"
+   ],
+   "tapMajor": 5,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2376,
+   "docOverflowPx": 868,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 338,
+     "right": 384
+    },
+    {
+     "el": "a",
+     "left": 412,
+     "right": 466
+    },
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2442,
+   "docOverflowPx": 828,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 338,
+     "right": 384
+    },
+    {
+     "el": "a",
+     "left": 412,
+     "right": 466
+    },
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2573,
+   "docOverflowPx": 813,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 338,
+     "right": 384
+    },
+    {
+     "el": "a",
+     "left": 412,
+     "right": 466
+    },
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2571,
+   "docOverflowPx": 798,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 412,
+     "right": 466
+    },
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2575,
+   "docOverflowPx": 758,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 412,
+     "right": 466
+    },
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2114,
+   "docOverflowPx": 709,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 494,
+     "right": 561
+    },
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 1901,
+   "docOverflowPx": 589,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1584,
+   "docOverflowPx": 420,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "p",
+     "left": 824,
+     "right": 1104
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 368,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "p",
+     "left": 824,
+     "right": 1104
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 164,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "p",
+     "left": 824,
+     "right": 1104
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 344,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "li",
+     "left": 864,
+     "right": 1104
+    },
+    {
+     "el": "h3",
+     "left": 824,
+     "right": 1104
+    },
+    {
+     "el": "p",
+     "left": 824,
+     "right": 1104
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a.logo",
+     "w": 165,
+     "h": 34,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 836,
+   "docOverflowPx": 548,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1160,
+   "widestElement": "div.wrap",
+   "offscreen": [
+    {
+     "el": "p.meta",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "img",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "figcaption",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "blockquote",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    },
+    {
+     "el": "li",
+     "left": 40,
+     "right": 760
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 41,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 80,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 47,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 54,
+     "h": 17,
+     "critical": true
+    },
+    {
+     "el": "a",
+     "w": 67,
+     "h": 17,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 5,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "How we cut our deploy time": "visible",
+    "Measure first": "visible",
+    "What changed": "visible",
+    "The fastest build is the one you never run": "visible",
+    "Content-addressed caching": "visible",
+    "Table of contents": "visible",
+    "Newsletter": "visible",
+    "Layer cache": "visible",
+    "Sharding": "visible"
+   },
+   "maxCharsPerLine": 117
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 868,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 852,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 836,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 820,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 804,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 788,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 772,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 756,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 740,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 724,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 708,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 692,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 676,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 660,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 644,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 628,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 612,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 596,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 580,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 564,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 640,
+   "overflow": 548,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 656,
+   "overflow": 532,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 672,
+   "overflow": 516,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 688,
+   "overflow": 500,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 704,
+   "overflow": 484,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 720,
+   "overflow": 468,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 736,
+   "overflow": 452,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 752,
+   "overflow": 436,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 768,
+   "overflow": 420,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 784,
+   "overflow": 404,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 800,
+   "overflow": 388,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 816,
+   "overflow": 372,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 832,
+   "overflow": 356,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 848,
+   "overflow": 340,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 864,
+   "overflow": 324,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 880,
+   "overflow": 308,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 896,
+   "overflow": 292,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 912,
+   "overflow": 276,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 928,
+   "overflow": 260,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 944,
+   "overflow": 244,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 960,
+   "overflow": 228,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 976,
+   "overflow": 212,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 992,
+   "overflow": 196,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1008,
+   "overflow": 180,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1024,
+   "overflow": 164,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1040,
+   "overflow": 148,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1056,
+   "overflow": 132,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1072,
+   "overflow": 116,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1088,
+   "overflow": 100,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 5
+  },
+  {
+   "w": 1104,
+   "overflow": 84,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1120,
+   "overflow": 68,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1136,
+   "overflow": 52,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1152,
+   "overflow": 36,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1168,
+   "overflow": 24,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1184,
+   "overflow": 16,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1200,
+   "overflow": 8,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1216,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1232,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

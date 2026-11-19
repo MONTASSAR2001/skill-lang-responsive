@@ -1,0 +1,12 @@
+*{box-sizing:border-box}
+body{margin:0;font:19px/1.7 Georgia,serif;color:#1f2328;background:#fff}
+.hd{display:flex;justify-content:space-between;align-items:center;padding:0 64px;height:64px;border-bottom:1px solid #e5e7eb;font-family:Arial}
+.logo{font-weight:700;font-size:20px;color:#111;text-decoration:none}.hd nav a{margin-left:28px;color:#444;text-decoration:none;font-size:15px}
+.wrap{display:flex;gap:64px;width:1160px;margin:0 auto;padding:48px 0}
+article{width:760px;flex:none}.side{width:280px;flex:none;position:sticky;top:24px;align-self:flex-start;font:15px Arial}
+.meta{font:13px Arial;color:#666;text-transform:uppercase;letter-spacing:.1em}
+h1{font-size:54px;line-height:1.1;margin:8px 0 24px}h2{font-size:32px;margin:40px 0 8px}
+figure{margin:0 0 32px}figure img{width:760px;height:430px}figcaption{font:13px Arial;color:#777}
+pre{background:#0d1117;color:#e6edf3;padding:16px;border-radius:8px;font-size:14px;margin:24px 0;overflow:visible}
+blockquote{border-left:4px solid #2563eb;margin:32px 0;padding:0 0 0 24px;font-size:28px;font-style:italic}
+.t{border-collapse:collapse;width:760px;font:15px Arial;margin-top:24px}.t th,.t td{border:1px solid #ddd;padding:8px;white-space:nowrap;text-align:left}

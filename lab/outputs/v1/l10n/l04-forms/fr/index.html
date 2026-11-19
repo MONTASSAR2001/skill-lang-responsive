@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Créer votre compte</title><link rel="stylesheet" href="../styles.css"><style>form{max-width:520px;background:#fff;padding:28px;border-radius:12px;border:1px solid #e4dfd4}label{display:block;margin:14px 0 4px;font-weight:600;font-size:14px}input,select,textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:6px;font:16px Arial}.hint{font-size:13px;color:#666;margin:4px 0 0}.err{color:#b91c1c;font-size:13px;margin:4px 0 0}.ok{color:#166534;background:#dcfce7;padding:12px;border-radius:8px;margin-top:16px}.req{color:#b91c1c}.row{display:flex;gap:12px}.row>div{flex:1}.counter{text-align:right;font-size:12px;color:#666}</style></head>
+<body><div class="wrap"><h1>Créer votre compte</h1>
+<form id="f" novalidate>
+<div class="row"><div><label for="fn">Prénom <span class="req" aria-hidden="true">*</span></label><input id="fn" required placeholder="Jeanne"></div><div><label for="ln">Nom <span class="req" aria-hidden="true">*</span></label><input id="ln" required placeholder="Dupont"></div></div>
+<label for="em">Adresse e-mail <span class="req" aria-hidden="true">*</span></label><input id="em" type="email" required placeholder="vous@exemple.fr"><p class="hint">Nous ne partagerons jamais votre adresse e-mail avec qui que ce soit.</p>
+<label for="pw">Mot de passe <span class="req" aria-hidden="true">*</span></label><input id="pw" type="password" required><p class="hint">Utilisez au moins 8 caractères, dont un chiffre.</p>
+<label for="co">Pays</label><select id="co"><option value="">Sélectionnez un pays</option><option>France</option><option>Allemagne</option><option>États-Unis</option></select>
+<label for="bio">Courte présentation</label><textarea id="bio" maxlength="140" rows="3" placeholder="Parlez-nous un peu de vous"></textarea><div class="counter" id="counter">0/140 caractères</div>
+<label><input type="checkbox" id="terms" style="width:auto"> J’accepte les <a href="#">Conditions d’utilisation</a> et la <a href="#">Politique de confidentialité</a>.</label>
+<p class="err" id="err" role="alert" hidden></p>
+<p><button class="btn" type="submit">Créer le compte</button></p>
+<div class="ok" id="ok" role="status" hidden>Bienvenue ! Votre compte a bien été créé. Consultez votre boîte de réception pour confirmer votre adresse e-mail.</div>
+</form></div>
+<script>
+const f=document.getElementById('f'),err=document.getElementById('err'),ok=document.getElementById('ok');
+document.getElementById('bio').addEventListener('input',e=>{document.getElementById('counter').textContent=e.target.value.length+'/140 caractères'});
+f.addEventListener('submit',e=>{e.preventDefault();ok.hidden=true;err.hidden=true;
+ if(!f.fn.value.trim()){return show('Veuillez saisir votre prénom.')}
+ if(!/^\S+@\S+\.\S+$/.test(f.em.value)){return show('Veuillez saisir une adresse e-mail valide.')}
+ if(f.pw.value.length<8||!/\d/.test(f.pw.value)){return show('Votre mot de passe doit contenir au moins 8 caractères dont un chiffre.')}
+ if(!f.terms.checked){return show('Vous devez accepter les Conditions d’utilisation pour continuer.')}
+ ok.hidden=false});
+function show(m){err.textContent=m;err.hidden=false}
+</script></body></html>

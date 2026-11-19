@@ -1,0 +1,37 @@
+text	Orbit	Orbit	
+attr:aria-label	Main	الرئيسية	
+text	Dashboard	لوحة التحكم	
+text	Projects	المشاريع	
+text	Team	الفريق	
+text	Billing	الفوترة	
+text	Settings	الإعدادات	
+text	Projects	المشاريع	
+attr:placeholder	Search projects…	ابحث في المشاريع…	1.06
+attr:aria-label	Search projects	البحث في المشاريع	1.13
+text	⌘K	⌘K	
+text	Press ⌘K to search from anywhere.	للبحث من أي مكان.	0.52
+attr:aria-label	Actions	الإجراءات	
+text	Save changes	حفظ التغييرات	
+text	Cancel	إلغاء	
+text	Delete project	حذف المشروع	0.79
+text	Invite teammates	دعوة الزملاء	0.75
+attr:title	Copy the shareable link to your clipboard	انسخ رابط المشاركة إلى الحافظة	0.73
+text	Copy link	نسخ الرابط	
+attr:title	More actions	المزيد من الإجراءات	
+attr:aria-label	More actions	المزيد من الإجراءات	
+text	⋯	⋯	
+text	Rename	إعادة تسمية	
+text	Duplicate	تكرار	
+text	Move to folder…	نقل إلى مجلد…	0.87
+text	Archive	أرشفة	
+text	No projects yet	لا توجد مشاريع بعد	1.20
+text	Create your first project to get started. It only takes a minute.	أنشئ مشروعك الأول للبدء. لن يستغرق الأمر سوى دقيقة.	0.78
+text	New project	مشروع جديد	
+text	Delete project?	حذف المشروع؟	0.80
+text	This will permanently delete	وجميع ملفاته نهائيًا. لا يمكن التراجع عن هذا الإجراء.	1.89
+text	Apollo	<<MISSING>>	
+text	and all of its files. This action cannot be undone.	وجميع ملفاته نهائيًا. لا يمكن التراجع عن هذا الإجراء.	1.04
+text	Keep project	الإبقاء على المشروع	
+text	Yes, delete it	نعم، احذفه	0.71
+text	Changes saved	تم حفظ التغييرات	1.23
+head:title	Projects — Orbit	المشاريع — Orbit	1.00

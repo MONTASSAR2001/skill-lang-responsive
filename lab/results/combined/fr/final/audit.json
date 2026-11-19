@@ -1,0 +1,871 @@
+{
+ "url": "http://localhost:3217/fr",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "bad": false
+  },
+  {
+   "w": 336,
+   "bad": false
+  },
+  {
+   "w": 352,
+   "bad": false
+  },
+  {
+   "w": 368,
+   "bad": false
+  },
+  {
+   "w": 384,
+   "bad": false
+  },
+  {
+   "w": 400,
+   "bad": false
+  },
+  {
+   "w": 416,
+   "bad": false
+  },
+  {
+   "w": 432,
+   "bad": false
+  },
+  {
+   "w": 448,
+   "bad": false
+  },
+  {
+   "w": 464,
+   "bad": false
+  },
+  {
+   "w": 480,
+   "bad": false
+  },
+  {
+   "w": 496,
+   "bad": false
+  },
+  {
+   "w": 512,
+   "bad": false
+  },
+  {
+   "w": 528,
+   "bad": false
+  },
+  {
+   "w": 544,
+   "bad": false
+  },
+  {
+   "w": 560,
+   "bad": false
+  },
+  {
+   "w": 576,
+   "bad": false
+  },
+  {
+   "w": 592,
+   "bad": false
+  },
+  {
+   "w": 608,
+   "bad": false
+  },
+  {
+   "w": 624,
+   "bad": false
+  },
+  {
+   "w": 640,
+   "bad": false
+  },
+  {
+   "w": 656,
+   "bad": false
+  },
+  {
+   "w": 672,
+   "bad": false
+  },
+  {
+   "w": 688,
+   "bad": false
+  },
+  {
+   "w": 704,
+   "bad": false
+  },
+  {
+   "w": 720,
+   "bad": false
+  },
+  {
+   "w": 736,
+   "bad": false
+  },
+  {
+   "w": 752,
+   "bad": false
+  },
+  {
+   "w": 768,
+   "bad": false
+  },
+  {
+   "w": 784,
+   "bad": false
+  },
+  {
+   "w": 800,
+   "bad": false
+  },
+  {
+   "w": 816,
+   "bad": false
+  },
+  {
+   "w": 832,
+   "bad": false
+  },
+  {
+   "w": 848,
+   "bad": false
+  },
+  {
+   "w": 864,
+   "bad": false
+  },
+  {
+   "w": 880,
+   "bad": false
+  },
+  {
+   "w": 896,
+   "bad": false
+  },
+  {
+   "w": 912,
+   "bad": false
+  },
+  {
+   "w": 928,
+   "bad": false
+  },
+  {
+   "w": 944,
+   "bad": false
+  },
+  {
+   "w": 960,
+   "bad": false
+  },
+  {
+   "w": 976,
+   "bad": false
+  },
+  {
+   "w": 992,
+   "bad": false
+  },
+  {
+   "w": 1008,
+   "bad": false
+  },
+  {
+   "w": 1024,
+   "bad": false
+  },
+  {
+   "w": 1040,
+   "bad": false
+  },
+  {
+   "w": 1056,
+   "bad": false
+  },
+  {
+   "w": 1072,
+   "bad": false
+  },
+  {
+   "w": 1088,
+   "bad": false
+  },
+  {
+   "w": 1104,
+   "bad": false
+  },
+  {
+   "w": 1120,
+   "bad": false
+  },
+  {
+   "w": 1136,
+   "bad": false
+  },
+  {
+   "w": 1152,
+   "bad": false
+  },
+  {
+   "w": 1168,
+   "bad": false
+  },
+  {
+   "w": 1184,
+   "bad": false
+  },
+  {
+   "w": 1200,
+   "bad": false
+  },
+  {
+   "w": 1216,
+   "bad": false
+  },
+  {
+   "w": 1232,
+   "bad": false
+  },
+  {
+   "w": 1248,
+   "bad": false
+  },
+  {
+   "w": 1264,
+   "bad": false
+  },
+  {
+   "w": 1280,
+   "bad": false
+  },
+  {
+   "w": 1296,
+   "bad": false
+  },
+  {
+   "w": 1312,
+   "bad": false
+  },
+  {
+   "w": 1328,
+   "bad": false
+  },
+  {
+   "w": 1344,
+   "bad": false
+  },
+  {
+   "w": 1360,
+   "bad": false
+  },
+  {
+   "w": 1376,
+   "bad": false
+  },
+  {
+   "w": 1392,
+   "bad": false
+  },
+  {
+   "w": 1408,
+   "bad": false
+  },
+  {
+   "w": 1424,
+   "bad": false
+  },
+  {
+   "w": 1440,
+   "bad": false
+  },
+  {
+   "w": 1456,
+   "bad": false
+  },
+  {
+   "w": 1472,
+   "bad": false
+  },
+  {
+   "w": 1488,
+   "bad": false
+  },
+  {
+   "w": 1504,
+   "bad": false
+  },
+  {
+   "w": 1520,
+   "bad": false
+  },
+  {
+   "w": 1536,
+   "bad": false
+  },
+  {
+   "w": 1552,
+   "bad": false
+  },
+  {
+   "w": 1568,
+   "bad": false
+  },
+  {
+   "w": 1584,
+   "bad": false
+  },
+  {
+   "w": 1600,
+   "bad": false
+  }
+ ],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "span 11px",
+   "widths": [
+    320,
+    320,
+    360,
+    360,
+    375,
+    375,
+    390,
+    390,
+    430,
+    430,
+    480,
+    480,
+    600,
+    600,
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    1280,
+    1280,
+    1440,
+    1440,
+    1920,
+    1920,
+    2560,
+    2560,
+    "landscape-phone",
+    "landscape-phone",
+    "short-laptop",
+    "short-laptop",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 42x44",
+   "widths": [
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    "landscape-phone",
+    "landscape-phone"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "p.rk-n 11px",
+   "widths": [
+    1280,
+    1440,
+    1920,
+    2560,
+    "short-laptop"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "dt 10.5px",
+   "widths": [
+    1280,
+    1280,
+    1280,
+    1440,
+    1440,
+    1440,
+    1920,
+    1920,
+    1920,
+    2560,
+    2560,
+    2560,
+    "short-laptop",
+    "short-laptop",
+    "short-laptop"
+   ]
+  }
+ ]
+}

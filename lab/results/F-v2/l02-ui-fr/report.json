@@ -1,0 +1,95 @@
+{
+ "id": "l02-ui",
+ "lang": "fr",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l02-ui/",
+   "x-default=/l10n/l02-ui/",
+   "fr=/l10n/l02-ui/fr/",
+   "ar=/l10n/l02-ui/ar/"
+  ],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 37,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.67,
+  "probe": [
+   {
+    "t": "Enregistrer",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "Annuler",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "Supprimer",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "Inviter",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "Copier le lien",
+    "clipped": false,
+    "h": false,
+    "title": "Copier le lien de partage dans le presse-papiers",
+    "al": null
+   },
+   {
+    "t": "⋯",
+    "clipped": false,
+    "h": false,
+    "title": "Autres actions",
+    "al": "Autres actions"
+   }
+  ]
+ }
+}

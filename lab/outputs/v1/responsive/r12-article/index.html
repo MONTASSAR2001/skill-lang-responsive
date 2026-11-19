@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Article</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="hd"><a href="#" class="logo">The Weekly Build</a><nav><a href="#">Latest</a><a href="#">Engineering</a><a href="#">Design</a><a href="#">Podcast</a><a href="#">Subscribe</a></nav></header>
+<div class="wrap">
+<article>
+  <p class="meta">Engineering · 12 min read · March 3, 2026</p>
+  <h1>How we cut our deploy time from forty minutes to ninety seconds</h1>
+  <figure><img src="../../assets/studio.webp" alt="Workshop" width="1200" height="675"><figcaption>The long cutting table, where every build starts.</figcaption></figure>
+  <p>When the build pipeline takes longer than the meeting where you discuss the build pipeline, something has gone wrong. This is the story of how we found out where the time was going.</p>
+  <h2>Measure first</h2>
+  <p>We instrumented every stage with traces before changing anything. The result was humbling: 62% of the wall-clock time was spent waiting for a single shared runner.</p>
+  <pre><code>$ ./ci --trace --stages=all --parallel=false --cache-dir=/var/lib/ci/cache/v2/layers --report=json > build-report-2026-03-03T14-22-10Z.json</code></pre>
+  <blockquote>“The fastest build is the one you never run.”</blockquote>
+  <h2>What changed</h2>
+  <ul><li>Content-addressed caching for every layer</li><li>Parallel test shards sized by historical duration</li><li>Warm runners kept hot between jobs</li></ul>
+  <table class="t"><tr><th>Stage</th><th>Before</th><th>After</th><th>Delta</th><th>Notes</th></tr><tr><td>Install</td><td>6m 10s</td><td>0m 12s</td><td>−98%</td><td>Layer cache</td></tr><tr><td>Test</td><td>22m 40s</td><td>0m 48s</td><td>−96%</td><td>Sharding</td></tr></table>
+</article>
+<aside class="side"><h3>Table of contents</h3><ol><li>Measure first</li><li>What changed</li></ol><h3>Newsletter</h3><p>One email a week.</p></aside>
+</div>
+</body></html>

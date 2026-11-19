@@ -1,0 +1,128 @@
+{
+ "url": "http://localhost:4173/responsive/r06-forms/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": []
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": []
+  }
+ ],
+ "sweep": [],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": []
+}

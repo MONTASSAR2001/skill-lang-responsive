@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analytics dashboard</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="app" id="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="side-brand">Pulseboard</div>
+    <nav><a class="on" href="#">Overview</a><a href="#">Revenue</a><a href="#">Customers</a><a href="#">Subscriptions</a><a href="#">Experiments</a><a href="#">Reports</a><a href="#">Integrations</a><a href="#">Settings</a></nav>
+    <div class="side-foot">Workspace: Acme Retail EMEA</div>
+  </aside>
+  <div class="main">
+    <header class="top"><h1>Overview</h1>
+      <div class="filters"><select aria-label="Range"><option>Last 30 days</option><option>Last 90 days</option></select><select aria-label="Region"><option>All regions</option><option>Europe, Middle East &amp; Africa</option></select><input type="search" placeholder="Search customers, orders, SKUs…" aria-label="Search"><button class="primary">Export CSV</button><button>Share</button></div>
+    </header>
+    <section class="kpis">
+      <div class="kpi"><span>Revenue</span><b>$1,284,930</b><em class="up">▲ 12.4%</em></div>
+      <div class="kpi"><span>Active customers</span><b>48,203</b><em class="up">▲ 3.1%</em></div>
+      <div class="kpi"><span>Churn</span><b>2.8%</b><em class="down">▼ 0.4%</em></div>
+      <div class="kpi"><span>Avg. order value</span><b>$86.40</b><em class="up">▲ 1.9%</em></div>
+      <div class="kpi"><span>Net promoter score</span><b>61</b><em class="up">▲ 4</em></div>
+    </section>
+    <section class="grid">
+      <div class="widget chart wide"><h2>Revenue over time</h2>
+        <svg viewBox="0 0 800 260" width="800" height="260" role="img" aria-label="Revenue line chart"><polyline fill="none" stroke="#2563eb" stroke-width="3" points="0,200 80,180 160,190 240,140 320,150 400,100 480,120 560,70 640,90 720,50 800,40"/><g stroke="#e5e7eb"><line x1="0" y1="60" x2="800" y2="60"/><line x1="0" y1="130" x2="800" y2="130"/><line x1="0" y1="200" x2="800" y2="200"/></g></svg></div>
+      <div class="widget chart"><h2>Traffic sources</h2>
+        <svg viewBox="0 0 300 260" width="300" height="260" role="img" aria-label="Traffic bar chart"><g fill="#16a34a"><rect x="10" y="60" width="40" height="190"/><rect x="70" y="110" width="40" height="140"/><rect x="130" y="150" width="40" height="100"/><rect x="190" y="190" width="40" height="60"/><rect x="250" y="220" width="40" height="30"/></g></svg></div>
+      <div class="widget list"><h2>Top products</h2><ol><li><span>Merino crewneck, charcoal</span><b>2,481</b></li><li><span>Chore jacket, olive</span><b>1,930</b></li><li><span>Overcoat, charcoal</span><b>1,204</b></li><li><span>Camp shirt, stone</span><b>987</b></li></ol></div>
+      <div class="widget"><h2>Alerts</h2><p class="alert">Conversion on the checkout page dropped 18% after the 14:20 release. <a href="#">Investigate</a> <button>Dismiss</button></p></div>
+    </section>
+  </div>
+</div>
+<script src="script.js"></script>
+</body></html>

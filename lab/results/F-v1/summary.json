@@ -1,0 +1,102 @@
+[
+ {
+  "id": "r01-hero",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r02-nav",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r03-grids",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r04-dashboard",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r05-tables",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r06-forms",
+  "split": "dev",
+  "crit": "12/17",
+  "sweepBad": "0/81",
+  "tapMajor": 24,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r07-media",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r08-complex",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 12,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r09-typography",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r10-footer",
+  "split": "dev",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 60,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ }
+]

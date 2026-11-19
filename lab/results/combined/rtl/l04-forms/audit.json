@@ -1,0 +1,828 @@
+{
+ "url": "http://localhost:4173/l10n/l04-forms/ar/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "#fn 101x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 101x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 214x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 214x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 214x41"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "#fn 121x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 121x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 254x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 254x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 254x41"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "#fn 129x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 129x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 269x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 269x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 269x41"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 284x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 136x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 136x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 284x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 284x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 284x41"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 324x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 156x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 156x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 324x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 324x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 324x41"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 374x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 181x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 181x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 374x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 374x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 374x41"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "tap<24",
+     "#terms 462x22"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#fn 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ln 225x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#pw 462x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#co 462x41"
+    ]
+   ]
+  }
+ ],
+ "sweep": [],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 101x40",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 101x40",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 214x40",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 214x40",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 214x41",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 121x40",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 121x40",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 254x40",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 254x40",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 254x41",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 129x40",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 129x40",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 269x40",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 269x40",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 269x41",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "#terms 284x22",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 136x40",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 136x40",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 284x40",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 284x40",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 284x41",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "#terms 324x22",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 156x40",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 156x40",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 324x40",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 324x40",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 324x41",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "#terms 374x22",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 181x40",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 181x40",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 374x40",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 374x40",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 374x41",
+   "widths": [
+    480
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "#terms 462x22",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#fn 225x40",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ln 225x40",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 462x40",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#pw 462x40",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#co 462x41",
+   "widths": [
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  }
+ ]
+}

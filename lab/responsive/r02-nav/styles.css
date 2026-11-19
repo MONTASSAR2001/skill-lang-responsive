@@ -1,0 +1,30 @@
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 Arial,sans-serif;color:#17202a}
+.site-header{position:sticky;top:0;z-index:50;display:flex;align-items:center;flex-wrap:wrap;gap:8px 24px;min-height:76px;padding:0 clamp(16px,3vw,40px);background:#0b2a4a;color:#fff;max-height:100vh;overflow-y:auto}
+.brand{color:#fff;text-decoration:none;font-weight:700;font-size:clamp(16px,2.2vw,20px);display:inline-flex;align-items:center;min-height:44px}
+.mark{color:#f5b335;margin-right:6px}
+.primary ul{list-style:none;margin:0;padding:0;display:flex;gap:clamp(14px,1.8vw,26px)}
+.primary a{color:#dfe9f5;text-decoration:none;font-size:15px;display:inline-flex;align-items:center;min-height:44px}
+.primary a:hover{color:#fff}
+.has-menu{position:relative}
+.dropdown{display:none!important;position:absolute;top:100%;left:0;width:300px;max-width:calc(100vw - 32px);background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.2);flex-direction:column;padding:8px 0;z-index:5}
+.dropdown a{display:block;color:#17202a;padding:12px 18px;white-space:normal}
+.has-menu:hover .dropdown,.has-menu:focus-within .dropdown,.has-menu.open .dropdown{display:flex!important}
+.tools{margin-left:auto;display:flex;gap:12px;align-items:center}
+.login{color:#fff;font-size:14px;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;padding:0 6px}
+.open{background:#f5b335;color:#0b2a4a;font-weight:700;font-size:14px;padding:0 14px;min-height:44px;display:inline-flex;align-items:center;border-radius:4px;text-decoration:none;white-space:nowrap}
+.burger{display:none;margin-left:auto;width:48px;height:48px;font-size:24px;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:6px}
+main{padding:clamp(16px,3vw,40px)}
+.filler{height:900px;background:linear-gradient(#f2f6fb,#dde7f3);margin-top:24px}
+
+/* collapse where the nine links stop fitting (measured ≈1240px) */
+@media(max-width:1240px){
+  .burger{display:inline-flex;align-items:center;justify-content:center}
+  .primary,.tools{display:none;flex-basis:100%}
+  .site-header.open .primary,.site-header.open .tools{display:block}
+  .site-header.open .tools{display:flex;margin:0 0 12px}
+  .primary ul{flex-direction:column;gap:0}
+  .primary li{border-top:1px solid rgba(255,255,255,.12)}
+  .dropdown{position:static;width:100%;max-width:none;box-shadow:none;background:rgba(255,255,255,.06)}
+  .dropdown a{color:#dfe9f5}
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "id": "r11-pricing",
+  "split": "heldout",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 12,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r12-article",
+  "split": "heldout",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ },
+ {
+  "id": "r13-listing",
+  "split": "heldout",
+  "crit": "0/17",
+  "sweepBad": "0/81",
+  "tapMajor": 0,
+  "tiny": 0,
+  "fixedCover": 0,
+  "errors": 0
+ }
+]

@@ -1,0 +1,26 @@
+# dependencies and build artifacts
+node_modules/
+.next/
+.next-*/
+out/
+dist/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+*.log
+npm-debug.log*
+
+# secrets / local settings
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Pixel Clone working directory (extraction dumps + 600 MB HTTP cache of the reference site)
+.clone-output/

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "l02-ui",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l02-ui",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ },
+ {
+  "id": "l06-terminology",
+  "lang": "fr",
+  "crit": 0,
+  "major": 0,
+  "minor": 0,
+  "top": ""
+ },
+ {
+  "id": "l06-terminology",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ },
+ {
+  "id": "l08-rtl",
+  "lang": "ar",
+  "crit": 0,
+  "major": 0,
+  "minor": 1,
+  "top": ""
+ }
+]

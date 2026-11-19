@@ -1,0 +1,48 @@
+text	Quickstart	Démarrage rapide
+text	Install the Relay CLI, authenticate and deploy your first service in under five minutes.	Installez la CLI Relay, authentifiez-vous et déployez votre premier service en moins de cinq minutes.
+text	1. Install	1. Installation
+text	# macOS and Linux curl -fsSL https://relay.example/install.sh | sh relay --version	# macOS et Linux curl -fsSL https://relay.example/install.sh | sh relay --version
+text	Note:	Remarque :
+text	The installer places the	l’installateur place le binaire
+text	relay	relay
+text	binary in	dans
+text	~/.relay/bin	~/.relay/bin
+text	. Make sure this directory is on your	. Vérifiez que ce répertoire figure dans votre
+text	PATH	PATH
+text	.	.
+text	2. Log in	2. Connexion
+text	Run	Lancez
+text	relay login	relay login
+text	and follow the prompts. Your token is stored in	et suivez les instructions. Votre jeton est enregistré dans
+text	~/.relay/credentials.json	~/.relay/credentials.json
+text	.	.
+text	3. Deploy	3. Déploiement
+text	# deploy the current directory to the "staging" environment relay deploy --env staging --region eu-west-1 --wait	# déployer le répertoire courant dans l'environnement "staging" relay deploy --env staging --region eu-west-1 --wait
+text	Warning:	Attention :
+text	Deploying to	le déploiement vers
+text	production	production
+text	replaces the running version. Use	remplace la version en cours d’exécution. Utilisez d’abord
+text	--dry-run	--dry-run
+text	first to preview the changes.	pour prévisualiser les changements.
+text	Options	Options
+text	Flag	Option
+text	Description	Description
+text	Default	Valeur par défaut
+text	--env	--env
+text	The target environment.	L’environnement cible.
+text	staging	staging
+text	--wait	--wait
+text	Wait until the deployment is healthy before exiting.	Attend que le déploiement soit sain avant de quitter.
+text	off	désactivé
+text	Keyboard shortcuts	Raccourcis clavier
+text	Press	Appuyez sur
+text	Ctrl	Ctrl
+text	+	+
+text	K	K
+text	to open the command palette, or	pour ouvrir la palette de commandes, ou sur
+text	?	?
+text	to see all shortcuts.	pour afficher tous les raccourcis.
+text	Something not working?	Un problème ?
+text	Open an issue on GitHub	Ouvrez un ticket sur GitHub
+text	or ask in the community forum.	ou posez votre question sur le forum de la communauté.
+head:title	Quickstart — Relay CLI documentation	Démarrage rapide — Documentation de la CLI Relay

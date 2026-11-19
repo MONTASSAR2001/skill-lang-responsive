@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>أنشئ حسابك</title><link rel="stylesheet" href="../styles.css"><style>form{max-width:520px;background:#fff;padding:28px;border-radius:12px;border:1px solid #e4dfd4}label{display:block;margin:14px 0 4px;font-weight:600;font-size:14px}input,select,textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:6px;font:16px Arial}.hint{font-size:13px;color:#666;margin:4px 0 0}.err{color:#b91c1c;font-size:13px;margin:4px 0 0}.ok{color:#166534;background:#dcfce7;padding:12px;border-radius:8px;margin-top:16px}.req{color:#b91c1c}.row{display:flex;gap:12px}.row>div{flex:1}.counter{text-align:end;font-size:12px;color:#666}</style></head>
+<body><div class="wrap"><h1>أنشئ حسابك</h1>
+<form id="f" novalidate>
+<div class="row"><div><label for="fn">الاسم الأول <span class="req" aria-hidden="true">*</span></label><input id="fn" required placeholder="سارة"></div><div><label for="ln">اسم العائلة <span class="req" aria-hidden="true">*</span></label><input id="ln" required placeholder="المنصوري"></div></div>
+<label for="em">عنوان البريد الإلكتروني <span class="req" aria-hidden="true">*</span></label><input id="em" type="email" dir="ltr" required placeholder="you@example.com"><p class="hint">لن نشارك بريدك الإلكتروني مع أي جهة أخرى.</p>
+<label for="pw">كلمة المرور <span class="req" aria-hidden="true">*</span></label><input id="pw" type="password" dir="ltr" required><p class="hint">استخدم 8 أحرف على الأقل، من بينها رقم واحد.</p>
+<label for="co">الدولة</label><select id="co"><option value="">اختر دولة</option><option>فرنسا</option><option>ألمانيا</option><option>الولايات المتحدة</option></select>
+<label for="bio">نبذة قصيرة</label><textarea id="bio" maxlength="140" rows="3" placeholder="حدّثنا قليلًا عن نفسك"></textarea><div class="counter" id="counter">0/140 حرف</div>
+<label><input type="checkbox" id="terms" style="width:auto"> أوافق على <a href="#">شروط الخدمة</a> و<a href="#">سياسة الخصوصية</a>.</label>
+<p class="err" id="err" role="alert" hidden></p>
+<p><button class="btn" type="submit">إنشاء الحساب</button></p>
+<div class="ok" id="ok" role="status" hidden>مرحبًا بك! تم إنشاء حسابك. تحقق من بريدك الوارد لتأكيد عنوان بريدك الإلكتروني.</div>
+</form></div>
+<script>
+const f=document.getElementById('f'),err=document.getElementById('err'),ok=document.getElementById('ok');
+document.getElementById('bio').addEventListener('input',e=>{document.getElementById('counter').textContent=e.target.value.length+'/140 حرف'});
+f.addEventListener('submit',e=>{e.preventDefault();ok.hidden=true;err.hidden=true;
+ if(!f.fn.value.trim()){return show('يرجى إدخال اسمك الأول.')}
+ if(!/^\S+@\S+\.\S+$/.test(f.em.value)){return show('يرجى إدخال عنوان بريد إلكتروني صالح.')}
+ if(f.pw.value.length<8||!/\d/.test(f.pw.value)){return show('يجب أن تتكوّن كلمة المرور من 8 أحرف على الأقل وأن تحتوي على رقم.')}
+ if(!f.terms.checked){return show('يجب قبول شروط الخدمة للمتابعة.')}
+ ok.hidden=false});
+function show(m){err.textContent=m;err.hidden=false}
+</script></body></html>

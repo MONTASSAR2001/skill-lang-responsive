@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Why we moved to event sourcing</title><link rel="alternate" hreflang="en" href="/l10n/l03-long/"><link rel="alternate" hreflang="x-default" href="/l10n/l03-long/"><link rel="alternate" hreflang="fr" href="/l10n/l03-long/fr/"><link rel="stylesheet" href="styles.css"><style>.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.fact{height:150px;overflow:hidden;background:#fff;border:1px solid #ddd;border-radius:10px;padding:14px}.fact b{display:block;font-size:30px}</style></head>
+<body><div class="wrap"><p class="eyebrow">Engineering blog</p><h1>Why we moved to event sourcing, and what we would do differently</h1>
+<p><i>Reading time: 6 minutes</i></p>
+<h2>The problem we had</h2>
+<p>For three years our order service stored only the current state of each order. That worked until finance asked a deceptively simple question: "What did this order look like last Tuesday at noon?" We could not answer it. Updates overwrote history, and the audit tables we had bolted on were incomplete, inconsistent and, frankly, a little embarrassing.</p>
+<h2>What event sourcing actually means</h2>
+<p>Instead of storing the current state, we store every change as an immutable event, such as <code>OrderPlaced</code>, <code>PaymentCaptured</code> or <code>OrderShipped</code>. The current state is simply the result of replaying those events in order. A projection is a read model that is rebuilt from the event stream whenever its schema changes.</p>
+<div class="facts"><div class="fact"><b>42%</b>fewer support escalations about missing order history during the first quarter after launch</div><div class="fact"><b>3.2 TB</b>of events stored across 18 months, compressed with snapshots every 500 events</div><div class="fact"><b>99.95%</b>of projections rebuilt without any manual intervention or downtime for customers</div></div>
+<h2>Lessons learned (the honest version)</h2>
+<ul><li>Do not model events after database tables; model them after things that happened in the business.</li><li>Snapshots are an optimization, not a feature. Add them late.</li><li>Version your events from day one, because you will change them, and you will regret skipping this step.</li></ul>
+<p>If you are considering the same move, our advice is simple: start with one bounded context, measure everything, and resist the temptation to rewrite the world in a weekend. Good luck, and may your replays always be idempotent.</p></div></body></html>

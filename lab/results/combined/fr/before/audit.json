@@ -1,0 +1,1667 @@
+{
+ "url": "http://localhost:3218/fr",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.fr: \"Veste chemise\""
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.fr: \"Bomber\""
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × span"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "clipped-text",
+     "div.fr: \"Bomber\""
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": [
+    [
+     "critical",
+     "overlap",
+     "img.lb-model × button.lb-dot"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "p.rk-n 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "dt 10.5px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "Sweat à capuche, avoine · 120 $"
+    ],
+    [
+     "critical",
+     "tap<24",
+     "button.lb-dot 16x16"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.hd-menu 41x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 37x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 42x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 40x44"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 38x38"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ],
+    [
+     "major",
+     "tiny-text",
+     "span 11px"
+    ]
+   ]
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "bad": true
+  },
+  {
+   "w": 336,
+   "bad": true
+  },
+  {
+   "w": 352,
+   "bad": true
+  },
+  {
+   "w": 368,
+   "bad": true
+  },
+  {
+   "w": 384,
+   "bad": true
+  },
+  {
+   "w": 400,
+   "bad": true
+  },
+  {
+   "w": 416,
+   "bad": true
+  },
+  {
+   "w": 432,
+   "bad": true
+  },
+  {
+   "w": 448,
+   "bad": true
+  },
+  {
+   "w": 464,
+   "bad": true
+  },
+  {
+   "w": 480,
+   "bad": true
+  },
+  {
+   "w": 496,
+   "bad": true
+  },
+  {
+   "w": 512,
+   "bad": true
+  },
+  {
+   "w": 528,
+   "bad": true
+  },
+  {
+   "w": 544,
+   "bad": true
+  },
+  {
+   "w": 560,
+   "bad": true
+  },
+  {
+   "w": 576,
+   "bad": true
+  },
+  {
+   "w": 592,
+   "bad": true
+  },
+  {
+   "w": 608,
+   "bad": true
+  },
+  {
+   "w": 624,
+   "bad": true
+  },
+  {
+   "w": 640,
+   "bad": true
+  },
+  {
+   "w": 656,
+   "bad": true
+  },
+  {
+   "w": 672,
+   "bad": true
+  },
+  {
+   "w": 688,
+   "bad": true
+  },
+  {
+   "w": 704,
+   "bad": true
+  },
+  {
+   "w": 720,
+   "bad": true
+  },
+  {
+   "w": 736,
+   "bad": true
+  },
+  {
+   "w": 752,
+   "bad": true
+  },
+  {
+   "w": 768,
+   "bad": true
+  },
+  {
+   "w": 784,
+   "bad": true
+  },
+  {
+   "w": 800,
+   "bad": true
+  },
+  {
+   "w": 816,
+   "bad": true
+  },
+  {
+   "w": 832,
+   "bad": true
+  },
+  {
+   "w": 848,
+   "bad": true
+  },
+  {
+   "w": 864,
+   "bad": true
+  },
+  {
+   "w": 880,
+   "bad": true
+  },
+  {
+   "w": 896,
+   "bad": true
+  },
+  {
+   "w": 912,
+   "bad": true
+  },
+  {
+   "w": 928,
+   "bad": true
+  },
+  {
+   "w": 944,
+   "bad": true
+  },
+  {
+   "w": 960,
+   "bad": true
+  },
+  {
+   "w": 976,
+   "bad": true
+  },
+  {
+   "w": 992,
+   "bad": true
+  },
+  {
+   "w": 1008,
+   "bad": true
+  },
+  {
+   "w": 1024,
+   "bad": true
+  },
+  {
+   "w": 1040,
+   "bad": true
+  },
+  {
+   "w": 1056,
+   "bad": true
+  },
+  {
+   "w": 1072,
+   "bad": true
+  },
+  {
+   "w": 1088,
+   "bad": true
+  },
+  {
+   "w": 1104,
+   "bad": true
+  },
+  {
+   "w": 1120,
+   "bad": true
+  },
+  {
+   "w": 1136,
+   "bad": true
+  },
+  {
+   "w": 1152,
+   "bad": true
+  },
+  {
+   "w": 1168,
+   "bad": true
+  },
+  {
+   "w": 1184,
+   "bad": true
+  },
+  {
+   "w": 1200,
+   "bad": true
+  },
+  {
+   "w": 1216,
+   "bad": true
+  },
+  {
+   "w": 1232,
+   "bad": true
+  },
+  {
+   "w": 1248,
+   "bad": true
+  },
+  {
+   "w": 1264,
+   "bad": true
+  },
+  {
+   "w": 1280,
+   "bad": true
+  },
+  {
+   "w": 1296,
+   "bad": true
+  },
+  {
+   "w": 1312,
+   "bad": true
+  },
+  {
+   "w": 1328,
+   "bad": true
+  },
+  {
+   "w": 1344,
+   "bad": true
+  },
+  {
+   "w": 1360,
+   "bad": true
+  },
+  {
+   "w": 1376,
+   "bad": true
+  },
+  {
+   "w": 1392,
+   "bad": true
+  },
+  {
+   "w": 1408,
+   "bad": true
+  },
+  {
+   "w": 1424,
+   "bad": true
+  },
+  {
+   "w": 1440,
+   "bad": true
+  },
+  {
+   "w": 1456,
+   "bad": true
+  },
+  {
+   "w": 1472,
+   "bad": true
+  },
+  {
+   "w": 1488,
+   "bad": true
+  },
+  {
+   "w": 1504,
+   "bad": true
+  },
+  {
+   "w": 1520,
+   "bad": true
+  },
+  {
+   "w": 1536,
+   "bad": true
+  },
+  {
+   "w": 1552,
+   "bad": true
+  },
+  {
+   "w": 1568,
+   "bad": true
+  },
+  {
+   "w": 1584,
+   "bad": true
+  },
+  {
+   "w": 1600,
+   "bad": true
+  }
+ ],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "critical",
+   "cat": "overlap",
+   "detail": "img.lb-model × button.lb-dot",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    1280,
+    1440,
+    1920,
+    2560,
+    "short-laptop"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "overlap",
+   "detail": "img.lb-model × span",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "unreachable",
+   "detail": "Sweat à capuche, avoine · 120 $",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "tap<24",
+   "detail": "button.lb-dot 16x16",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.hd-menu 41x44",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 37x44",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 42x44",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    768,
+    768,
+    820,
+    820,
+    820,
+    1024,
+    1024,
+    1024,
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 40x44",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button 38x38",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "span 11px",
+   "widths": [
+    320,
+    320,
+    360,
+    360,
+    375,
+    375,
+    390,
+    390,
+    430,
+    430,
+    480,
+    480,
+    600,
+    600,
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    1280,
+    1280,
+    1440,
+    1440,
+    1920,
+    1920,
+    2560,
+    2560,
+    "landscape-phone",
+    "landscape-phone",
+    "short-laptop",
+    "short-laptop",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "div.fr: \"Veste chemise\"",
+   "widths": [
+    768
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "p.rk-n 11px",
+   "widths": [
+    768,
+    820,
+    1024,
+    1280,
+    1440,
+    1920,
+    2560,
+    "landscape-phone",
+    "short-laptop"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tiny-text",
+   "detail": "dt 10.5px",
+   "widths": [
+    768,
+    768,
+    768,
+    820,
+    820,
+    820,
+    1024,
+    1024,
+    1024,
+    1280,
+    1280,
+    1280,
+    1440,
+    1440,
+    1440,
+    1920,
+    1920,
+    1920,
+    2560,
+    2560,
+    2560,
+    "landscape-phone",
+    "landscape-phone",
+    "landscape-phone",
+    "short-laptop",
+    "short-laptop",
+    "short-laptop"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "clipped-text",
+   "detail": "div.fr: \"Bomber\"",
+   "widths": [
+    820,
+    "landscape-phone"
+   ]
+  }
+ ]
+}

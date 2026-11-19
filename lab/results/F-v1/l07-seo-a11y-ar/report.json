@@ -1,0 +1,55 @@
+{
+ "id": "l07-seo-a11y",
+ "lang": "ar",
+ "critical": [],
+ "major": [],
+ "minor": [],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=https://greenleaf.example/",
+   "fr=https://greenleaf.example/fr/",
+   "ar=https://greenleaf.example/ar/",
+   "x-default=https://greenleaf.example/"
+  ],
+  "canonical": "https://greenleaf.example/ar/",
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 32,
+  "digits": {
+   "western": 8,
+   "arabicIndic": 0
+  },
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.6
+ }
+}

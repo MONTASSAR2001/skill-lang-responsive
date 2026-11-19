@@ -1,0 +1,30 @@
+text	Create your account	أنشئ حسابك
+text	First name	الاسم الأول
+text	*	*
+attr:placeholder	Jane	سارة
+text	Last name	اسم العائلة
+text	*	*
+attr:placeholder	Doe	المنصوري
+text	Email address	عنوان البريد الإلكتروني
+text	*	*
+attr:placeholder	you@example.com	you@example.com
+text	We'll never share your email with anyone else.	لن نشارك بريدك الإلكتروني مع أي جهة أخرى.
+text	Password	كلمة المرور
+text	*	*
+text	Use at least 8 characters, including one number.	استخدم 8 أحرف على الأقل، من بينها رقم واحد.
+text	Country	الدولة
+text	Select a country	اختر دولة
+text	France	فرنسا
+text	Germany	ألمانيا
+text	United States	الولايات المتحدة
+text	Short bio	نبذة قصيرة
+attr:placeholder	Tell us a little about yourself	حدّثنا قليلًا عن نفسك
+text	0/140 characters	0/140 حرف
+text	I agree to the	أوافق على
+text	Terms of Service	شروط الخدمة
+text	and the	و
+text	Privacy Policy	سياسة الخصوصية
+text	.	.
+text	Create account	إنشاء الحساب
+text	Welcome aboard! Your account has been created. Check your inbox to confirm your email address.	مرحبًا بك! تم إنشاء حسابك. تحقق من بريدك الوارد لتأكيد عنوان بريدك الإلكتروني.
+head:title	Create your account	أنشئ حسابك

@@ -1,0 +1,16 @@
+{
+  "generatedBy": "pixel-clone scaffold",
+  "profile": ".clone-output/profile/studio-smartduke-com-demo-hale/profile.json",
+  "include": {
+    "three": false,
+    "gsap": true,
+    "framer": false,
+    "lenis": false,
+    "replay": false
+  },
+  "notes": [
+    "Standard site: write clean, hand-authored React + Tailwind components from design-blueprint.json. DomLayer/ThreeReplay dumps are NOT allowed (the scaffold omits them).",
+    "No WebGL context: do NOT add three / @react-three/*.",
+    "1 shadow root(s): their internals are not reachable by computed-style walk; capture screenshots and rebuild by measurement."
+  ]
+}

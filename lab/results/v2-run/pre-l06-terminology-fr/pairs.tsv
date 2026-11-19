@@ -1,0 +1,20 @@
+text	Fluxboard	Fluxboard	
+attr:aria-label	Main	Principale	
+text	Product	Produit	
+text	Workspaces	Espaces de travail	
+text	Pricing	Tarifs	
+text	Plan every sprint in one workspace	Planifiez chaque sprint dans un seul espace de travail	1.59
+text	Fluxboard brings your backlog, your boards and your deployments together. Create a workspace, invite your team and ship faster.	Fluxboard réunit votre backlog, vos tableaux et vos déploiements. Créez un espace de travail, invitez votre équipe et livrez plus vite.	1.06
+text	Workspaces and boards	Espaces de travail et tableaux	1.43
+text	A workspace holds all your boards. Each board has columns, and each column holds cards. Move a card from the backlog to the sprint board with a single drag. Every workspace has its own members, roles and billing.	Un espace de travail regroupe tous vos tableaux. Chaque tableau comporte des colonnes, et chaque colonne contient des cartes. Déplacez une carte du backlog vers le tableau du sprint d’un simple glisser-déposer. Chaque espace de travail a ses propres membres, rôles et facturation.	1.32
+text	Roles and seats	Rôles et licences	1.13
+text	Each seat can be an admin, an editor or a viewer. Admins manage the workspace, editors update boards, and viewers can read but not change anything. You pay per seat, and an unused seat can be reassigned at any time.	Chaque licence peut être attribuée à un administrateur, un éditeur ou un lecteur. Les administrateurs gèrent l’espace de travail, les éditeurs mettent à jour les tableaux, et les lecteurs peuvent consulter sans rien modifier. Vous payez par licence, et une licence inutilisée peut être réattribuée à tout moment.	1.45
+text	Sprints and the backlog	Sprints et backlog	0.78
+text	Plan a sprint by dragging cards from the backlog into the sprint. When the sprint ends, unfinished cards return to the backlog automatically. Review the sprint report to see velocity.	Planifiez un sprint en faisant glisser des cartes du backlog vers le sprint. À la fin du sprint, les cartes non terminées retournent automatiquement dans le backlog. Consultez le rapport de sprint pour voir la vélocité.	1.20
+text	Deploy and roll back	Déployer et annuler un déploiement	1.70
+text	Connect a repository and Fluxboard Cloud will deploy every merge request that passes review. If something breaks, roll back with one click. Each deployment is linked to its cards, so you always know what shipped.	Connectez un dépôt et Fluxboard Cloud déploiera chaque merge request validée par la relecture. Si quelque chose casse, annulez le déploiement en un clic. Chaque déploiement est lié à ses cartes : vous savez toujours ce qui a été livré.	1.11
+text	Integrations	Intégrations	
+text	Use a webhook to notify your team in chat. Authenticate with an API key or with OAuth. Enterprise workspaces also support SSO. Kanban teams can switch off sprints entirely and use the board as a continuous flow.	Utilisez un webhook pour prévenir votre équipe dans la messagerie. Authentifiez-vous avec une clé API ou via OAuth. Les espaces de travail Enterprise prennent aussi en charge le SSO. Les équipes Kanban peuvent désactiver complètement les sprints et utiliser le tableau comme un flux continu.	1.38
+text	Create a workspace	Créer un espace de travail	1.44
+text	Read the API docs	Lire la documentation de l’API	1.76
+head:title	Fluxboard — Plan, track and ship	Fluxboard — Planifiez, suivez et livrez	1.22

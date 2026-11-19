@@ -1,0 +1,2236 @@
+{
+ "summary": {
+  "id": "r03-grids",
+  "url": "http://localhost:4173/baseline/responsive/r03-grids/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1600
+   }
+  ],
+  "sweepFailingWidths": 81,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 0,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:920px",
+    "offscreen:6",
+    "clipped:10"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:881px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:865px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:850px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:810px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:761px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:641px",
+    "offscreen:6",
+    "clipped:9",
+    "overlap:2"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:472px",
+    "offscreen:4",
+    "clipped:7",
+    "overlap:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:420px",
+    "offscreen:4",
+    "clipped:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:216px",
+    "offscreen:2",
+    "clipped:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:3"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:3"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:3"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:396px",
+    "offscreen:4",
+    "clipped:7"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "clipped:5"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:600px",
+    "offscreen:4",
+    "clipped:7",
+    "overlap:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2480,
+   "docOverflowPx": 920,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "After the rain"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "After the rain"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Unlimited projects"
+    },
+    {
+     "el": "article.card",
+     "sample": "Just a sentence."
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2549,
+   "docOverflowPx": 881,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Unlimited projects"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 650
+    },
+    {
+     "a": "p",
+     "b": "p",
+     "px": 1040
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2686,
+   "docOverflowPx": 865,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Unlimited projects"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 800
+    },
+    {
+     "a": "p",
+     "b": "p",
+     "px": 1280
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2684,
+   "docOverflowPx": 850,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Unlimited projects"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 950
+    },
+    {
+     "a": "p",
+     "b": "p",
+     "px": 1520
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2688,
+   "docOverflowPx": 810,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "A slow morning"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Priority support"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 1350
+    },
+    {
+     "a": "p",
+     "b": "p",
+     "px": 2160
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 2207,
+   "docOverflowPx": 761,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Cable knit, navy."
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Cable knit, navy."
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "Priority support"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 1850
+    },
+    {
+     "a": "p",
+     "b": "p",
+     "px": 1480
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 1985,
+   "docOverflowPx": 641,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "p",
+     "left": 377,
+     "right": 607
+    },
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Cable knit, navy."
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Cable knit, navy."
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h2",
+     "px": 3840
+    },
+    {
+     "a": "p",
+     "b": "h3",
+     "px": 3050
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1654,
+   "docOverflowPx": 472,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h2",
+     "px": 1952
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 33
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 420,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 37
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 216,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 49
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 64
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1392,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 64
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1872,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 68
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2512,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 95
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 396,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 38
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Hoodie, oat."
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 64
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 872,
+   "docOverflowPx": 600,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1240,
+   "widestElement": "article.card",
+   "offscreen": [
+    {
+     "el": "h3",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "p",
+     "left": 681,
+     "right": 911
+    },
+    {
+     "el": "h3",
+     "left": 985,
+     "right": 1215
+    },
+    {
+     "el": "p",
+     "left": 985,
+     "right": 1215
+    }
+   ],
+   "clipped": [
+    {
+     "el": "article.card",
+     "sample": "Accessible by default and across every a"
+    },
+    {
+     "el": "article.card",
+     "sample": "Offline-first synchronization"
+    },
+    {
+     "el": "a.icard",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "On the coast path with a surprisingly lo"
+    },
+    {
+     "el": "a.icard",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "div.icard-body",
+     "sample": "Bomber, black. A quiet bomber in a matte"
+    },
+    {
+     "el": "article.card.tall",
+     "sample": "99.99% SLA"
+    }
+   ],
+   "overlaps": [
+    {
+     "a": "p",
+     "b": "h2",
+     "px": 4320
+    }
+   ],
+   "smallTargets": [],
+   "smallTargetCount": 0,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Accessible by default and across every assistive technology": "visible",
+    "Offline-first synchronization": "visible",
+    "Conflicts are resolved automatically": "visible",
+    "On the coast path with a surprisingly long headline": "visible",
+    "hidden inside pocket": "visible",
+    "Cancel anytime": "visible",
+    "Custom roles": "visible"
+   },
+   "maxCharsPerLine": 29
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 920,
+   "clipped": 10,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 336,
+   "overflow": 904,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 352,
+   "overflow": 888,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 368,
+   "overflow": 872,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 384,
+   "overflow": 856,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 400,
+   "overflow": 840,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 416,
+   "overflow": 824,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 432,
+   "overflow": 808,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 448,
+   "overflow": 792,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 464,
+   "overflow": 776,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 480,
+   "overflow": 760,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 496,
+   "overflow": 744,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 512,
+   "overflow": 728,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 528,
+   "overflow": 712,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 544,
+   "overflow": 696,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 6
+  },
+  {
+   "w": 560,
+   "overflow": 680,
+   "clipped": 9,
+   "overlaps": 4,
+   "offscreen": 6
+  },
+  {
+   "w": 576,
+   "overflow": 664,
+   "clipped": 9,
+   "overlaps": 4,
+   "offscreen": 6
+  },
+  {
+   "w": 592,
+   "overflow": 648,
+   "clipped": 9,
+   "overlaps": 3,
+   "offscreen": 6
+  },
+  {
+   "w": 608,
+   "overflow": 632,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 624,
+   "overflow": 616,
+   "clipped": 9,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 640,
+   "overflow": 600,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 656,
+   "overflow": 584,
+   "clipped": 7,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 672,
+   "overflow": 568,
+   "clipped": 7,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 688,
+   "overflow": 552,
+   "clipped": 7,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 704,
+   "overflow": 536,
+   "clipped": 7,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 720,
+   "overflow": 520,
+   "clipped": 7,
+   "overlaps": 2,
+   "offscreen": 4
+  },
+  {
+   "w": 736,
+   "overflow": 504,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 752,
+   "overflow": 488,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 768,
+   "overflow": 472,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 784,
+   "overflow": 456,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 800,
+   "overflow": 440,
+   "clipped": 7,
+   "overlaps": 1,
+   "offscreen": 4
+  },
+  {
+   "w": 816,
+   "overflow": 424,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 832,
+   "overflow": 408,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 848,
+   "overflow": 392,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 864,
+   "overflow": 376,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 880,
+   "overflow": 360,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 896,
+   "overflow": 344,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 4
+  },
+  {
+   "w": 912,
+   "overflow": 328,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 928,
+   "overflow": 312,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 944,
+   "overflow": 296,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 960,
+   "overflow": 280,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 976,
+   "overflow": 264,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 992,
+   "overflow": 248,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1008,
+   "overflow": 232,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1024,
+   "overflow": 216,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1040,
+   "overflow": 200,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1056,
+   "overflow": 184,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1072,
+   "overflow": 168,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1088,
+   "overflow": 152,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1104,
+   "overflow": 136,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1120,
+   "overflow": 120,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1136,
+   "overflow": 104,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1152,
+   "overflow": 88,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1168,
+   "overflow": 72,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1184,
+   "overflow": 56,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1200,
+   "overflow": 40,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 2
+  },
+  {
+   "w": 1216,
+   "overflow": 24,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1232,
+   "overflow": 8,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 3,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

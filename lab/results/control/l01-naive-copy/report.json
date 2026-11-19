@@ -1,0 +1,127 @@
+{
+ "id": "l01-marketing",
+ "lang": "fr",
+ "critical": [
+  {
+   "code": "untranslated-sentences",
+   "detail": [
+    {
+     "kind": "text",
+     "text": "Shop the drop"
+    },
+    {
+     "kind": "text",
+     "text": "New for autumn"
+    },
+    {
+     "kind": "text",
+     "text": "Cut once. Worn for years."
+    },
+    {
+     "kind": "text",
+     "text": "We make fewer things, better. Every piece starts as a paper pattern and ends up "
+    },
+    {
+     "kind": "text",
+     "text": "Get started — it's free"
+    },
+    {
+     "kind": "text",
+     "text": "See how it works"
+    }
+   ]
+  },
+  {
+   "code": "known-bad-literal",
+   "detail": "go the distance"
+  },
+  {
+   "code": "known-bad-literal",
+   "detail": "fast fashion"
+  }
+ ],
+ "major": [
+  {
+   "code": "untranslated-words",
+   "detail": [
+    {
+     "kind": "attr:aria-label",
+     "text": "Main"
+    },
+    {
+     "kind": "text",
+     "text": "Shop"
+    },
+    {
+     "kind": "text",
+     "text": "Our story"
+    },
+    {
+     "kind": "text",
+     "text": "Repairs"
+    },
+    {
+     "kind": "text",
+     "text": "Journal"
+    },
+    {
+     "kind": "text",
+     "text": "— Marta, Lisbon"
+    }
+   ]
+  },
+  {
+   "code": "expected-convention-missing",
+   "detail": "30 jours"
+  },
+  {
+   "code": "expected-convention-missing",
+   "detail": "gratuit | offert | offertes | gratuites | sans frais"
+  }
+ ],
+ "minor": [
+  {
+   "code": "fr-punctuation-spacing",
+   "detail": "3 spots without (narrow) no-break space before : ; ? !"
+  }
+ ],
+ "notes": [],
+ "metrics": {
+  "hreflang": [],
+  "canonical": null,
+  "leakCount": 19,
+  "identicalWords": 6,
+  "stringsPaired": 26,
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 0,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1
+ }
+}

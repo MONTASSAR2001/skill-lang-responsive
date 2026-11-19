@@ -1,0 +1,104 @@
+{
+ "id": "l02-ui",
+ "lang": "ar",
+ "critical": [],
+ "major": [],
+ "minor": [
+  {
+   "code": "string-count-differs",
+   "detail": "37 source strings vs 39 target (1 unpaired)"
+  }
+ ],
+ "notes": [],
+ "metrics": {
+  "hreflang": [
+   "en=/l10n/l02-ui/",
+   "x-default=/l10n/l02-ui/",
+   "fr=/l10n/l02-ui/fr/",
+   "ar=/l10n/l02-ui/ar/"
+  ],
+  "canonical": null,
+  "leakCount": 0,
+  "identicalWords": 0,
+  "stringsPaired": 37,
+  "digits": {
+   "western": 0,
+   "arabicIndic": 0
+  },
+  "layout": [
+   {
+    "w": 320,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 390,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 768,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   },
+   {
+    "w": 1280,
+    "srcOverflow": 0,
+    "tgtOverflow": 0,
+    "srcClipped": 1,
+    "tgtClipped": 0
+   }
+  ],
+  "maxLabelExpansion": 1.58,
+  "probe": [
+   {
+    "t": "حفظ التغييرات",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "إلغاء",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "حذف المشروع",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "دعوة الزملاء",
+    "clipped": false,
+    "h": false,
+    "title": "",
+    "al": null
+   },
+   {
+    "t": "نسخ الرابط",
+    "clipped": false,
+    "h": false,
+    "title": "انسخ رابط المشاركة إلى الحافظة",
+    "al": null
+   },
+   {
+    "t": "⋯",
+    "clipped": false,
+    "h": false,
+    "title": "المزيد من الإجراءات",
+    "al": "المزيد من الإجراءات"
+   }
+  ]
+ }
+}

@@ -1,0 +1,4516 @@
+{
+ "summary": {
+  "id": "r05-tables",
+  "url": "http://localhost:4173/baseline/responsive/r05-tables/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1600
+   }
+  ],
+  "sweepFailingWidths": 81,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 144,
+  "tinyTextViewports": 17,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:9",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:8",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:8",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:8",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:8",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:6",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:6",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:4",
+    "tap<24:12"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "clipped:4",
+    "tap<24:12"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "offscreen:12",
+    "clipped:5",
+    "tap<24:12"
+   ],
+   "tapMajor": 0,
+   "tiny": 8,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "offscreen:12",
+    "clipped:6",
+    "tap<24:12"
+   ],
+   "tapMajor": 12,
+   "tiny": 8,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 640,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 306,
+     "right": 431
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 306,
+     "right": 431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Email"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "th",
+     "sample": "Change"
+    },
+    {
+     "el": "td",
+     "sample": "Blue Falcons"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    },
+    {
+     "el": "td",
+     "sample": "Red Pandas"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 740,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 306,
+     "right": 431
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 306,
+     "right": 431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Email"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Blue Falcons"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    },
+    {
+     "el": "td",
+     "sample": "Red Pandas"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 812,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 306,
+     "right": 431
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 306,
+     "right": 431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Email"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Blue Falcons"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    },
+    {
+     "el": "td",
+     "sample": "Red Pandas"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 844,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 306,
+     "right": 431
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 306,
+     "right": 431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Status"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Blue Falcons"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    },
+    {
+     "el": "td",
+     "sample": "Red Pandas"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 932,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "span.pill.ok",
+     "left": 439,
+     "right": 499
+    },
+    {
+     "el": "td",
+     "left": 556,
+     "right": 681
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Status"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Blue Falcons"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    },
+    {
+     "el": "td",
+     "sample": "Red Pandas"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 854,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 431,
+     "right": 556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "span.pill.ok",
+     "left": 439,
+     "right": 499
+    },
+    {
+     "el": "td",
+     "left": 556,
+     "right": 681
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Status"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 960,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "td.n",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "td.n",
+     "left": 806,
+     "right": 931
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Items"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1024,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td.n",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "td.n",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "td.n",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "td.n",
+     "left": 1056,
+     "right": 1181
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Subtotal"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td.n",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "td.n",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "td.n",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Shipping"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td.n",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "td.n",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Total"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    },
+    {
+     "el": "button",
+     "left": 1530,
+     "right": 1555
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Warehouse"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    },
+    {
+     "el": "button",
+     "left": 1530,
+     "right": 1555
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    },
+    {
+     "el": "button",
+     "left": 1530,
+     "right": 1555
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    },
+    {
+     "el": "button",
+     "left": 1530,
+     "right": 1555
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Actions"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1880,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2520,
+   "widestElement": "h1",
+   "offscreen": [],
+   "clipped": [
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td.n",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "td.n",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "td.n",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Shipping"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    },
+    {
+     "el": "button",
+     "left": 1479,
+     "right": 1528
+    },
+    {
+     "el": "button",
+     "left": 1530,
+     "right": 1555
+    },
+    {
+     "el": "td",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "td",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "button",
+     "left": 1439,
+     "right": 1477
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Warehouse"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 450,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1556,
+   "widestElement": "#wide",
+   "offscreen": [
+    {
+     "el": "#wide",
+     "left": 56,
+     "right": 1556
+    },
+    {
+     "el": "th",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "th",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "th",
+     "left": 806,
+     "right": 931
+    },
+    {
+     "el": "th",
+     "left": 931,
+     "right": 1056
+    },
+    {
+     "el": "th",
+     "left": 1056,
+     "right": 1181
+    },
+    {
+     "el": "th",
+     "left": 1181,
+     "right": 1306
+    },
+    {
+     "el": "th",
+     "left": 1306,
+     "right": 1431
+    },
+    {
+     "el": "th",
+     "left": 1431,
+     "right": 1556
+    },
+    {
+     "el": "td",
+     "left": 556,
+     "right": 681
+    },
+    {
+     "el": "td.n",
+     "left": 681,
+     "right": 806
+    },
+    {
+     "el": "td.n",
+     "left": 806,
+     "right": 931
+    }
+   ],
+   "clipped": [
+    {
+     "el": "div.card",
+     "sample": "Subtotal"
+    },
+    {
+     "el": "td",
+     "sample": "Alexandria Montgomery-Whitfield"
+    },
+    {
+     "el": "td",
+     "sample": "alexandria.montgomery@example-long-domai"
+    },
+    {
+     "el": "td",
+     "sample": "fatima.alsayed@example.org"
+    },
+    {
+     "el": "td",
+     "sample": "Jean-Baptiste de la Fontaine"
+    },
+    {
+     "el": "td",
+     "sample": "Northern Lights United"
+    }
+   ],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 38,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 49,
+     "h": 20,
+     "critical": true
+    },
+    {
+     "el": "button",
+     "w": 25,
+     "h": 21,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 12,
+   "tinyText": [
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    },
+    {
+     "el": "button",
+     "px": 11
+    }
+   ],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Alexandria Montgomery-Whitfield": "visible",
+    "alexandria.montgomery@example-long-domain.com": "visible",
+    "Pending payment": "visible",
+    "Warehouse": "visible",
+    "Refund": "visible",
+    "$1,367.84": "visible",
+    "Northern Lights United": "visible",
+    "Leaderboard": "visible"
+   },
+   "maxCharsPerLine": 0
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 0,
+   "clipped": 9,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 0,
+   "clipped": 9,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 0,
+   "clipped": 8,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 0,
+   "clipped": 7,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 640,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 656,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 672,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 688,
+   "overflow": 0,
+   "clipped": 6,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 704,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 720,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 736,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 752,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 768,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 784,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 800,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 816,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 832,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 848,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 864,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 880,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 896,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 912,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 928,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 944,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 960,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 976,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 992,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1008,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1024,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1040,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1056,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1072,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1088,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1104,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1120,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1136,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1152,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1168,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1184,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1200,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1216,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1232,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 5,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 4,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

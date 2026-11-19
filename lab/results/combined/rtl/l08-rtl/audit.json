@@ -1,0 +1,1475 @@
+{
+ "url": "http://localhost:4173/l10n/l08-rtl/ar/",
+ "matrix": [
+  {
+   "width": 320,
+   "height": 640,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 214x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 214x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 214x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 214x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 360,
+   "height": 740,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 254x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 254x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 254x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 254x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 375,
+   "height": 812,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 269x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 269x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 269x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 269x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 284x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 284x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 284x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 284x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 430,
+   "height": 932,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 324x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 324x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 324x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 324x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 480,
+   "height": 854,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 600,
+   "height": 960,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 52x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 46x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 41x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 59x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 820,
+   "height": 1180,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 52x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 46x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 41x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 59x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 1024,
+   "height": 768,
+   "label": null,
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 52x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 46x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 41x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 59x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1440,
+   "height": 900,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 1920,
+   "height": 1080,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 2560,
+   "height": 1440,
+   "label": null,
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 844,
+   "height": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "issues": [
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 52x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 46x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 41x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a 59x26"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  },
+  {
+   "width": 1280,
+   "height": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "issues": []
+  },
+  {
+   "width": 640,
+   "height": 450,
+   "label": "zoom-200%",
+   "touch": true,
+   "issues": [
+    [
+     "critical",
+     "unreachable",
+     "الباقات"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "الأجهزة"
+    ],
+    [
+     "critical",
+     "unreachable",
+     "المساعدة"
+    ],
+    [
+     "major",
+     "tap<44",
+     "a.logo 142x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.lang 70x32"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#ph 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#em 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#nm 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "#code 360x38"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 86x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button 72x37"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 94x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 100x40"
+    ],
+    [
+     "major",
+     "tap<44",
+     "button.btn 125x40"
+    ]
+   ]
+  }
+ ],
+ "sweep": [],
+ "consoleErrors": [],
+ "failedRequests": [],
+ "issues": [
+  {
+   "sev": "critical",
+   "cat": "unreachable",
+   "detail": "الباقات",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "unreachable",
+   "detail": "الأجهزة",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "critical",
+   "cat": "unreachable",
+   "detail": "المساعدة",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a.logo 142x32",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.lang 70x32",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 214x38",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 214x38",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 214x38",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 214x38",
+   "widths": [
+    320
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.btn 94x40",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.btn 100x40",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button.btn 125x40",
+   "widths": [
+    320,
+    360,
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 254x38",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 254x38",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 254x38",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 254x38",
+   "widths": [
+    360
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 269x38",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 269x38",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 269x38",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 269x38",
+   "widths": [
+    375
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button 86x37",
+   "widths": [
+    375,
+    375,
+    390,
+    390,
+    430,
+    430,
+    480,
+    480,
+    600,
+    600,
+    768,
+    768,
+    820,
+    820,
+    1024,
+    1024,
+    "landscape-phone",
+    "landscape-phone",
+    "zoom-200%",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "button 72x37",
+   "widths": [
+    375,
+    390,
+    430,
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 284x38",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 284x38",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 284x38",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 284x38",
+   "widths": [
+    390
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 324x38",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 324x38",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 324x38",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 324x38",
+   "widths": [
+    430
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#ph 360x38",
+   "widths": [
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#em 360x38",
+   "widths": [
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#nm 360x38",
+   "widths": [
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "#code 360x38",
+   "widths": [
+    480,
+    600,
+    768,
+    820,
+    1024,
+    "landscape-phone",
+    "zoom-200%"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 52x26",
+   "widths": [
+    768,
+    820,
+    1024,
+    "landscape-phone"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 46x26",
+   "widths": [
+    768,
+    820,
+    1024,
+    "landscape-phone"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 41x26",
+   "widths": [
+    768,
+    820,
+    1024,
+    "landscape-phone"
+   ]
+  },
+  {
+   "sev": "major",
+   "cat": "tap<44",
+   "detail": "a 59x26",
+   "widths": [
+    768,
+    820,
+    1024,
+    "landscape-phone"
+   ]
+  }
+ ]
+}

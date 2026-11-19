@@ -1,0 +1,66 @@
+{
+ "issues": [
+  {
+   "sev": "critical",
+   "code": "untranslated-sentences",
+   "detail": [
+    "Ember & Oak, 48 Cannon Street, Manchester M4 3AB · 0161 555 0123"
+   ]
+  },
+  {
+   "sev": "minor",
+   "code": "identical-to-source (cognate or untranslated? review)",
+   "detail": [
+    "Menu",
+    "Contact",
+    "Date"
+   ]
+  }
+ ],
+ "layout": [
+  {
+   "w": 320,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 390,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 768,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  },
+  {
+   "w": 1280,
+   "s": {
+    "overflow": 0,
+    "clip": {}
+   },
+   "t": {
+    "overflow": 0,
+    "clip": {}
+   }
+  }
+ ]
+}

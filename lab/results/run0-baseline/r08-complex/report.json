@@ -1,0 +1,2295 @@
+{
+ "summary": {
+  "id": "r08-complex",
+  "url": "http://localhost:4173/baseline/responsive/r08-complex/",
+  "criticalViewports": 17,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 1600
+   }
+  ],
+  "sweepFailingWidths": 81,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 12,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:2020px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1980px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1965px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1950px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1910px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1860px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1740px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1572px",
+    "offscreen:10",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1520px",
+    "offscreen:10",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:1316px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:1080px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:1000px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:760px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [
+    "overflow:440px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:1496px",
+    "offscreen:8",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [
+    "overflow:1080px",
+    "offscreen:6",
+    "tap<24:1"
+   ],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:1700px",
+    "offscreen:12",
+    "tap<24:1"
+   ],
+   "tapMajor": 1,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2560,
+   "docOverflowPx": 2020,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2960,
+   "docOverflowPx": 1980,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 3248,
+   "docOverflowPx": 1965,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 3376,
+   "docOverflowPx": 1950,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 3728,
+   "docOverflowPx": 1910,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 260,
+     "right": 460
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 3416,
+   "docOverflowPx": 1860,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 3744,
+   "docOverflowPx": 1740,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 3120,
+   "docOverflowPx": 1572,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 1520,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 1316,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 1080,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2360,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "p",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h2",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h2",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h3",
+     "left": 2036,
+     "right": 2264
+    },
+    {
+     "el": "p",
+     "left": 2036,
+     "right": 2264
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 1000,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2440,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 360,
+     "right": 2360
+    },
+    {
+     "el": "p",
+     "left": 360,
+     "right": 2360
+    },
+    {
+     "el": "h2",
+     "left": 360,
+     "right": 2360
+    },
+    {
+     "el": "h2",
+     "left": 360,
+     "right": 2360
+    },
+    {
+     "el": "h3",
+     "left": 2116,
+     "right": 2344
+    },
+    {
+     "el": "p",
+     "left": 2116,
+     "right": 2344
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 760,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2680,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 600,
+     "right": 2600
+    },
+    {
+     "el": "p",
+     "left": 600,
+     "right": 2600
+    },
+    {
+     "el": "h2",
+     "left": 600,
+     "right": 2600
+    },
+    {
+     "el": "h2",
+     "left": 600,
+     "right": 2600
+    },
+    {
+     "el": "h3",
+     "left": 2356,
+     "right": 2584
+    },
+    {
+     "el": "p",
+     "left": 2356,
+     "right": 2584
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 440,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 3000,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 920,
+     "right": 2920
+    },
+    {
+     "el": "p",
+     "left": 920,
+     "right": 2920
+    },
+    {
+     "el": "h2",
+     "left": 920,
+     "right": 2920
+    },
+    {
+     "el": "h2",
+     "left": 920,
+     "right": 2920
+    },
+    {
+     "el": "h3",
+     "left": 2676,
+     "right": 2904
+    },
+    {
+     "el": "p",
+     "left": 2676,
+     "right": 2904
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 1496,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 1080,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2360,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "p",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h2",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h2",
+     "left": 280,
+     "right": 2280
+    },
+    {
+     "el": "h3",
+     "left": 2036,
+     "right": 2264
+    },
+    {
+     "el": "p",
+     "left": 2036,
+     "right": 2264
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 1646,
+   "docOverflowPx": 1700,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2340,
+   "widestElement": "div.ov-deco",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "p",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "p",
+     "left": 372,
+     "right": 828
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "h2",
+     "left": 260,
+     "right": 2260
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "div.cell",
+     "left": 472,
+     "right": 672
+    },
+    {
+     "el": "div.cell",
+     "left": 684,
+     "right": 884
+    },
+    {
+     "el": "h3",
+     "left": 2016,
+     "right": 2244
+    },
+    {
+     "el": "p",
+     "left": 2016,
+     "right": 2244
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 43,
+     "h": 16,
+     "critical": true
+    }
+   ],
+   "smallTargetCount": 1,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Free shipping on orders over $250": "visible",
+    "Complex composition": "visible",
+    "Overlapping card": "visible",
+    "Horizontal scroller": "visible",
+    "Sidebar widget": "visible",
+    "On this page": "visible",
+    "Chat with us": "visible"
+   },
+   "maxCharsPerLine": 250
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 2020,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 2004,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 1988,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 1972,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 1956,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 1940,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 1924,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 1908,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 1892,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 1876,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 1860,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 1844,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 1828,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 1812,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 1796,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 1780,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 1764,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 1748,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 608,
+   "overflow": 1732,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 624,
+   "overflow": 1716,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 640,
+   "overflow": 1700,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 656,
+   "overflow": 1684,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 672,
+   "overflow": 1668,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 688,
+   "overflow": 1652,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 704,
+   "overflow": 1636,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 720,
+   "overflow": 1620,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 736,
+   "overflow": 1604,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 752,
+   "overflow": 1588,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 768,
+   "overflow": 1572,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 784,
+   "overflow": 1556,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 800,
+   "overflow": 1540,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 816,
+   "overflow": 1524,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 10
+  },
+  {
+   "w": 832,
+   "overflow": 1508,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 848,
+   "overflow": 1492,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 864,
+   "overflow": 1476,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 880,
+   "overflow": 1460,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 8
+  },
+  {
+   "w": 896,
+   "overflow": 1444,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 912,
+   "overflow": 1428,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 928,
+   "overflow": 1412,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 944,
+   "overflow": 1396,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 960,
+   "overflow": 1380,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 976,
+   "overflow": 1364,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 992,
+   "overflow": 1348,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1008,
+   "overflow": 1332,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1024,
+   "overflow": 1316,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1040,
+   "overflow": 1300,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1056,
+   "overflow": 1284,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1072,
+   "overflow": 1268,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1088,
+   "overflow": 1252,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1104,
+   "overflow": 1236,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1120,
+   "overflow": 1220,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1136,
+   "overflow": 1204,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1152,
+   "overflow": 1188,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1168,
+   "overflow": 1172,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1184,
+   "overflow": 1156,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1200,
+   "overflow": 1140,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1216,
+   "overflow": 1124,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1232,
+   "overflow": 1108,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1248,
+   "overflow": 1096,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1264,
+   "overflow": 1088,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1280,
+   "overflow": 1080,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1296,
+   "overflow": 1072,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1312,
+   "overflow": 1064,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1328,
+   "overflow": 1056,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1344,
+   "overflow": 1048,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1360,
+   "overflow": 1040,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1376,
+   "overflow": 1032,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1392,
+   "overflow": 1024,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1408,
+   "overflow": 1016,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1424,
+   "overflow": 1008,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1440,
+   "overflow": 1000,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1456,
+   "overflow": 992,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1472,
+   "overflow": 984,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1488,
+   "overflow": 976,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1504,
+   "overflow": 968,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1520,
+   "overflow": 960,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1536,
+   "overflow": 952,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1552,
+   "overflow": 944,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1568,
+   "overflow": 936,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1584,
+   "overflow": 928,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1600,
+   "overflow": 920,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  }
+ ]
+}

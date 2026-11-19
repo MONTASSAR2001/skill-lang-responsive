@@ -1,0 +1,20 @@
+text	Fluxboard	Fluxboard
+attr:aria-label	Main	الرئيسية
+text	Product	المنتج
+text	Workspaces	مساحات العمل
+text	Pricing	الأسعار
+text	Plan every sprint in one workspace	خطّط لكل سبرنت في مساحة عمل واحدة
+text	Fluxboard brings your backlog, your boards and your deployments together. Create a workspace, invite your team and ship faster.	قائمة المهام المتراكمة واللوحات وعمليات النشر في مكان واحد. أنشئ مساحة عمل، وادعُ فريقك، وأطلق منتجاتك بسرعة أكبر.
+text	Workspaces and boards	مساحات العمل واللوحات
+text	A workspace holds all your boards. Each board has columns, and each column holds cards. Move a card from the backlog to the sprint board with a single drag. Every workspace has its own members, roles and billing.	تضم مساحة العمل جميع لوحاتك. لكل لوحة أعمدة، ويحتوي كل عمود على بطاقات. انقل بطاقة من قائمة المهام المتراكمة إلى لوحة السبرنت بسحبة واحدة. ولكل مساحة عمل أعضاؤها وأدوارها وفواتيرها الخاصة.
+text	Roles and seats	الأدوار والمقاعد
+text	Each seat can be an admin, an editor or a viewer. Admins manage the workspace, editors update boards, and viewers can read but not change anything. You pay per seat, and an unused seat can be reassigned at any time.	يمكن أن يكون كل مقعد لمسؤول أو محرّر أو مشاهد. يدير المسؤولون مساحة العمل، ويحدّث المحررون اللوحات، بينما يستطيع المشاهدون القراءة دون تغيير أي شيء. تدفع مقابل كل مقعد، ويمكنك إعادة تعيين أي مقعد غير مستخدم في أي وقت.
+text	Sprints and the backlog	السبرنت وقائمة المهام المتراكمة
+text	Plan a sprint by dragging cards from the backlog into the sprint. When the sprint ends, unfinished cards return to the backlog automatically. Review the sprint report to see velocity.	خطّط للسبرنت بسحب البطاقات من قائمة المهام المتراكمة إلى السبرنت. وعند انتهاء السبرنت تعود البطاقات غير المكتملة تلقائيًا إلى قائمة المهام المتراكمة. راجع تقرير السبرنت لمعرفة السرعة.
+text	Deploy and roll back	النشر والتراجع
+text	Connect a repository and Fluxboard Cloud will deploy every merge request that passes review. If something breaks, roll back with one click. Each deployment is linked to its cards, so you always know what shipped.	بنشر كل طلب دمج يجتاز المراجعة. وإذا تعطّل شيء فتراجع عن النشر بنقرة واحدة. كل عملية نشر مرتبطة ببطاقاتها، فتعرف دائمًا ما الذي أُطلق.
+text	Integrations	التكامل
+text	Use a webhook to notify your team in chat. Authenticate with an API key or with OAuth. Enterprise workspaces also support SSO. Kanban teams can switch off sprints entirely and use the board as a continuous flow.	إيقاف السبرنت تمامًا واستخدام اللوحة كتدفق مستمر.
+text	Create a workspace	أنشئ مساحة عمل
+text	Read the API docs	اقرأ وثائق
+head:title	Fluxboard — Plan, track and ship	Fluxboard — خطّط وتابع وأطلق

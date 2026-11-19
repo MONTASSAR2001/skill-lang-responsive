@@ -1,0 +1,2406 @@
+{
+ "summary": {
+  "id": "r11-pricing",
+  "url": "http://localhost:4173/baseline/responsive/r11-pricing/",
+  "criticalViewports": 11,
+  "totalViewports": 17,
+  "failingSweepRanges": [
+   {
+    "from": 320,
+    "to": 992
+   }
+  ],
+  "sweepFailingWidths": 43,
+  "sweepTotalWidths": 81,
+  "tapMajorTotal": 44,
+  "tinyTextViewports": 0,
+  "fixedCoverViewports": 0,
+  "consoleErrors": [],
+  "failedRequests": []
+ },
+ "perViewport": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:680px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:640px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:625px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:611px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:570px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:521px",
+    "offscreen:12"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:400px",
+    "offscreen:7"
+   ],
+   "tapMajor": 2,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:232px",
+    "offscreen:7"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "touch": true,
+   "critical": [
+    "overflow:180px",
+    "offscreen:6"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "touch": true,
+   "critical": [],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "touch": true,
+   "critical": [
+    "overflow:156px",
+    "offscreen:6"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "touch": false,
+   "critical": [],
+   "tapMajor": 0,
+   "tiny": 0,
+   "fixedCover": 0
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "touch": true,
+   "critical": [
+    "overflow:360px",
+    "offscreen:7"
+   ],
+   "tapMajor": 6,
+   "tiny": 0,
+   "fixedCover": 0
+  }
+ ],
+ "viewports": [
+  {
+   "w": 320,
+   "h": 640,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 320,
+   "vh": 2000,
+   "docOverflowPx": 680,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 320,
+     "right": 392
+    },
+    {
+     "el": "a",
+     "left": 420,
+     "right": 450
+    },
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -136,
+     "right": -37
+    },
+    {
+     "el": "p.price",
+     "left": -136,
+     "right": -37
+    },
+    {
+     "el": "small",
+     "left": -87,
+     "right": -44
+    },
+    {
+     "el": "li",
+     "left": -118,
+     "right": -37
+    },
+    {
+     "el": "li",
+     "left": -118,
+     "right": -37
+    },
+    {
+     "el": "li",
+     "left": -118,
+     "right": -37
+    },
+    {
+     "el": "a.btn",
+     "left": -136,
+     "right": -37
+    },
+    {
+     "el": "h2",
+     "left": 292,
+     "right": 456
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 360,
+   "h": 740,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 360,
+   "vh": 2056,
+   "docOverflowPx": 640,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 320,
+     "right": 392
+    },
+    {
+     "el": "a",
+     "left": 420,
+     "right": 450
+    },
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -116,
+     "right": -17
+    },
+    {
+     "el": "p.price",
+     "left": -116,
+     "right": -17
+    },
+    {
+     "el": "small",
+     "left": -67,
+     "right": -24
+    },
+    {
+     "el": "li",
+     "left": -98,
+     "right": -17
+    },
+    {
+     "el": "li",
+     "left": -98,
+     "right": -17
+    },
+    {
+     "el": "li",
+     "left": -98,
+     "right": -17
+    },
+    {
+     "el": "a.btn",
+     "left": -116,
+     "right": -17
+    },
+    {
+     "el": "h2",
+     "left": 312,
+     "right": 476
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 375,
+   "h": 812,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 375,
+   "vh": 2166,
+   "docOverflowPx": 625,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 320,
+     "right": 392
+    },
+    {
+     "el": "a",
+     "left": 420,
+     "right": 450
+    },
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -109,
+     "right": -10
+    },
+    {
+     "el": "p.price",
+     "left": -109,
+     "right": -10
+    },
+    {
+     "el": "small",
+     "left": -60,
+     "right": -17
+    },
+    {
+     "el": "li",
+     "left": -91,
+     "right": -10
+    },
+    {
+     "el": "li",
+     "left": -91,
+     "right": -10
+    },
+    {
+     "el": "li",
+     "left": -91,
+     "right": -10
+    },
+    {
+     "el": "a.btn",
+     "left": -109,
+     "right": -10
+    },
+    {
+     "el": "h2",
+     "left": 320,
+     "right": 484
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 390,
+   "h": 844,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 390,
+   "vh": 2165,
+   "docOverflowPx": 611,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 320,
+     "right": 392
+    },
+    {
+     "el": "a",
+     "left": 420,
+     "right": 450
+    },
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -101,
+     "right": -2
+    },
+    {
+     "el": "p.price",
+     "left": -101,
+     "right": -2
+    },
+    {
+     "el": "small",
+     "left": -52,
+     "right": -9
+    },
+    {
+     "el": "li",
+     "left": -83,
+     "right": -2
+    },
+    {
+     "el": "li",
+     "left": -83,
+     "right": -2
+    },
+    {
+     "el": "li",
+     "left": -83,
+     "right": -2
+    },
+    {
+     "el": "a.btn",
+     "left": -101,
+     "right": -2
+    },
+    {
+     "el": "h2",
+     "left": 327,
+     "right": 491
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 430,
+   "h": 932,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 430,
+   "vh": 2168,
+   "docOverflowPx": 570,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a",
+     "left": 420,
+     "right": 450
+    },
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -81,
+     "right": 18
+    },
+    {
+     "el": "p.price",
+     "left": -81,
+     "right": 18
+    },
+    {
+     "el": "small",
+     "left": -32,
+     "right": 11
+    },
+    {
+     "el": "li",
+     "left": -63,
+     "right": 18
+    },
+    {
+     "el": "li",
+     "left": -63,
+     "right": 18
+    },
+    {
+     "el": "li",
+     "left": -63,
+     "right": 18
+    },
+    {
+     "el": "a.btn",
+     "left": -81,
+     "right": 18
+    },
+    {
+     "el": "h2",
+     "left": 347,
+     "right": 511
+    },
+    {
+     "el": "p.price",
+     "left": 347,
+     "right": 511
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 480,
+   "h": 854,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 480,
+   "vh": 1780,
+   "docOverflowPx": 521,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "a.cta",
+     "left": 478,
+     "right": 542
+    },
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": -56,
+     "right": 43
+    },
+    {
+     "el": "p.price",
+     "left": -56,
+     "right": 43
+    },
+    {
+     "el": "small",
+     "left": -7,
+     "right": 36
+    },
+    {
+     "el": "li",
+     "left": -38,
+     "right": 43
+    },
+    {
+     "el": "li",
+     "left": -38,
+     "right": 43
+    },
+    {
+     "el": "li",
+     "left": -38,
+     "right": 43
+    },
+    {
+     "el": "a.btn",
+     "left": -56,
+     "right": 43
+    },
+    {
+     "el": "h2",
+     "left": 372,
+     "right": 536
+    },
+    {
+     "el": "p.price",
+     "left": 372,
+     "right": 536
+    },
+    {
+     "el": "li",
+     "left": 390,
+     "right": 536
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 600,
+   "h": 960,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 600,
+   "vh": 1600,
+   "docOverflowPx": 400,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 34,
+     "h": 61,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 61,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 2,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 768,
+   "h": 1024,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 768,
+   "vh": 1334,
+   "docOverflowPx": 232,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 820,
+   "h": 1180,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 820,
+   "vh": 1180,
+   "docOverflowPx": 180,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 1024,
+   "h": 768,
+   "label": null,
+   "dpr": 1,
+   "touch": true,
+   "vw": 1024,
+   "vh": 768,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1024,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 128
+  },
+  {
+   "w": 1280,
+   "h": 800,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 800,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 160
+  },
+  {
+   "w": 1440,
+   "h": 900,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1440,
+   "vh": 900,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1440,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 180
+  },
+  {
+   "w": 1920,
+   "h": 1080,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 1920,
+   "vh": 1080,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1920,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 240
+  },
+  {
+   "w": 2560,
+   "h": 1440,
+   "label": null,
+   "dpr": 1,
+   "touch": false,
+   "vw": 2560,
+   "vh": 1440,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 2560,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 320
+  },
+  {
+   "w": 844,
+   "h": 390,
+   "label": "landscape-phone",
+   "dpr": 1,
+   "touch": true,
+   "vw": 844,
+   "vh": 390,
+   "docOverflowPx": 156,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  },
+  {
+   "w": 1280,
+   "h": 600,
+   "label": "short-laptop",
+   "dpr": 1,
+   "touch": false,
+   "vw": 1280,
+   "vh": 600,
+   "docOverflowPx": 0,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1280,
+   "widestElement": "header.hd",
+   "offscreen": [],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 160
+  },
+  {
+   "w": 640,
+   "h": 450,
+   "label": "zoom200",
+   "dpr": 2,
+   "touch": true,
+   "vw": 640,
+   "vh": 704,
+   "docOverflowPx": 360,
+   "hiddenOverflowPx": 0,
+   "contentRightEdgePx": 1000,
+   "widestElement": "section.compare",
+   "offscreen": [
+    {
+     "el": "h1",
+     "left": 0,
+     "right": 800
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "h2",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "summary",
+     "left": 0,
+     "right": 1000
+    },
+    {
+     "el": "p",
+     "left": 0,
+     "right": 1000
+    }
+   ],
+   "clipped": [],
+   "overlaps": [],
+   "smallTargets": [
+    {
+     "el": "a",
+     "w": 52,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 46,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 34,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 73,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a",
+     "w": 30,
+     "h": 39,
+     "critical": false
+    },
+    {
+     "el": "a.cta",
+     "w": 94,
+     "h": 39,
+     "critical": false
+    }
+   ],
+   "smallTargetCount": 6,
+   "tinyText": [],
+   "distorted": [],
+   "fixedCover": [],
+   "contentStatus": {
+    "Simple, predictable pricing": "visible",
+    "Hobby": "visible",
+    "Team": "visible",
+    "Enterprise": "visible",
+    "Most popular": "visible",
+    "Start 14-day trial": "visible",
+    "Contact sales": "visible",
+    "Compare plans": "visible",
+    "Single sign-on": "visible",
+    "Uptime SLA": "visible",
+    "Frequently asked questions": "visible",
+    "Do you offer discounts": "visible"
+   },
+   "maxCharsPerLine": 125
+  }
+ ],
+ "sweep": [
+  {
+   "w": 320,
+   "overflow": 680,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 336,
+   "overflow": 664,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 352,
+   "overflow": 648,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 368,
+   "overflow": 632,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 384,
+   "overflow": 616,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 400,
+   "overflow": 600,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 416,
+   "overflow": 584,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 432,
+   "overflow": 568,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 448,
+   "overflow": 552,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 464,
+   "overflow": 536,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 480,
+   "overflow": 520,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 496,
+   "overflow": 504,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 512,
+   "overflow": 488,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 528,
+   "overflow": 472,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 544,
+   "overflow": 456,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 560,
+   "overflow": 440,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 576,
+   "overflow": 424,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 12
+  },
+  {
+   "w": 592,
+   "overflow": 408,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 608,
+   "overflow": 392,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 624,
+   "overflow": 376,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 640,
+   "overflow": 360,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 656,
+   "overflow": 344,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 672,
+   "overflow": 328,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 688,
+   "overflow": 312,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 704,
+   "overflow": 296,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 720,
+   "overflow": 280,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 736,
+   "overflow": 264,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 752,
+   "overflow": 248,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 768,
+   "overflow": 232,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 784,
+   "overflow": 216,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 7
+  },
+  {
+   "w": 800,
+   "overflow": 200,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 816,
+   "overflow": 184,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 832,
+   "overflow": 168,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 848,
+   "overflow": 152,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 864,
+   "overflow": 136,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 880,
+   "overflow": 120,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 896,
+   "overflow": 104,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 912,
+   "overflow": 88,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 928,
+   "overflow": 72,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 944,
+   "overflow": 56,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 960,
+   "overflow": 40,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 976,
+   "overflow": 24,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 992,
+   "overflow": 8,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 6
+  },
+  {
+   "w": 1008,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1024,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1040,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1056,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1072,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1088,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1104,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1120,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1136,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1152,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1168,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1184,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1200,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1216,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1232,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1248,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1264,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1280,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1296,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1312,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1328,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1344,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1360,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1376,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1392,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1408,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1424,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1440,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1456,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1472,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1488,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1504,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1520,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1536,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1552,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1568,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1584,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  },
+  {
+   "w": 1600,
+   "overflow": 0,
+   "clipped": 0,
+   "overlaps": 0,
+   "offscreen": 0
+  }
+ ]
+}

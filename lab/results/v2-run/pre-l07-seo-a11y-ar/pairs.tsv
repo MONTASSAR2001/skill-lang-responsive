@@ -1,0 +1,32 @@
+text	Skip to main content	انتقل إلى المحتوى الرئيسي	1.25
+text	Greenleaf	Greenleaf	
+attr:aria-label	Main navigation	التنقل الرئيسي	0.93
+text	Bikes	الدراجات	
+text	Test rides	تجارب القيادة	
+text	Service	الصيانة	
+attr:title	Cart	السلة	
+attr:aria-label	Open shopping cart	فتح سلة التسوق	0.78
+text	🛒	🛒	
+text	3 items in cart	3 عناصر في السلة	1.07
+text	Electric bikes that make the city smaller	دراجات كهربائية تقرّب المدينة منك	0.80
+attr:alt	A cyclist riding an electric bike along a cobblestone street at sunrise	راكب دراجة كهربائية يسير في شارع مرصوف بالحجارة عند شروق الشمس	0.87
+text	Greenleaf builds light, quiet and beautifully simple e-bikes for people who would rather ride than sit in traffic.	تصنع Greenleaf دراجات كهربائية خفيفة وهادئة وبسيطة بأناقة، لمن يفضّل القيادة على الجلوس في الازدحام.	0.88
+text	Why riders choose us	لماذا يختارنا الراكبون	1.10
+text	Range of up to 120 km on a single charge	مدى يصل إلى 120 كم بشحنة واحدة	0.75
+text	Weighs only 14.9 kg	وزنها 14.9 كغ فقط	0.89
+text	5-year frame and battery warranty	ضمان 5 سنوات على الهيكل والبطارية	1.00
+attr:aria-label	Find a dealer	ابحث عن وكيل	0.92
+text	Enter your postcode to find a nearby dealer	أدخل الرمز البريدي للعثور على أقرب وكيل	0.91
+attr:title	Enter your postcode	أدخل الرمز البريدي	0.95
+attr:placeholder	Postcode	الرمز البريدي	
+text	Find a dealer	ابحث عن وكيل	0.92
+text	Every frame is hand-finished in our Lisbon workshop.	كل هيكل يُنجَز يدويًا في ورشتنا في لشبونة.	0.81
+text	Frequently asked questions	الأسئلة الشائعة	0.58
+text	Can I try a bike before I buy?	هل يمكنني تجربة دراجة قبل الشراء؟	1.10
+text	Yes. Book a free 30-minute test ride at any of our stores.	نعم. احجز تجربة قيادة مجانية مدتها 30 دقيقة في أي من متاجرنا.	1.05
+head:title	Greenleaf Bikes — Electric bikes for everyday city riding	Greenleaf Bikes — دراجات كهربائية للتنقل اليومي داخل المدينة	1.05
+head:description	Greenleaf builds lightweight electric bikes for city commuters. Free test rides, 5-year warranty and free shipping across Europe.	تصنع Greenleaf دراجات كهربائية خفيفة لمستخدمي المدن. تجارب قيادة مجانية، وضمان 5 سنوات، وشحن مجاني إلى جميع أنحاء أوروبا.	0.94
+head:og:title	Greenleaf Bikes — Electric bikes for everyday city riding	Greenleaf Bikes — دراجات كهربائية للتنقل اليومي داخل المدينة	1.05
+head:og:description	Lightweight e-bikes with a 5-year warranty. Book a free test ride today.	دراجات كهربائية خفيفة بضمان 5 سنوات. احجز تجربة قيادة مجانية اليوم.	0.93
+head:twitter:title	Greenleaf Bikes	Greenleaf Bikes	1.00
+head:jsonld.description	Lightweight electric bikes for city commuters.	دراجات كهربائية خفيفة لمستخدمي المدن.	0.80
