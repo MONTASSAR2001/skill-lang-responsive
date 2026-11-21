@@ -33,4 +33,4 @@ Checked and found **fine**: no hardcoded user paths in the skills; no `eval`; al
 - Cursor, VS Code Copilot, Antigravity and Codex were **not executable** here; their support is documented, not tested (`docs/compatibility.md`).
 - The official `skills-ref` validator could not be installed; `tests/validate-skills.mjs` is our implementation of the published rules.
 - Repo size matters for `claude plugin marketplace add` (it clones the whole repository with a 120 s timeout): the benchmark media was moved out of the working tree (finding 14).
-- Windows and macOS behaviour is covered by CI configuration, but only Linux was executed locally.
+- Windows and macOS were not available locally; they were executed by GitHub Actions (static and real-browser suites, run 7a47748: all 7 jobs green). Gemini CLI and the Claude CLI tests ran locally on Linux and the Claude job in CI.
