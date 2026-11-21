@@ -1,0 +1,20 @@
+{
+  "name": "responsive-localization",
+  "version": "1.0.0",
+  "description": "Two Agent Skills in one plugin: universal-responsive-design (browser-measured responsive audits and fixes with a before/after regression gate) and smart-website-localization (context-aware website localization (French, Arabic/RTL) with glossary, SEO/a11y text, hreflang and a layout-fallout verifier).",
+  "author": {
+    "name": "MONTASSAR2001",
+    "url": "https://github.com/MONTASSAR2001"
+  },
+  "homepage": "https://github.com/MONTASSAR2001/skill-lang-responsive#readme",
+  "repository": "https://github.com/MONTASSAR2001/skill-lang-responsive",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "responsive",
+    "localization",
+    "i18n",
+    "rtl",
+    "playwright"
+  ]
+}

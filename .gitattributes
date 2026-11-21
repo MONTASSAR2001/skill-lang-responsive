@@ -1,0 +1,8 @@
+# Scripts, manifests and docs must keep LF line endings on every OS (Windows checkouts included).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.webm binary
+*.woff2 binary

@@ -1,12 +1,21 @@
 ---
 name: smart-website-localization
 description: Localize a complete website or web app into one or more languages (French, Arabic/RTL, or any other) with real understanding of context, tone, terminology, locale conventions and UI constraints instead of literal translation. Use when asked to translate/localize/internationalize a site, add a language or RTL support, adapt copy for another market, or review/fix a localization. Covers visible copy, forms and validation messages, dynamic strings (variables, plurals, dates, numbers, conditionals), SEO metadata, accessibility text, hreflang/lang switching, RTL layout, and the layout fallout of longer text.
+license: MIT
+compatibility: Requires Node.js 18+ and Playwright with Chromium to run the bundled scripts (npm i -D playwright && npx playwright install chromium). Works in any agent that can run shell commands and view small images; no Claude-specific features are required.
+metadata:
+  author: MONTASSAR2001
+  version: "1.0.0"
+  repository: https://github.com/MONTASSAR2001/skill-lang-responsive
 ---
 
 # Smart website localization
 
 Deliver a site that reads as if it were written for that audience, behaves exactly like the original, and still fits its layout.
 Translation is one part; conventions, direction, metadata, behaviour and layout are the rest.
+
+## Setup
+`<skill-dir>` in the commands below is the directory that contains this SKILL.md (it holds `scripts/` and `references/`); resolve it to an absolute path before running a script. Requirements: Node.js 18+ and Playwright with Chromium (`npm i -D playwright && npx playwright install chromium`, or set `PLAYWRIGHT_MODULE` to an existing playwright package directory). Check the setup with `node <skill-dir>/scripts/verify.mjs --help`. Run scripts only against pages you own or are allowed to test; they open the URL in a real browser.
 
 ## Hard rules
 1. **Translate meaning, tone and function — not words.** If the literal version is unnatural, rewrite it. Keep the persuasive force of marketing and the brevity of UI text.
@@ -30,7 +39,7 @@ conventions per `references/conventions.md` (numbers, currency, dates, 24 h, uni
 
 ### 3. Extract everything
 ```
-node <skill>/scripts/extract-strings.mjs --url <url> --out strings.json --source-dir <src> [--steps "click:.open-dialog;wait:1200"]
+node <skill-dir>/scripts/extract-strings.mjs --url <url> --out strings.json --source-dir <src> [--steps "click:.open-dialog;wait:1200"]
 ```
 Run it for each interactive state (dialogs, menus, drawers, viewers, error states, every route/page). Review the *source candidates* it prints: these are strings the rendered page
 never showed (validation messages, plural branches, toasts). Group by type: marketing · UI · long-form · form/error · dynamic · SEO · a11y · code (do not translate).
@@ -48,7 +57,7 @@ Apply conventions (units, dates, 24 h, currency, honorifics) and typography (Fre
 
 ### 6. Verify
 ```
-node <skill>/scripts/verify.mjs --source <url> --target <url> --lang fr --glossary glossary.json --out <dir> [--steps ...] [--source-files a.js --target-files fr/a.js]
+node <skill-dir>/scripts/verify.mjs --source <url> --target <url> --lang fr --glossary glossary.json --out <dir> [--steps ...] [--source-files a.js --target-files fr/a.js]
 ```
 Fix every CRITICAL; justify every MAJOR. It checks `lang/dir/hreflang`, structure parity, leakage, metadata and a11y attributes, real broken assets, **new/worse clipped text and overflow vs the source at 320/390/768/1280**,
 protected terms and term consistency, interpolation tokens, French typography, Arabic digits and RTL mirroring/LTR islands/arrows. Then exercise the behaviour yourself in a browser: submit forms empty/invalid/valid,

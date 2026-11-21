@@ -18,16 +18,32 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
-
+import { execSync } from "node:child_process";
+import { pathToFileURL } from "node:url";
+// ---- shared bootstrap: identical in every script of this package (tests/validate-scripts.mjs enforces it) ----
+function fail(msg, code = 2) { console.error(msg); process.exit(code); }
+process.on("unhandledRejection", (e) => fail("Unexpected error: " + ((e && e.message) || e), 1));
+function globalNpmRoot() { try { return execSync("npm root -g", { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], timeout: 8000 }).trim(); } catch { return null; } }
 async function loadPlaywright() {
-  const cands = [process.env.PLAYWRIGHT_MODULE, "playwright", "playwright-core"].filter(Boolean);
-  for (const t of cands) { try { return await import(t.startsWith("/") ? t + "/index.mjs" : t); } catch {} }
-  try { return await import(createRequire(process.cwd() + "/").resolve("playwright")); } catch {}
-  console.error("Playwright not found. `npm i -D playwright && npx playwright install chromium`, or set PLAYWRIGHT_MODULE=/path/to/playwright");
-  process.exit(2);
+  const tryImport = async (spec) => { try { return await import(spec); } catch { return null; } };
+  const entryOf = (dir) => pathToFileURL(fs.existsSync(path.join(dir, "index.mjs")) ? path.join(dir, "index.mjs") : dir).href;
+  if (process.env.PLAYWRIGHT_MODULE) { const m = await tryImport(entryOf(path.resolve(process.env.PLAYWRIGHT_MODULE))); if (m) return m; }
+  for (const name of ["playwright", "playwright-core"]) { const m = await tryImport(name); if (m) return m; }
+  for (const base of [process.cwd(), globalNpmRoot()].filter(Boolean)) {
+    for (const name of ["playwright", "playwright-core"]) {
+      try { const m = await tryImport(entryOf(path.dirname(createRequire(path.join(base, "noop.js")).resolve(name + "/package.json")))); if (m) return m; } catch { /* try next */ }
+    }
+  }
+  fail("Playwright is not installed.\n  Install: npm i -D playwright && npx playwright install chromium\n  (or point PLAYWRIGHT_MODULE at an existing playwright package directory)");
 }
+async function launchChromium(chromium) { try { return await chromium.launch(); } catch (e) { fail("Could not start Chromium: " + String(e.message).split("\n")[0] + "\n  Install the browser: npx playwright install chromium"); } }
+function checkUrl(u) { try { if (!["http:", "https:", "file:"].includes(new URL(u).protocol)) throw new Error("scheme"); } catch { fail("Not a valid http(s) or file URL: " + u); } return u; }
+async function go(page, url) { try { await page.goto(url, { waitUntil: "load", timeout: 45000 }); } catch (e) { fail("Cannot load " + url + ": " + String(e.message).split("\n")[0]); } }
+// ---- end shared bootstrap ----
+if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("audit.mjs --url <url> [--out <dir>] [--compare <prev>/audit.json] [--intentional sel,sel] [--must a,b] [--widths 320,390,1280] [--no-sweep] [--scroll-shots N] [--wait ms]\nRenders the page in Chromium across a viewport matrix and a width sweep and reports layout defects. Needs Playwright (npm i -D playwright && npx playwright install chromium)."); process.exit(0); }
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => (v.startsWith("--") ? [...a, [v.slice(2), all[i + 1] === undefined || all[i + 1].startsWith("--") ? true : all[i + 1]]] : a), []));
 if (!args.url) { console.error("usage: audit.mjs --url <url> --out <dir> [--compare prev/audit.json] [--intentional sel,sel] [--must a,b] [--no-sweep] [--scroll-shots N]"); process.exit(2); }
+checkUrl(args.url);
 const out = args.out || "responsive-audit";
 fs.mkdirSync(out, { recursive: true });
 const MATRIX = [[320, 640], [360, 740], [375, 812], [390, 844], [430, 932], [480, 854], [600, 960], [768, 1024], [820, 1180], [1024, 768], [1280, 800], [1440, 900], [1920, 1080], [2560, 1440], [844, 390, "landscape-phone"], [1280, 600, "short-laptop"], [640, 450, "zoom-200%", 2]];
@@ -136,7 +152,7 @@ async function reveal(page, hidden) {
   return out;
 }
 
-const browser = await chromium.launch();
+const browser = await launchChromium(chromium);
 const errors = new Set(), failed = new Set();
 const results = [];
 const must = args.must ? String(args.must).split(",") : [];
@@ -145,7 +161,7 @@ let desktopInventory = null;
 // the widest desktop viewport defines which content must exist everywhere
 {
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } }); const p = await ctx.newPage();
-  await p.goto(args.url, { waitUntil: "load" }); await p.waitForTimeout(wait);
+  await go(p, args.url); await p.waitForTimeout(wait);
   desktopInventory = (await p.evaluate(measure, { intentional, must })).inventory.filter(([, v]) => v).map(([t]) => t);
   await ctx.close();
 }
@@ -155,7 +171,7 @@ for (const [w, h, label, dpr] of matrix) {
   const page = await ctx.newPage();
   page.on("console", (m) => m.type() === "error" && errors.add(m.text().slice(0, 100)));
   page.on("requestfailed", (r) => failed.add(r.url().slice(-70)));
-  await page.goto(args.url, { waitUntil: "load" }); await page.waitForTimeout(wait);
+  await go(page, args.url); await page.waitForTimeout(wait);
   const m = await page.evaluate(measure, { intentional, must: desktopInventory });
   const gone = m.inventory.filter(([, v]) => !v).map(([t]) => t);
   const reach = gone.length ? await reveal(page, gone) : {};
@@ -168,7 +184,7 @@ for (const [w, h, label, dpr] of matrix) {
 const sweep = [];
 if (!args["no-sweep"]) {
   const ctx = await browser.newContext({ viewport: { width: 1600, height: 800 } }); const page = await ctx.newPage();
-  await page.goto(args.url, { waitUntil: "load" }); await page.waitForTimeout(wait);
+  await go(page, args.url); await page.waitForTimeout(wait);
   for (let w = 320; w <= 1600; w += 16) {
     await page.setViewportSize({ width: w, height: 800 }); await page.waitForTimeout(45);
     const m = await page.evaluate(measure, { intentional, must: [] });
@@ -180,7 +196,7 @@ if (!args["no-sweep"]) {
 // screenshots: half-resolution JPEGs; full page + optional scroll-through for sticky / scroll-driven pages
 for (const [w, h, label] of matrix.filter(([w, , l]) => !l && [360, 390, 768, 1024, 1280, 1440].includes(w))) {
   const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 0.5, hasTouch: w <= 1024, isMobile: w < 820 });
-  const page = await ctx.newPage(); await page.goto(args.url, { waitUntil: "load" }); await page.waitForTimeout(wait);
+  const page = await ctx.newPage(); await go(page, args.url); await page.waitForTimeout(wait);
   await page.screenshot({ path: path.join(out, `w${w}.jpg`), fullPage: true, type: "jpeg", quality: 45 });
   const n = Number(args["scroll-shots"] || 0);
   if (n && (w === 390 || w === 1280)) {

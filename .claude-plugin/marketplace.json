@@ -1,0 +1,57 @@
+{
+  "name": "skill-lang-responsive",
+  "owner": {
+    "name": "MONTASSAR2001",
+    "url": "https://github.com/MONTASSAR2001"
+  },
+  "metadata": {
+    "description": "Browser-measured responsive design and context-aware website localization as portable Agent Skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "responsive-localization",
+      "source": "./plugins/responsive-localization",
+      "description": "Two Agent Skills in one plugin: universal-responsive-design (browser-measured responsive audits and fixes with a before/after regression gate) and smart-website-localization (context-aware website localization (French, Arabic/RTL) with glossary, SEO/a11y text, hreflang and a layout-fallout verifier).",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": [
+        "agent-skills",
+        "responsive",
+        "localization",
+        "i18n",
+        "rtl",
+        "playwright"
+      ]
+    },
+    {
+      "name": "universal-responsive-design",
+      "source": "./plugins/universal-responsive-design",
+      "description": "Agent Skill: browser-measured responsive audits and fixes with a before/after regression gate.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": [
+        "agent-skills",
+        "responsive",
+        "css",
+        "playwright",
+        "audit"
+      ]
+    },
+    {
+      "name": "smart-website-localization",
+      "source": "./plugins/smart-website-localization",
+      "description": "Agent Skill: context-aware website localization (French, Arabic/RTL) with glossary, SEO/a11y text, hreflang and a layout-fallout verifier.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": [
+        "agent-skills",
+        "localization",
+        "i18n",
+        "rtl",
+        "arabic",
+        "french"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Tag must equal package.json version
+        run: |
+          V=$(node -p "require('./package.json').version")
+          [ "v$V" = "${GITHUB_REF_NAME}" ] || { echo "tag ${GITHUB_REF_NAME} != package.json v$V"; exit 1; }
+      - run: npm install -g @anthropic-ai/claude-code
+      - run: node tests/run.mjs --strict
+      - name: Package skills
+        run: |
+          V=$(node -p "require('./package.json').version")
+          mkdir -p dist
+          (cd skills && zip -rq "../dist/agent-skills-$V.zip" .)
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${GITHUB_REF_NAME}" dist/*.zip --generate-notes --title "${GITHUB_REF_NAME}"

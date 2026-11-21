@@ -12,17 +12,35 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
-
+import { execSync } from "node:child_process";
+import { pathToFileURL } from "node:url";
+// ---- shared bootstrap: identical in every script of this package (tests/validate-scripts.mjs enforces it) ----
+function fail(msg, code = 2) { console.error(msg); process.exit(code); }
+process.on("unhandledRejection", (e) => fail("Unexpected error: " + ((e && e.message) || e), 1));
+function globalNpmRoot() { try { return execSync("npm root -g", { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], timeout: 8000 }).trim(); } catch { return null; } }
 async function loadPlaywright() {
-  for (const t of [process.env.PLAYWRIGHT_MODULE, "playwright", "playwright-core"].filter(Boolean)) { try { return await import(t.startsWith("/") ? t + "/index.mjs" : t); } catch {} }
-  try { return await import(createRequire(process.cwd() + "/").resolve("playwright")); } catch {}
-  console.error("Playwright not found (npm i -D playwright, or PLAYWRIGHT_MODULE=/path/to/playwright)."); process.exit(2);
+  const tryImport = async (spec) => { try { return await import(spec); } catch { return null; } };
+  const entryOf = (dir) => pathToFileURL(fs.existsSync(path.join(dir, "index.mjs")) ? path.join(dir, "index.mjs") : dir).href;
+  if (process.env.PLAYWRIGHT_MODULE) { const m = await tryImport(entryOf(path.resolve(process.env.PLAYWRIGHT_MODULE))); if (m) return m; }
+  for (const name of ["playwright", "playwright-core"]) { const m = await tryImport(name); if (m) return m; }
+  for (const base of [process.cwd(), globalNpmRoot()].filter(Boolean)) {
+    for (const name of ["playwright", "playwright-core"]) {
+      try { const m = await tryImport(entryOf(path.dirname(createRequire(path.join(base, "noop.js")).resolve(name + "/package.json")))); if (m) return m; } catch { /* try next */ }
+    }
+  }
+  fail("Playwright is not installed.\n  Install: npm i -D playwright && npx playwright install chromium\n  (or point PLAYWRIGHT_MODULE at an existing playwright package directory)");
 }
+async function launchChromium(chromium) { try { return await chromium.launch(); } catch (e) { fail("Could not start Chromium: " + String(e.message).split("\n")[0] + "\n  Install the browser: npx playwright install chromium"); } }
+function checkUrl(u) { try { if (!["http:", "https:", "file:"].includes(new URL(u).protocol)) throw new Error("scheme"); } catch { fail("Not a valid http(s) or file URL: " + u); } return u; }
+async function go(page, url) { try { await page.goto(url, { waitUntil: "load", timeout: 45000 }); } catch (e) { fail("Cannot load " + url + ": " + String(e.message).split("\n")[0]); } }
+// ---- end shared bootstrap ----
+if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("extract-strings.mjs --url <url> [--out strings.json] [--steps \"click:sel;wait:ms\"] [--source-dir <dir>]\nLists translatable strings of a rendered page (and, with --source-dir, candidate strings found in source files but not on the rendered page)."); process.exit(0); }
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => (v.startsWith("--") ? [...a, [v.slice(2), all[i + 1]]] : a), []));
 if (!args.url) { console.error("usage: extract-strings.mjs --url <url> [--out strings.json] [--steps ...] [--source-dir dir]"); process.exit(2); }
+checkUrl(args.url);
 const { chromium } = await loadPlaywright();
-const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
-await p.goto(args.url, { waitUntil: "load" }); await p.waitForTimeout(600);
+const b = await launchChromium(chromium); const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+await go(p, args.url); await p.waitForTimeout(600);
 
 const grab = (stage) => p.evaluate((stage) => {
   const out = [], skip = new Set(["SCRIPT", "STYLE", "NOSCRIPT"]);

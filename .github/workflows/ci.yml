@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  static:
+    name: static checks (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      # Agent Skills spec checks, plugin/marketplace integrity, sync with skills/, script hygiene, installer for every target
+      - run: node tests/run.mjs --static ${{ matrix.os == 'ubuntu-latest' && '--strict' || '' }}
+
+  browser:
+    name: browser tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      # real Chromium: responsive audit, string extraction, localization verifier, Arabic RTL
+      - run: node tests/run.mjs --browser --strict
+
+  claude-plugin:
+    name: Claude Code plugin install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci
+      - run: npm install -g @anthropic-ai/claude-code
+      - run: claude --version
+      # claude plugin validate (marketplace + 3 plugins) and an isolated-HOME marketplace add / install / discovery check
+      - run: node tests/run.mjs --static --strict
+      - run: node tests/run.mjs --claude --strict

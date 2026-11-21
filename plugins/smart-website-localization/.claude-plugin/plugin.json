@@ -1,0 +1,20 @@
+{
+  "name": "smart-website-localization",
+  "version": "1.0.0",
+  "description": "Agent Skill: context-aware website localization (French, Arabic/RTL) with glossary, SEO/a11y text, hreflang and a layout-fallout verifier.",
+  "author": {
+    "name": "MONTASSAR2001",
+    "url": "https://github.com/MONTASSAR2001"
+  },
+  "homepage": "https://github.com/MONTASSAR2001/skill-lang-responsive#readme",
+  "repository": "https://github.com/MONTASSAR2001/skill-lang-responsive",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "localization",
+    "i18n",
+    "rtl",
+    "arabic",
+    "french"
+  ]
+}

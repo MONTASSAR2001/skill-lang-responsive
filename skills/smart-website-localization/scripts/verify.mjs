@@ -15,14 +15,32 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
-
+import { execSync } from "node:child_process";
+import { pathToFileURL } from "node:url";
+// ---- shared bootstrap: identical in every script of this package (tests/validate-scripts.mjs enforces it) ----
+function fail(msg, code = 2) { console.error(msg); process.exit(code); }
+process.on("unhandledRejection", (e) => fail("Unexpected error: " + ((e && e.message) || e), 1));
+function globalNpmRoot() { try { return execSync("npm root -g", { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], timeout: 8000 }).trim(); } catch { return null; } }
 async function loadPlaywright() {
-  for (const t of [process.env.PLAYWRIGHT_MODULE, "playwright", "playwright-core"].filter(Boolean)) { try { return await import(t.startsWith("/") ? t + "/index.mjs" : t); } catch {} }
-  try { return await import(createRequire(process.cwd() + "/").resolve("playwright")); } catch {}
-  console.error("Playwright not found (npm i -D playwright, or PLAYWRIGHT_MODULE=/path/to/playwright)."); process.exit(2);
+  const tryImport = async (spec) => { try { return await import(spec); } catch { return null; } };
+  const entryOf = (dir) => pathToFileURL(fs.existsSync(path.join(dir, "index.mjs")) ? path.join(dir, "index.mjs") : dir).href;
+  if (process.env.PLAYWRIGHT_MODULE) { const m = await tryImport(entryOf(path.resolve(process.env.PLAYWRIGHT_MODULE))); if (m) return m; }
+  for (const name of ["playwright", "playwright-core"]) { const m = await tryImport(name); if (m) return m; }
+  for (const base of [process.cwd(), globalNpmRoot()].filter(Boolean)) {
+    for (const name of ["playwright", "playwright-core"]) {
+      try { const m = await tryImport(entryOf(path.dirname(createRequire(path.join(base, "noop.js")).resolve(name + "/package.json")))); if (m) return m; } catch { /* try next */ }
+    }
+  }
+  fail("Playwright is not installed.\n  Install: npm i -D playwright && npx playwright install chromium\n  (or point PLAYWRIGHT_MODULE at an existing playwright package directory)");
 }
+async function launchChromium(chromium) { try { return await chromium.launch(); } catch (e) { fail("Could not start Chromium: " + String(e.message).split("\n")[0] + "\n  Install the browser: npx playwright install chromium"); } }
+function checkUrl(u) { try { if (!["http:", "https:", "file:"].includes(new URL(u).protocol)) throw new Error("scheme"); } catch { fail("Not a valid http(s) or file URL: " + u); } return u; }
+async function go(page, url) { try { await page.goto(url, { waitUntil: "load", timeout: 45000 }); } catch (e) { fail("Cannot load " + url + ": " + String(e.message).split("\n")[0]); } }
+// ---- end shared bootstrap ----
+if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("verify.mjs --source <url> --target <url> --lang <code> [--glossary file.json] [--out dir] [--steps \"click:sel;wait:ms\"] [--intentional sel,sel] [--source-files a.js,b.js --target-files x.js,y.js] [--protect A,B]\nCompares a localized page with its source in Chromium. Writes <out>/pairs.tsv and <out>/verify.json; exit code 1 when critical issues exist, 2 on setup errors."); process.exit(0); }
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => (v.startsWith("--") ? [...a, [v.slice(2), all[i + 1]]] : a), []));
 if (!args.source || !args.target || !args.lang) { console.error("usage: verify.mjs --source <url> --target <url> --lang <code> [--glossary file] [--out dir] [--steps ...]"); process.exit(2); }
+checkUrl(args.source); checkUrl(args.target);
 const lang = args.lang, rtl = ["ar", "he", "fa", "ur"].includes(lang), out = args.out || "l10n-verify";
 fs.mkdirSync(out, { recursive: true });
 const glossary = args.glossary ? JSON.parse(fs.readFileSync(args.glossary, "utf8")) : { protect: [], terms: [] };
@@ -30,7 +48,7 @@ const protect = [...(glossary.protect || []), ...(args.protect ? String(args.pro
 const intentional = args.intentional ? String(args.intentional).split(",") : [];
 const issues = []; const add = (sev, code, detail) => issues.push({ sev, code, detail });
 const { chromium } = await loadPlaywright();
-const browser = await chromium.launch();
+const browser = await launchChromium(chromium);
 const STOP = new Set("the and your you our with from this that will are have has was were their they what when where which would could about into also than then there these those just more most only some such very can't don't won't it's we're you're let's isn't doesn't".split(" "));
 const words = (t) => t.toLowerCase().match(/[a-z']{2,}/g) || [];
 
@@ -38,7 +56,7 @@ async function open(url, w = 1280) {
   const ctx = await browser.newContext({ viewport: { width: w, height: 900 } }); const page = await ctx.newPage();
   const failed = []; page.on("response", (r) => r.status() >= 400 && failed.push(`${r.status()} ${r.url()}`)); page.on("requestfailed", (r) => failed.push(r.url()));
   const errs = []; page.on("pageerror", (e) => errs.push(String(e).slice(0, 100)));
-  await page.goto(url, { waitUntil: "load" }); await page.waitForTimeout(400);
+  await go(page, url); await page.waitForTimeout(400);
   return { ctx, page, failed, errs };
 }
 /** run `click:sel;wait:ms;press:key` steps so strings that only exist after interaction (dialogs, menus, viewers) are collected */

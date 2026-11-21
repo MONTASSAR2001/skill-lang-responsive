@@ -24,3 +24,4 @@ npm-debug.log*
 
 # Pixel Clone working directory (extraction dumps + 600 MB HTTP cache of the reference site)
 .clone-output/
+tests/last-run.json

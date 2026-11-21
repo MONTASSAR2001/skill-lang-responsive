@@ -1,12 +1,21 @@
 ---
 name: universal-responsive-design
 description: Analyze, redesign, fix and verify the responsiveness of an existing website or web app (plain HTML/CSS, React/Next, Vue, Tailwind — anything that renders in a browser). Use when asked to make a site responsive or mobile-friendly, fix overflow, clipped text, overlapping or tiny controls on phones/tablets, adapt a desktop-only design, audit responsive quality, or re-check layouts after content changes such as localization (text expansion, RTL). Works from real browser measurements across a viewport matrix plus a fine width sweep, and from screenshots, never from reading CSS alone.
+license: MIT
+compatibility: Requires Node.js 18+ and Playwright with Chromium to run the bundled scripts (npm i -D playwright && npx playwright install chromium). Works in any agent that can run shell commands and view small images; no Claude-specific features are required.
+metadata:
+  author: MONTASSAR2001
+  version: "1.0.0"
+  repository: https://github.com/MONTASSAR2001/skill-lang-responsive
 ---
 
 # Universal responsive design
 
 Make an existing site adapt *by design*, per component, and prove it in a real browser. A layout that "looks right in the CSS"
 is not verified. Report only what you measured or looked at.
+
+## Setup
+`<skill-dir>` in the commands below is the directory that contains this SKILL.md (it holds `scripts/` and `references/`); resolve it to an absolute path before running a script. Requirements: Node.js 18+ and Playwright with Chromium (`npm i -D playwright && npx playwright install chromium`, or set `PLAYWRIGHT_MODULE` to an existing playwright package directory). Check the setup with `node <skill-dir>/scripts/audit.mjs --help`.
 
 ## Hard rules
 1. **Measure → fix → re-measure.** Every claim cites an audit run or a screenshot you opened.
@@ -34,7 +43,7 @@ List the things that are meant to overflow or scroll → `--intentional`.
 
 ### 3. Baseline audit
 ```
-node <skill>/scripts/audit.mjs --url <url> --out <run>/before [--intentional "<sel>,<sel>"] [--scroll-shots 6]
+node <skill-dir>/scripts/audit.mjs --url <url> --out <run>/before [--intentional "<sel>,<sel>"] [--scroll-shots 6]
 ```
 It measures 17 viewports (320…2560 + landscape phone, short laptop, 200 % zoom) and sweeps 320→1600 px in 16 px steps, then lists grouped
 issues: overflow, content hidden by `overflow-x:hidden`, offscreen content, **clipped text**, **overlaps**, **distorted images**, **touch targets**
@@ -57,12 +66,12 @@ Use `svh/dvh` rather than `vh` for full-height stages. Convert physical to logic
 
 ### 6. Re-test and compare
 ```
-node <skill>/scripts/audit.mjs --url <url> --out <run>/after --compare <run>/before/audit.json [--intentional …]
+node <skill-dir>/scripts/audit.mjs --url <url> --out <run>/after --compare <run>/before/audit.json [--intentional …]
 ```
 Gate before you stop: **0 critical groups** (or each remaining one justified as intentional), **0 NEW groups in `--compare`**, sweep clean in
 every range you touched, 1280/1440/1920 unchanged, landscape-phone and short-laptop checked, touch targets ≥44 px unless justified.
 Also: (a) exercise what you built — open/close the menu, dropdown by tap and keyboard, drawer, form submit with errors; (b) for sticky or
-scroll-driven pages open the `scroll-w*.jpg` series; (c) visually review against `lab`-style questions: hierarchy kept, order sensible, no
+scroll-driven pages open the `scroll-w*.jpg` series; (c) visually review the screenshots: hierarchy kept, order sensible, no
 cramped or empty bands, media subject not cropped away, text over images legible.
 Iterate until the gate holds. If a defect cannot be fixed without changing design intent, stop and say so.
 

@@ -5,7 +5,7 @@
  * Compares <base>/<id>/ (English source) with <base>/<id>/<lang>/ in real Chromium and classifies findings as
  * critical / major / minor. Linguistic *quality* is judged separately (lab/rubrics); this covers everything measurable.
  */
-import { chromium } from "/home/montassar/.claude/plugins/cache/pixel-clone/pixel-clone/0.1.0/node_modules/playwright/index.mjs";
+import { chromium } from "playwright";
 import fs from "node:fs";
 import path from "node:path";
 

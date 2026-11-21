@@ -1,0 +1,19 @@
+{
+  "name": "universal-responsive-design",
+  "version": "1.0.0",
+  "description": "Agent Skill: browser-measured responsive audits and fixes with a before/after regression gate.",
+  "author": {
+    "name": "MONTASSAR2001",
+    "url": "https://github.com/MONTASSAR2001"
+  },
+  "homepage": "https://github.com/MONTASSAR2001/skill-lang-responsive#readme",
+  "repository": "https://github.com/MONTASSAR2001/skill-lang-responsive",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "responsive",
+    "css",
+    "playwright",
+    "audit"
+  ]
+}

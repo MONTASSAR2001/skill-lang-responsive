@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Broken</title>
+<style>*{box-sizing:border-box}body{margin:0;font:16px/1.5 Arial}
+.wrap{width:1200px;margin:0 auto;padding:24px}
+.cards{display:flex;gap:24px}
+.card{width:380px;height:70px;overflow:hidden;border:1px solid #ccc;padding:8px;flex:none}
+.cta{white-space:nowrap;font-size:16px}
+.tiny{font-size:13px;padding:0}
+</style></head><body><div class="wrap"><h1>Responsive fixture (intentionally broken)</h1>
+<div class="cards"><div class="card">A long card description that needs more room than the fixed height allows, so part of it is silently clipped by overflow hidden on narrow widths and even on wide ones.</div><div class="card">Second card with some more text that will also be cut off by the fixed height of this box and never be seen by the visitor.</div><div class="card">Third card.</div></div>
+<p><a class="cta" href="#">Subscribe to the monthly newsletter and receive exclusive offers every single week</a></p>
+<p><a class="tiny" href="#">x</a> <button class="tiny" style="height:18px">ok</button></p></div></body></html>
