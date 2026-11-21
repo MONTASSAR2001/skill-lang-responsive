@@ -1,6 +1,6 @@
 # Benchmark environment
 
-Everything lives under `lab/` (isolated from `hale-site/`). Re-running a future skill version against the same tests takes four commands.
+Everything lives under `lab/`, isolated from any application code (the Hale test site that was used for the real-world case has been removed from the tree; see README). Re-running a future skill version against the same tests takes four commands.
 
 ```
 lab/
@@ -74,7 +74,7 @@ off-canvas drawers, decorative overflow, lazy images, cognates, Arabic clitics, 
 
 ```
 node lab/serve.mjs &                                           # http://localhost:4173
-PORT=3217 npm --prefix hale-site start &                       # the Hale clone (build it first: npm --prefix hale-site run build)
+# (optional) the Hale real-world case needs the removed site: git checkout 2cfc203 -- hale-site, build and serve it on :3217
 export PLAYWRIGHT_MODULE=<path to playwright>                  # the skills' scripts need it
 
 # 1. start from the pristine baseline

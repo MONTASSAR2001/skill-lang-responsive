@@ -5,7 +5,7 @@
 |---|---|
 | Responsive skill (v3, frozen before held-out) | `skills/universal-responsive-design/` — `SKILL.md`, `references/{strategies,defects}.md`, `scripts/audit.mjs` |
 | Localization skill (v2.1 frozen; v2.2 = one post-held-out bug fix) | `skills/smart-website-localization/` — `SKILL.md`, `references/{conventions,french,arabic,rtl}.md`, `scripts/{extract-strings,verify}.mjs` |
-| Hale replica (Pixel Clone, skill untouched) | `hale-site/` — 1440/1920/390 diff ≥99.98 % on all slices, viewer and bag states; notes in `hale-site/CLONE_NOTES.md` |
+| Hale replica (Pixel Clone, skill untouched) | **removed from the current tree**; preserved in git history at commit `2cfc203` (`hale-site/`, with `CLONE_NOTES.md`). 1440/1920/390 diff ≥99.98 % on all slices, viewer and bag states |
 | Benchmark | `lab/` (13 responsive + 11 localization cases, judges, rubrics, baselines, every version's outputs and results) — `docs/02-benchmark-environment.md` |
 | Reports | `docs/01` strategy · `03` responsive · `04` localization · `05` combined · this file |
 | Invocation | `README.md` |

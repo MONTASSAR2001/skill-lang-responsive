@@ -31,13 +31,13 @@ must trace to a file under `lab/results/` or `docs/`.
 
 | Asset | What it is | Used for |
 |---|---|---|
-| **Hale clone** (`hale-site/`, Next.js) | Real-world, JS-heavy, scroll-driven shop, replicated with Pixel Clone (22/23 slices ≥99.9% at 1440, rest = lazy-load noise) | Real-world responsive + localization; framework-based |
+| **Hale clone** (`hale-site/`, Next.js; since removed from the tree, see README) | Real-world, JS-heavy, scroll-driven shop, replicated with Pixel Clone (22/23 slices ≥99.9% at 1440, rest = lazy-load noise) | Real-world responsive + localization; framework-based |
 | **Responsive lab** (`lab/responsive/*`) | 13 static HTML/CSS/JS cases, desktop-first with planted defects | Controlled component-level tests, edge cases |
 | **Localization lab** (`lab/l10n/*`) | 11 static HTML/JS cases with planted linguistic/technical traps | Controlled content-type tests |
 | **Harness** (`lab/harness/`) | `check-responsive.mjs`, `check-l10n.mjs`, `compare.mjs` | Objective checks, version comparison |
 | **Rubrics** (`lab/rubrics/`) | Structured scorecards with separate *critical* and *minor* columns | Evaluator pass |
 
-The lab is plain static files served by `lab/serve.mjs` (port 4173). It is deliberately **outside** `hale-site/`, so it
+The lab is plain static files served by `lab/serve.mjs` (port 4173). It is deliberately **outside** the application code (`hale-site/`), so it
 cannot affect the replicated website, and it does not assume any framework (the skills must also work on Next.js, which
 Hale covers).
 

@@ -6,7 +6,7 @@ import fs from "node:fs";
 const a = Object.fromEntries(process.argv.slice(2).reduce((acc, v, i, all) => (v.startsWith("--") ? [...acc, [v.slice(2), all[i + 1]]] : acc), []));
 const label = a.label || "adhoc", split = a.split || "dev";
 const man = JSON.parse(fs.readFileSync("lab/manifest-l10n.json", "utf8"));
-let cases = man.cases.filter((c) => split === "all" || c.split === split);
+let cases = man.cases.filter((c) => (split === "all" && c.split !== "real") || c.split === split);
 if (a.only) cases = cases.filter((c) => a.only.split(",").includes(c.id));
 const rows = [];
 for (const c of cases) for (const lang of c.langs) {

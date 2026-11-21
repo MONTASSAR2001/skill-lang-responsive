@@ -456,7 +456,8 @@
         ".zm-stage",
         ".lb",
         ".fr"
-      ]
+      ],
+      "archived": "needs hale-site from git commit 2cfc203 served on :3217; excluded from --split all"
     }
   ]
 }

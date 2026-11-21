@@ -10,7 +10,7 @@ import fs from "node:fs";
 const a = Object.fromEntries(process.argv.slice(2).reduce((acc, v, i, all) => (v.startsWith("--") ? [...acc, [v.slice(2), all[i + 1]?.startsWith("--") || all[i + 1] === undefined ? true : all[i + 1]]] : acc), []));
 const label = a.label || "adhoc", split = a.split || "dev", base = a.base || "http://localhost:4173/responsive";
 const manifest = JSON.parse(fs.readFileSync("lab/manifest.json", "utf8"));
-let cases = manifest.responsive.filter((c) => split === "all" || c.split === split);
+let cases = manifest.responsive.filter((c) => (split === "all" && c.split !== "real") || c.split === split);
 if (a.only) cases = cases.filter((c) => String(a.only).split(",").includes(c.id));
 const rows = [];
 for (const c of cases) {
