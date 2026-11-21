@@ -212,6 +212,7 @@ tests/                     validators, installer, browser, Claude Code and Gemin
 docs/                      compatibility, install guides, architecture, troubleshooting, development,
                            audit, evaluation reports and figures
 lab/                       benchmark: planted-defect cases, judges, rubrics, per-version outputs and results
+                           (screenshots live in git history: see lab/MEDIA.md)
 ```
 Architecture and the reasoning behind generated plugin copies: [docs/architecture.md](docs/architecture.md).
 
@@ -235,4 +236,4 @@ Edit skills only in `skills/`, run `npm run sync` and `npm test`, and back behav
 
 ## License
 
-[MIT](LICENSE) © 2026 MONTASSAR2001. Some benchmark pages and result screenshots under `lab/` show imagery from a third-party demo template; replace it before reusing that material beyond this evidence repository.
+[MIT](LICENSE) © 2026 MONTASSAR2001. Some benchmark pages under `lab/` use imagery from a third-party demo template; replace it before reusing that material. The ~200 MB of benchmark screenshots are kept out of the default checkout (see [lab/MEDIA.md](lab/MEDIA.md)).

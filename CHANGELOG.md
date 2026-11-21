@@ -4,6 +4,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versioning: [S
 
 ## [1.0.0] - 2026-11-21
 
+### Removed
+- Benchmark screenshots and recordings (~200 MB, 866 files) from the working tree, because a 123 MB shallow clone took 85-110 s on a ~1 MB/s link and exceeded Claude Code's 120 s marketplace clone timeout. They remain in git history (tag `evidence-media-v1.0.0`; see `lab/MEDIA.md`).
+- Duplicate `.claude/skills/` copy of the skills.
+
 ### Added
 - Claude Code plugin marketplace `skill-lang-responsive` with three plugins: `responsive-localization` (both skills), `universal-responsive-design`, `smart-website-localization`.
 - Cross-agent installer `scripts/install.mjs` (targets: claude, agents, cursor, vscode, codex, antigravity, gemini) with copy/link modes, dry run, uninstall and overwrite protection.

@@ -19,6 +19,7 @@ Scope: both skills, every script and reference, plugin/installation story, cross
 | 11 | Docs | One README mixing evidence and usage; no platform-specific instructions, no compatibility matrix, no security or contribution guidance | Medium | README rewritten; `docs/compatibility.md`, `docs/install/*`, architecture, troubleshooting, development, `SECURITY.md`, `CONTRIBUTING.md`, `CHANGELOG.md` |
 | 12 | Security | `PLAYWRIGHT_MODULE` loads code from an env path; scripts navigate to arbitrary URLs and run page JavaScript; `--steps` clicks | Informational | Documented with guidance in `SECURITY.md`; no process spawning other than the fixed `npm root -g`; tests assert it |
 | 13 | Accuracy | Evaluation reports described the real-world site and the Skill tool limitation but mixed them with usage docs | Low | Moved to `docs/evaluation/`, unchanged in content |
+| 14 | Distribution size | The repository was 205 MB (193 MB of benchmark screenshots); a shallow clone took 85-110 s and hit Claude Code's 120 s marketplace clone timeout, so `marketplace add` failed over a ~1 MB/s link | High | Media removed from the tree (kept in history, tag `evidence-media-v1.0.0`, `lab/MEDIA.md`); working tree 6.7 MB |
 
 Checked and found **fine**: no hardcoded user paths in the skills; no `eval`; all scripts pass `node --check`; `claude plugin validate` accepted the skills directory even before the changes; the skills contain no Claude-specific features (no `${CLAUDE_*}` variables), so the content already worked in any agent.
 
@@ -31,4 +32,5 @@ Checked and found **fine**: no hardcoded user paths in the skills; no `eval`; al
 
 - Cursor, VS Code Copilot, Antigravity and Codex were **not executable** here; their support is documented, not tested (`docs/compatibility.md`).
 - The official `skills-ref` validator could not be installed; `tests/validate-skills.mjs` is our implementation of the published rules.
+- Repo size matters for `claude plugin marketplace add` (it clones the whole repository with a 120 s timeout): the benchmark media was moved out of the working tree (finding 14).
 - Windows and macOS behaviour is covered by CI configuration, but only Linux was executed locally.
