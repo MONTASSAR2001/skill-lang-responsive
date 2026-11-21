@@ -22,7 +22,8 @@ jobs:
         with: { node-version: 20 }
       - run: npm ci
       # Agent Skills spec checks, plugin/marketplace integrity, sync with skills/, script hygiene, installer for every target
-      - run: node tests/run.mjs --static ${{ matrix.os == 'ubuntu-latest' && '--strict' || '' }}
+      # non-strict: `claude plugin validate` is skipped here (no CLI); the claude-plugin job below runs the same suite with --strict
+      - run: node tests/run.mjs --static
 
   browser:
     name: browser tests (${{ matrix.os }})
