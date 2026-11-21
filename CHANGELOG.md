@@ -2,6 +2,21 @@
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versioning: [SemVer](https://semver.org/).
 
+## [1.1.0] - 2026-11-22
+
+Fixes from a real-world run of the skills on a full-stack app (React storefront + API + admin app).
+
+### Fixed
+- **Localization skill only covered the markup.** On a real app the interface was translated while headings, tables and cards stayed English because they came from the API, from strings in page code and from bundled content, and new text typed in the admin app would have stayed English too. The skill now requires a content-source inventory (markup, JS strings, API/CMS data, bundled content, content added later, authenticated screens), has a new reference `references/dynamic-content.md` (server-side localization, fallback, caching, a translation queue with human approval for sensitive text, a build-time coverage check), and a rule that the work is not finished until a crawl of the running site shows no source-language residue.
+- **Scripts could not audit pages behind a login.** All three scripts accept `--storage-state <file>` (Playwright storage state, scoped per origin) and warn loudly when a run lands on a login page instead of measuring it silently.
+- Docs: how to recover when a plugin installed mid-session is not offered by the `Skill` tool (`/reload-plugins`, namespaced names).
+
+### Added
+- `extract-strings.mjs`: records strings returned by JSON API calls (endpoint + JSON path), `--crawl N` to inventory every route, `--residue <lang>` to list text still in the source language per page and per endpoint (exit 1 if any), `--protect`.
+- `verify.mjs`: `api-content-not-localized` when the localized page receives the same human text from the API as the source page.
+- 12 new real-browser tests (API-backed good/bad pages, crawl, residue, login redirect, storage state, missing state file) and a drift check for the shared auth block.
+- `.gitignore`: `auth*.json`, `storage-state*.json`.
+
 ## [1.0.0] - 2026-11-21
 
 ### Removed

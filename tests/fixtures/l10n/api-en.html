@@ -1,0 +1,3 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Plant care</title><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><h1>Plant care guide</h1><ul id="list"></ul>
+<script>fetch("/l10n/api/items?lang=en").then(r=>r.json()).then(d=>{document.getElementById("list").innerHTML=d.items.map(i=>"<li>"+i.title+"</li>").join("")});</script></body></html>

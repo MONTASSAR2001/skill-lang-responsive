@@ -5,6 +5,7 @@
  *   node verify.mjs --source <url> --target <url> --lang fr [--glossary glossary.json] [--out dir] [--steps "click:.open;wait:1500"]
  *                   [--intentional ".carousel,.hero-stage"]   containers that clip or scroll on purpose (not reported as clipped text)
  *                   [--source-files a.js,b.js --target-files fr/a.js,fr/b.js]
+ *                   [--storage-state auth.json]   pages behind a login (Playwright storage state; see the shared auth block)
  *
  * Writes <out>/pairs.tsv (source ⇥ target for the mandatory read-through) and <out>/verify.json. Exit code 1 when critical issues exist.
  * Checks: lang/dir/hreflang · structure parity · string coverage + source-language leakage · head metadata + a11y attributes · real broken
@@ -37,7 +38,28 @@ async function launchChromium(chromium) { try { return await chromium.launch(); 
 function checkUrl(u) { try { if (!["http:", "https:", "file:"].includes(new URL(u).protocol)) throw new Error("scheme"); } catch { fail("Not a valid http(s) or file URL: " + u); } return u; }
 async function go(page, url) { try { await page.goto(url, { waitUntil: "load", timeout: 45000 }); } catch (e) { fail("Cannot load " + url + ": " + String(e.message).split("\n")[0]); } }
 // ---- end shared bootstrap ----
-if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("verify.mjs --source <url> --target <url> --lang <code> [--glossary file.json] [--out dir] [--steps \"click:sel;wait:ms\"] [--intentional sel,sel] [--source-files a.js,b.js --target-files x.js,y.js] [--protect A,B]\nCompares a localized page with its source in Chromium. Writes <out>/pairs.tsv and <out>/verify.json; exit code 1 when critical issues exist, 2 on setup errors."); process.exit(0); }
+// ---- shared auth: identical in every script of this package (tests/validate-scripts.mjs enforces it) ----
+// Pages behind a login: pass --storage-state <file> (a Playwright storage-state JSON: cookies + localStorage, scoped per origin).
+// Create one without putting a password on a command line:  npx playwright codegen --save-storage=auth.json <login-url>   (sign in, close the window)
+// The file holds live session tokens: keep it out of git (auth*.json is in .gitignore) and delete it when done.
+function authState(args) {
+  const f = args["storage-state"]; if (!f) return undefined;
+  if (f === true) fail("--storage-state needs a file path.");
+  const p = path.resolve(String(f)); if (!fs.existsSync(p)) fail("--storage-state file not found: " + p + "\n  Create one: npx playwright codegen --save-storage=auth.json <login-url>   (sign in, then close the window)");
+  try { JSON.parse(fs.readFileSync(p, "utf8")); } catch { fail("--storage-state is not valid JSON: " + p); }
+  return p;
+}
+function useAuth(browser, state) {
+  let warned = false; const nc = browser.newContext.bind(browser);
+  browser.newContext = async (o = {}) => {
+    const ctx = await nc(state ? { storageState: state, ...o } : o);
+    ctx.on("page", (pg) => pg.on("load", () => { if (warned) return; let u; try { u = new URL(pg.url()); } catch { return; } if (/(^|\/)(log-?in|sign-?in|signin|sso|auth|authenticate)(\/|$|\.)/i.test(u.pathname)) { warned = true; console.error("WARNING: the page redirected to a login screen (" + u.pathname + "); results describe the login page, not the app." + (state ? " The saved session may have expired: create a new --storage-state file." : " Pass --storage-state <file> (see --help).")); } }));
+    return ctx;
+  };
+  return browser;
+}
+// ---- end shared auth ----
+if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("verify.mjs --source <url> --target <url> --lang <code> [--glossary file.json] [--out dir] [--steps \"click:sel;wait:ms\"] [--intentional sel,sel] [--source-files a.js,b.js --target-files x.js,y.js] [--protect A,B] [--storage-state auth.json]\nCompares a localized page with its source in Chromium. Writes <out>/pairs.tsv and <out>/verify.json; exit code 1 when critical issues exist, 2 on setup errors."); process.exit(0); }
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => (v.startsWith("--") ? [...a, [v.slice(2), all[i + 1]]] : a), []));
 if (!args.source || !args.target || !args.lang) { console.error("usage: verify.mjs --source <url> --target <url> --lang <code> [--glossary file] [--out dir] [--steps ...]"); process.exit(2); }
 checkUrl(args.source); checkUrl(args.target);
@@ -48,16 +70,19 @@ const protect = [...(glossary.protect || []), ...(args.protect ? String(args.pro
 const intentional = args.intentional ? String(args.intentional).split(",") : [];
 const issues = []; const add = (sev, code, detail) => issues.push({ sev, code, detail });
 const { chromium } = await loadPlaywright();
-const browser = await launchChromium(chromium);
+const browser = useAuth(await launchChromium(chromium), authState(args));
 const STOP = new Set("the and your you our with from this that will are have has was were their they what when where which would could about into also than then there these those just more most only some such very can't don't won't it's we're you're let's isn't doesn't".split(" "));
 const words = (t) => t.toLowerCase().match(/[a-z']{2,}/g) || [];
 
+const jsonStrings = (v, out) => { if (Array.isArray(v)) v.slice(0, 200).forEach((x) => jsonStrings(x, out)); else if (v && typeof v === "object") Object.values(v).forEach((x) => jsonStrings(x, out)); else if (typeof v === "string" && v.length >= 8 && v.length <= 600 && /[\p{L}]{3,}\s+[\p{L}]{2,}/u.test(v) && !/^(https?:|\/|[\w.+-]+@[\w-]+\.)/.test(v) && !/^\d{4}-\d\d-\d\d/.test(v)) out.push(v); };
 async function open(url, w = 1280) {
   const ctx = await browser.newContext({ viewport: { width: w, height: 900 } }); const page = await ctx.newPage();
   const failed = []; page.on("response", (r) => r.status() >= 400 && failed.push(`${r.status()} ${r.url()}`)); page.on("requestfailed", (r) => failed.push(r.url()));
   const errs = []; page.on("pageerror", (e) => errs.push(String(e).slice(0, 100)));
-  await go(page, url); await page.waitForTimeout(400);
-  return { ctx, page, failed, errs };
+  const api = new Map(); // JSON the page fetched: pathname -> human-readable strings (content that comes from a backend, not from the markup)
+  page.on("response", async (r) => { try { if (!["fetch", "xhr"].includes(r.request().resourceType()) || r.status() >= 400 || !/json/i.test(r.headers()["content-type"] || "")) return; const found = []; jsonStrings(JSON.parse(await r.text()), found); const k = new URL(r.url()).pathname; api.set(k, [...(api.get(k) || []), ...found]); } catch { /* not JSON */ } });
+  await go(page, url); await page.waitForTimeout(700);
+  return { ctx, page, failed, errs, api };
 }
 /** run `click:sel;wait:ms;press:key` steps so strings that only exist after interaction (dialogs, menus, viewers) are collected */
 async function steps(page) { for (const st of String(args.steps || "").split(";").filter(Boolean)) { const [k, ...v] = st.split(":"); const val = v.join(":"); try { if (k === "click") await page.click(val, { timeout: 2000 }); else if (k === "wait") await page.waitForTimeout(+val); else if (k === "press") await page.keyboard.press(val); } catch (e) { add("minor", "step-failed", st); } } }
@@ -98,7 +123,7 @@ const layout = (ignore) => {
 };
 
 const S = await open(args.source), T = await open(args.target);
-if (args.steps) { await steps(S.page); await steps(T.page); }
+if (args.steps) { await steps(S.page); await steps(T.page); await S.page.waitForTimeout(400); }
 const src = await S.page.evaluate(collect), tgt = await T.page.evaluate(collect);
 
 // 1. document language / direction / alternates
@@ -118,6 +143,8 @@ const noise = (t) => /^[\d\s.,:%$€£°/\-–—+()#⌘⋯✓←→▶▾›‹
 const leaks = [], same = [];
 for (const [s, t] of pairs) { if (!t || s.code || isProtected(t.t) || noise(t.t)) continue; const eng = words(t.t).filter((w) => STOP.has(w)).length; if (eng >= 2 || (s.t === t.t && words(t.t).length >= 3)) leaks.push(t.t.slice(0, 70)); else if (s.t === t.t && /[a-z]{3,}/i.test(t.t)) same.push(t.t.slice(0, 40)); }
 if (leaks.length) add("critical", "untranslated-sentences", leaks.slice(0, 6)); if (same.length) add("minor", "identical-to-source (cognate or untranslated? review)", same.slice(0, 12));
+// 4b. content that comes from the API/backend: if the localized page receives the SAME human text as the source page, the data layer was never localized
+for (const [ep, ts] of T.api) { const ss = new Set((S.api.get(ep) || [])); if (!ss.size) continue; const own = [...new Set(ts)].filter((x) => !isProtected(x) && !noise(x)); const same = own.filter((x) => ss.has(x)); if (same.length >= 3 && same.length >= own.length * 0.5) add("major", "api-content-not-localized", `${ep}: ${same.length}/${own.length} strings are identical to the source-language response (e.g. "${same[0].slice(0, 50)}"). The backend/CMS returns the source language: add server-side localization (lang parameter or Accept-Language, translation table, queue for new content).`); }
 // 5. head + a11y attributes
 for (const [s, t] of pairs) if (/^head:(title|description|og:title|og:description|jsonld)/.test(s.k) && t && s.t === t.t && !isProtected(t.t)) add("critical", "metadata-untranslated", s.k);
 const attr = pairs.filter(([s, t]) => /^attr:(alt|aria-label|title|placeholder)/.test(s.k) && t && s.t === t.t && !isProtected(s.t) && !noise(s.t) && /[a-z]{4,}/i.test(s.t)); if (attr.length) add("major", "a11y-attributes-identical", attr.map(([s]) => s.k + ": " + s.t).slice(0, 5));

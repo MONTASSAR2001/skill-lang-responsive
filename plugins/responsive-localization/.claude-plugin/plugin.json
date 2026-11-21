@@ -1,6 +1,6 @@
 {
   "name": "responsive-localization",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Two Agent Skills in one plugin: universal-responsive-design (browser-measured responsive audits and fixes with a before/after regression gate) and smart-website-localization (context-aware website localization (French, Arabic/RTL) with glossary, SEO/a11y text, hreflang and a layout-fallout verifier).",
   "author": {
     "name": "MONTASSAR2001",

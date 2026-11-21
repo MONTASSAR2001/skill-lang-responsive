@@ -7,7 +7,7 @@ const t = suite("scripts");
 const scripts = skillNames().flatMap((s) => listFiles(path.join(SKILLS_DIR, s)).filter((f) => f.startsWith("scripts/") && f.endsWith(".mjs")).map((f) => path.join(SKILLS_DIR, s, f)));
 t.check("scripts found", scripts.length >= 3, `${scripts.length}`);
 
-const blocks = new Map();
+const blocks = new Map(), authBlocks = new Map();
 for (const f of scripts) {
   const rel = path.relative(SKILLS_DIR, f).split(path.sep).join("/");
   const src = fs.readFileSync(f, "utf8");
@@ -21,6 +21,10 @@ for (const f of scripts) {
   const m = src.match(/\/\/ ---- shared bootstrap[\s\S]*?\/\/ ---- end shared bootstrap ----/);
   t.check(`${rel}: contains the shared bootstrap block`, !!m);
   if (m) blocks.set(rel, m[0]);
+  const a = src.match(/\/\/ ---- shared auth[\s\S]*?\/\/ ---- end shared auth ----/);
+  t.check(`${rel}: contains the shared auth block (--storage-state)`, !!a);
+  if (a) authBlocks.set(rel, a[0]);
+  t.check(`${rel}: --help documents --storage-state`, /--storage-state/.test(node([f, "--help"]).stdout));
   const help = node([f, "--help"]);
   t.check(`${rel}: --help exits 0 and prints usage`, help.status === 0 && /--/.test(help.stdout), `exit ${help.status}`);
   const bad = node([f, "--url", "not a url", "--source", "x", "--target", "y", "--lang", "fr"]);
@@ -28,4 +32,6 @@ for (const f of scripts) {
 }
 const uniq = new Set(blocks.values());
 t.check("the shared bootstrap block is identical in every script (no drift)", uniq.size <= 1, `${uniq.size} variants`);
+const uniqAuth = new Set(authBlocks.values());
+t.check("the shared auth block is identical in every script (no drift)", uniqAuth.size <= 1, `${uniqAuth.size} variants`);
 t.finish();

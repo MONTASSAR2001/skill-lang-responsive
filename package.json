@@ -1,18 +1,47 @@
 {
   "name": "skill-lang-responsive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Two portable Agent Skills: browser-measured responsive design and context-aware website localization (French, Arabic/RTL), with a Claude Code plugin marketplace and adapters for other agent tools.",
   "license": "MIT",
   "author": "MONTASSAR2001 (https://github.com/MONTASSAR2001)",
   "homepage": "https://github.com/MONTASSAR2001/skill-lang-responsive#readme",
-  "repository": { "type": "git", "url": "git+https://github.com/MONTASSAR2001/skill-lang-responsive.git" },
-  "bugs": { "url": "https://github.com/MONTASSAR2001/skill-lang-responsive/issues" },
-  "keywords": ["agent-skills", "claude-code", "claude-code-plugin", "cursor", "codex", "antigravity", "copilot", "responsive-design", "localization", "i18n", "rtl", "playwright"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MONTASSAR2001/skill-lang-responsive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MONTASSAR2001/skill-lang-responsive/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "claude-code-plugin",
+    "cursor",
+    "codex",
+    "antigravity",
+    "copilot",
+    "responsive-design",
+    "localization",
+    "i18n",
+    "rtl",
+    "playwright"
+  ],
   "type": "module",
   "private": false,
-  "bin": { "skill-lang-responsive": "scripts/install.mjs" },
-  "files": ["skills", "plugins", "scripts/install.mjs", ".claude-plugin", "LICENSE", "README.md"],
-  "engines": { "node": ">=18" },
+  "bin": {
+    "skill-lang-responsive": "scripts/install.mjs"
+  },
+  "files": [
+    "skills",
+    "plugins",
+    "scripts/install.mjs",
+    ".claude-plugin",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "sync": "node tools/sync-plugins.mjs",
     "check": "node tests/run.mjs --static",

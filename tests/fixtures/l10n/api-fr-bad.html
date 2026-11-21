@@ -1,0 +1,4 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Entretien des plantes</title><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><h1>Guide d’entretien des plantes</h1><ul id="list"></ul>
+<!-- the interface is French but the data layer only knows English: no lang parameter is sent -->
+<script>fetch("/l10n/api/items").then(r=>r.json()).then(d=>{document.getElementById("list").innerHTML=d.items.map(i=>"<li>"+i.title+"</li>").join("")});</script></body></html>

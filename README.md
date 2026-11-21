@@ -3,14 +3,14 @@
 **Two portable [Agent Skills](https://agentskills.io) for AI coding agents that work from real browser measurements, not from reading code.**
 
 [![CI](https://github.com/MONTASSAR2001/skill-lang-responsive/actions/workflows/ci.yml/badge.svg)](https://github.com/MONTASSAR2001/skill-lang-responsive/actions/workflows/ci.yml)
-![version](https://img.shields.io/badge/version-1.0.0-blue)
+![version](https://img.shields.io/badge/version-1.1.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compliant-8A2BE2)
 
 | Skill | What it does |
 |---|---|
 | [`universal-responsive-design`](skills/universal-responsive-design) | Audits any existing site across 17 viewports and a 320-1600 px width sweep, finds overflow, clipped text, overlaps, distorted media, tiny touch targets and content that became unreachable, applies a per-component fix strategy, and proves the result with a before/after regression diff. |
-| [`smart-website-localization`](skills/smart-website-localization) | Localizes a whole site (tested: French, Arabic/RTL) with context, tone, glossary, locale conventions, plurals/dates/numbers, SEO and accessibility text, hreflang and RTL mirroring, then verifies that longer text or RTL did not break the layout. Includes a mandatory side-by-side review step. |
+| [`smart-website-localization`](skills/smart-website-localization) | Localizes a whole site (tested: French, Arabic/RTL) with context, tone, glossary, locale conventions, plurals/dates/numbers, SEO and accessibility text, hreflang and RTL mirroring, then verifies that longer text or RTL did not break the layout. Covers text that is *not* in the markup (API/CMS data, bundled content, content added later) and proves coverage with a crawl of the running site. Includes a mandatory side-by-side review step. |
 
 They are independent: install either one alone, or both. Together, localization owns the **words**, responsive design owns the **layout**, and each re-checks after the other changes anything.
 
@@ -79,7 +79,15 @@ node skills/universal-responsive-design/scripts/audit.mjs --url http://localhost
 # localization: inventory every string (including ones only visible after a click), then verify a localized page
 node skills/smart-website-localization/scripts/extract-strings.mjs --url http://localhost:3000/ --source-dir ./src --out strings.json
 node skills/smart-website-localization/scripts/verify.mjs --source http://localhost:3000/ --target http://localhost:3000/fr/ --lang fr --out ./l10n-verify
+
+# localization: crawl the localized site and list what is still in the source language (markup AND API responses); exit 1 if any
+node skills/smart-website-localization/scripts/extract-strings.mjs --url http://localhost:3000/fr/ --crawl 40 --residue fr --protect "Brand,Product" --out residue.json
+
+# pages behind a login (admin app, account area): save a session once, pass it to any script
+npx playwright codegen --save-storage=auth.json http://localhost:3000/login      # sign in, close the window
+node skills/universal-responsive-design/scripts/audit.mjs --url http://localhost:3000/admin/ --storage-state auth.json --out ./audit/admin
 ```
+The session file holds live tokens: `auth*.json` is git-ignored; delete it when done.
 
 Real output from the benchmark page `r05-tables` (a 12-column table in an `overflow:hidden` card), before the fix, then after:
 
@@ -139,12 +147,12 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A["1. Discover<br/>markup, JS strings, validation messages,<br/>meta, alt, aria"] --> B["2. Brief, glossary, conventions<br/>register, protected names,<br/>units, dates, digits, customs"]
-  B --> C["3. Extract everything<br/>rendered strings + interaction states<br/>+ strings found only in source"]
+  A["1. Discover every text source<br/>markup, JS strings, meta, alt, aria,<br/>API/CMS data, bundled content,<br/>content added later, admin screens"] --> B["2. Brief, glossary, conventions<br/>register, protected names,<br/>units, dates, digits, customs"]
+  B --> C["3. Extract everything<br/>rendered strings + interaction states<br/>+ API responses + every route (crawl)<br/>+ strings found only in source"]
   C --> D["4. Choose architecture<br/>locale folders or dictionary + routes<br/>lang, dir, hreflang, language switch"]
   D --> E["5. Translate by type<br/>marketing, UI, long-form, forms,<br/>dynamic text via Intl, SEO, a11y"]
   E --> F["6. RTL pass (Arabic)<br/>dir=rtl, logical CSS, mirror arrows (not play),<br/>LTR islands for phone / email / Latin names"]
-  F --> G["7. verify.mjs<br/>structure, leakage, glossary, clipped text vs source,<br/>hreflang, typography, RTL mirror test, pairs.tsv"]
+  F --> G["7. verify.mjs + residue crawl<br/>structure, leakage, API still in source language,<br/>glossary, clipped text, hreflang, RTL, pairs.tsv"]
   G --> H["8. Review pass: READ pairs.tsv<br/>meaning, headings, numbers, tone, terminology"]
   H --> I{"Layout damaged by<br/>longer text / RTL?"}
   I -->|yes| J["9. Fix the container, not the wording<br/>or hand to the responsive skill"]
@@ -152,7 +160,7 @@ flowchart TD
   I -->|no| K["10. Report<br/>coverage, rejected literal translations,<br/>source inconsistencies, not-verified list"]
 ```
 
-Hard rules that came out of testing: translate meaning and function, not words; **translate the source faithfully and flag inconsistencies instead of silently "fixing" them**; one term, one translation; never concatenate sentence fragments; direction is layout, not alignment; the review is by reading, because no script can detect a wrong meaning.
+Hard rules that came out of testing (and out of a real full-stack run, where translating only the interface left API-served headings, tables and cards in English): translate meaning and function, not words; **translate the source faithfully and flag inconsistencies instead of silently "fixing" them**; one term, one translation; never concatenate sentence fragments; direction is layout, not alignment; the review is by reading, because no script can detect a wrong meaning.
 
 ### Working together
 
@@ -194,7 +202,7 @@ The skills were built, tested against a benchmark of planted defects (13 respons
 
 ### Quality gates of this repository
 
-`npm test` runs, for real: Agent Skills spec validation (46 checks), plugin and marketplace integrity plus drift against `skills/`, script hygiene, the installer for 7 targets x 2 scopes, 22 real-browser tests (broken vs fixed pages, French good/bad/clipped, Arabic RTL good/unmirrored), Claude Code plugin install and discovery, and Gemini CLI discovery. CI repeats them on Linux, macOS and Windows. Anything a machine cannot run is reported as `SKIP`, never as a pass.
+`npm test` runs, for real: Agent Skills spec validation (46 checks), plugin and marketplace integrity plus drift against `skills/`, script hygiene, the installer for 7 targets x 2 scopes, 34 real-browser tests (broken vs fixed pages, French good/bad/clipped, Arabic RTL good/unmirrored, API-served content, site crawl, login-gated pages), Claude Code plugin install and discovery, and Gemini CLI discovery. CI repeats them on Linux, macOS and Windows. Anything a machine cannot run is reported as `SKIP`, never as a pass.
 
 ## Repository layout
 

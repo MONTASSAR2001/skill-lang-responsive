@@ -40,7 +40,28 @@ async function launchChromium(chromium) { try { return await chromium.launch(); 
 function checkUrl(u) { try { if (!["http:", "https:", "file:"].includes(new URL(u).protocol)) throw new Error("scheme"); } catch { fail("Not a valid http(s) or file URL: " + u); } return u; }
 async function go(page, url) { try { await page.goto(url, { waitUntil: "load", timeout: 45000 }); } catch (e) { fail("Cannot load " + url + ": " + String(e.message).split("\n")[0]); } }
 // ---- end shared bootstrap ----
-if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("audit.mjs --url <url> [--out <dir>] [--compare <prev>/audit.json] [--intentional sel,sel] [--must a,b] [--widths 320,390,1280] [--no-sweep] [--scroll-shots N] [--wait ms]\nRenders the page in Chromium across a viewport matrix and a width sweep and reports layout defects. Needs Playwright (npm i -D playwright && npx playwright install chromium)."); process.exit(0); }
+// ---- shared auth: identical in every script of this package (tests/validate-scripts.mjs enforces it) ----
+// Pages behind a login: pass --storage-state <file> (a Playwright storage-state JSON: cookies + localStorage, scoped per origin).
+// Create one without putting a password on a command line:  npx playwright codegen --save-storage=auth.json <login-url>   (sign in, close the window)
+// The file holds live session tokens: keep it out of git (auth*.json is in .gitignore) and delete it when done.
+function authState(args) {
+  const f = args["storage-state"]; if (!f) return undefined;
+  if (f === true) fail("--storage-state needs a file path.");
+  const p = path.resolve(String(f)); if (!fs.existsSync(p)) fail("--storage-state file not found: " + p + "\n  Create one: npx playwright codegen --save-storage=auth.json <login-url>   (sign in, then close the window)");
+  try { JSON.parse(fs.readFileSync(p, "utf8")); } catch { fail("--storage-state is not valid JSON: " + p); }
+  return p;
+}
+function useAuth(browser, state) {
+  let warned = false; const nc = browser.newContext.bind(browser);
+  browser.newContext = async (o = {}) => {
+    const ctx = await nc(state ? { storageState: state, ...o } : o);
+    ctx.on("page", (pg) => pg.on("load", () => { if (warned) return; let u; try { u = new URL(pg.url()); } catch { return; } if (/(^|\/)(log-?in|sign-?in|signin|sso|auth|authenticate)(\/|$|\.)/i.test(u.pathname)) { warned = true; console.error("WARNING: the page redirected to a login screen (" + u.pathname + "); results describe the login page, not the app." + (state ? " The saved session may have expired: create a new --storage-state file." : " Pass --storage-state <file> (see --help).")); } }));
+    return ctx;
+  };
+  return browser;
+}
+// ---- end shared auth ----
+if (process.argv.includes("--help") || process.argv.includes("-h")) { console.log("audit.mjs --url <url> [--out <dir>] [--compare <prev>/audit.json] [--intentional sel,sel] [--must a,b] [--widths 320,390,1280] [--no-sweep] [--scroll-shots N] [--wait ms] [--storage-state auth.json]\nRenders the page in Chromium across a viewport matrix and a width sweep and reports layout defects. Needs Playwright (npm i -D playwright && npx playwright install chromium)."); process.exit(0); }
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => (v.startsWith("--") ? [...a, [v.slice(2), all[i + 1] === undefined || all[i + 1].startsWith("--") ? true : all[i + 1]]] : a), []));
 if (!args.url) { console.error("usage: audit.mjs --url <url> --out <dir> [--compare prev/audit.json] [--intentional sel,sel] [--must a,b] [--no-sweep] [--scroll-shots N]"); process.exit(2); }
 checkUrl(args.url);
@@ -152,7 +173,7 @@ async function reveal(page, hidden) {
   return out;
 }
 
-const browser = await launchChromium(chromium);
+const browser = useAuth(await launchChromium(chromium), authState(args));
 const errors = new Set(), failed = new Set();
 const results = [];
 const must = args.must ? String(args.must).split(",") : [];

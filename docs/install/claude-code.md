@@ -40,6 +40,9 @@ Claude also loads them automatically when your request matches their description
 
 Node.js 18+ and Playwright with Chromium in the project you are working on: `npm i -D playwright && npx playwright install chromium`. Without it the skills still work but must report their results as unverified.
 
+## If the skill does not show up
+Plugins are loaded when a session starts or when you reload them, so a plugin installed during a running session may not be active yet. Run `/reload-plugins` (or restart Claude Code), confirm with `claude plugin list`, and invoke the skill by its namespaced name, for example `/responsive-localization:smart-website-localization`. More in [troubleshooting](../troubleshooting.md).
+
 ## Update / remove
 
 ```bash

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Node.js 18+ and Playwright with Chromium to run the bundled scripts (npm i -D playwright && npx playwright install chromium). Works in any agent that can run shell commands and view small images; no Claude-specific features are required.
 metadata:
   author: MONTASSAR2001
-  version: "1.0.0"
+  version: "1.1.0"
   repository: https://github.com/MONTASSAR2001/skill-lang-responsive
 ---
 
@@ -90,7 +90,8 @@ Audit exit output is a table + grouped issues; the full data is `audit.json`. Sc
 
 ## If something fails
 - **Playwright/Chromium missing or the audit cannot start** → say so, install (`npm i -D playwright && npx playwright install chromium`) or set `PLAYWRIGHT_MODULE`; if neither is possible, do not claim visual validation — limit yourself to code-level fixes and list the whole result as *unverified*.
-- **Page needs login, a build, or a backend you cannot start** → audit a static export/fixture or the closest reachable state and state which states were not covered.
+- **Page needs login (admin app, account area)** → without a session the audit measures the login page and prints a warning. Ask the user for one: `npx playwright codegen --save-storage=auth.json <login-url>` (they sign in and close the window), then pass `--storage-state auth.json` to `audit.mjs`. Never type or store passwords; the file holds live tokens, so keep it out of git and delete it afterwards. Audit each distinct screen (list, form, table, dialog) by URL; if a screen has no URL, say it was not covered.
+- **Page needs a build or a backend you cannot start** → audit a static export/fixture or the closest reachable state and state which states were not covered.
 - **Audit output is huge/noisy** (scroll-driven or canvas pages) → declare intentional stages with `--intentional`, lower noise first, and keep a one-line reason per dismissed finding.
 - **A fix cannot be made without changing the design** (e.g. a table that is only usable at full width) → stop, describe the options (scroll container, prioritised columns, cards) and which you chose; never hide the content.
 - **`--compare` shows a NEW group** → revert or adjust the last change before continuing.
